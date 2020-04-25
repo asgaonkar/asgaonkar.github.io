@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default_project
 title: Projects @VIT
 nav_order: 2
 parent: Academic
@@ -7,7 +7,9 @@ grand_parent: Projects
 permalink: /projects/academics/@VIT
 ---
 
-# Code
+<link rel="stylesheet" href="..\..\assets\css\bootstrap-iso.css" crossorigin="anonymous">
+
+# Projects @Vellore Institue of Technology
 {: .no_toc }
 
 ## Table of contents

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default_project
 title: Projects @ASU
 nav_order: 1
 parent: Academic
@@ -7,8 +7,9 @@ grand_parent: Projects
 permalink: /projects/academics/@ASU
 ---
 
+<link rel="stylesheet" href="..\..\assets\css\bootstrap-iso.css" crossorigin="anonymous">
 
-# Code
+# Projects @Arizona State University
 {: .no_toc }
 
 ## Table of contents
@@ -19,8 +20,7 @@ permalink: /projects/academics/@ASU
 
 ---
 
-
-## The Hungry Entrepreneur
+## The Hungry Customer
 {: .d-inline-block }
 
 Data Visualization
@@ -32,15 +32,17 @@ In-Progress
 
 Code can be rendered inline by wrapping it in single back ticks.
 
+
 <div class="code-example" markdown="1">
 Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 </div>
 ```markdown
 Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ```
-[Github](https://github.com/asgaonkar/The-Hungry-Entrepreneur){: .btn .btn-purple .mr-2}
-[Demo](){: .btn .btn-green .disabled}
-
+<a href="https://github.com/asgaonkar/The-Hungry-Entrepreneur" class="btn btn-purple mr-2" style="color:white">Github</a>
+<!-- [Github](https://github.com/asgaonkar/The-Hungry-Entrepreneur){: .btn .btn-purple .mr-2 } -->
+<a href="#" class="btn btn-green disabled" style="color:white; background-color: gray">Demo</a>
+<!-- [Demo](){: .btn .btn-green .disabled} -->
 
 ---
 
@@ -61,32 +63,6 @@ Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiu
 ```
 [Github](https://github.com/asgaonkar/Road-to-Glory){: .btn .btn-purple .mr-2}
 [Demo](https://asgaonkar.github.io/Road-to-Glory/){: .btn .btn-green}
-
-
----
-
-## Syntax highlighted code blocks
-
-Use Jekyll's built-in syntax highlighting with Rouge for code blocks by using three backticks, followed by the language name:
-
-<div class="code-example" markdown="1">
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-</div>
-{% highlight markdown %}
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-{% endhighlight %}
 
 ---
 

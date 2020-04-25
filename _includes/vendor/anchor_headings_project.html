@@ -95,6 +95,31 @@
         {{ include.bodySuffix }}
       </h{{ _workspace | last }}
     {% endcapture %}
-    {% capture edited_headings %}{{ edited_headings }}{{ new_heading }}{% endcapture %}
+    {% capture edited_headings %}
+      {{ edited_headings }}
+        {% assign _heading_split = new_heading | split: 'id="' %}
+        {% assign _id_Heading = _heading_split[1] | split: '"' %}
+        {% assign _id_HeadingName = _id_Heading[0] | split: '>' %}
+        {% assign _id_HeadingName = _id_Heading[0] | replace: '-', ' ' %}
+        
+        {% if _id_HeadingName == "table of contents" or _id_HeadingName == "projects arizona state university" or _id_HeadingName == "personal projects" or _id_HeadingName == "projects vellore institue of technology"%}
+          {{ new_heading }}
+        {% else %}
+          <div class="bootstrap-iso">
+            <div class="shadow p-3 mb-5 bg-white rounded" style="padding-left: 25px !important; padding-right: 25px !important; 
+            box-shadow:
+  0px 0px 10px 10px rgba(0, 0, 0, 0.025),
+  0px 0px 10px 10px rgba(0, 0, 0, 0.025),
+  0px 0px 10px 10px rgba(0, 0, 0, 0.025),
+  0px 0px 10px 10px rgba(0, 0, 0, 0.025),
+  0px 0px 10px 10px rgba(0, 0, 0, 0.025),
+  0px 0px 10px 10px rgba(0, 0, 0, 0.025),
+  0px 0px 10px 10px rgba(0, 0, 0, 0.025) !important; 
+  border-radius: 5px !important;">                      
+              {{ new_heading }}
+            </div>
+          </div>
+        {% endif %}
+    {% endcapture %}
   {% endfor %}
 {% endcapture %}{% assign headingsWorkspace = '' %}{{ edited_headings | strip }}
