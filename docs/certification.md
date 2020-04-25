@@ -25,6 +25,8 @@ Name: Atit Shivram Gaonkar
 Number:  ECC67924018402
 ```
 
+Add Info regarding what I have learned from this.
+
 ```
 Insert Images
 ```

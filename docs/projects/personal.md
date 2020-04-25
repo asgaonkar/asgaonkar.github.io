@@ -1,14 +1,14 @@
 ---
-layout: default
+layout: default_project
 title: Personal
 nav_order: 3
 parent: Projects
 permalink: /projects/personal
 ---
 
+<link rel="stylesheet" href="..\..\assets\css\bootstrap-iso.css" crossorigin="anonymous">
 
-
-# Code
+# Personal Projects
 {: .no_toc }
 
 ## Table of contents

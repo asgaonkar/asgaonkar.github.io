@@ -6,7 +6,6 @@ permalink: /work_experience/
 ---
 
 # Work Experience
-
 {: .no_toc }
 
 ## Table of contents
@@ -17,20 +16,9 @@ permalink: /work_experience/
 
 ---
 
-## Professional
 
-### Data Engineer (Intern)
 
-Tulip Diagnostics, Vasco, India
-
-(Date)
-
-```yaml
-# Set a path/url to a logo that will be displayed instead of the title
-logo: "/assets/images/just-the-docs.png"
-```
-
-### Information Security (Intern)
+## Data Engineer (Intern)
 
 Tulip Diagnostics, Vasco, India
 
@@ -41,11 +29,9 @@ Tulip Diagnostics, Vasco, India
 logo: "/assets/images/just-the-docs.png"
 ```
 
-## Volunteering
+## Information Security (Intern)
 
-### Full Stack Developer
-
-Prem Ashram Charitable Trust
+Tulip Diagnostics, Vasco, India
 
 (Date)
 
