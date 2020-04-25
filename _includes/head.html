@@ -10,12 +10,13 @@
     {% endif %}
   {% endif %}
   <link rel="shortcut icon" href="{{ 'assets/images/logo.ico' | absolute_url }}" type="image/x-icon">
-
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="{{ '/assets/css/just-the-docs.css' | absolute_url }}">
 
   {% if site.ga_tracking != nil %}
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga_tracking }}"></script>
     <script>
+      
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());

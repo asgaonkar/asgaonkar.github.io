@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default_project
 title: Education
 nav_order: 2
 permalink: /education/
@@ -22,13 +22,20 @@ permalink: /education/
 
 
 ## Arizona State University
+{: .d-inline-block }
+
+Current
+{: .label .label-green }
+
+2019 - 2021
+{: .label .label-yellow }
 
 Master of Science in Computer Science - CGPA: 3.56/4.00
 ```yaml
 Description about Masters and Inclined Fields
 ```
-### Courses
 
+### Courses
 
 <div class="code-example" markdown="1">
 1. Course 1
@@ -57,6 +64,7 @@ Spring 2020
 Fall 2019
 {% endhighlight %}
 
+
 ### Projects
 
 Projects undertook for successful completion of courses at Arizona State University
@@ -68,8 +76,13 @@ Projects undertook for successful completion of courses at Arizona State Univers
 Co-Cirricular
 ```
 
+---
 
 ## Vellore Institute of Technology
+{: .d-inline-block }
+
+2014 - 2018
+{: .label .label-yellow }
 
 Bachelor of Technology in Computer Science and Engineering - CGPA: 8.98/10.0
 ```yaml
@@ -77,3 +90,33 @@ Overall Experience during Bachelors
 Favourite Courses
 Extra Curricular
 ```
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+  $(window).on('load', function() {
+        AOS.refresh();
+        var $animation_elements = $('.bootstrap-iso');
+        var $window = $(window);
+        var window_height = $window.height();
+        var window_top_position = $window.scrollTop();
+        var window_bottom_position = (window_top_position + window_height);
+        $('.main-content-wrap').on('scroll', function() {
+            console.log("triggered");
+            $.each($animation_elements, function() {
+                var $element = $(this);
+                var element_height = $element.outerHeight();
+                var element_top_position = $element.offset().top;
+                var element_bottom_position = (element_top_position + element_height);
+                if ((element_bottom_position >= window_top_position + 100) && (element_top_position <= window_bottom_position - 50)) {
+                    $element.addClass('aos-animate');
+                } else {
+                    $element.removeClass('aos-animate');
+                }
+            });
+        });
+  });
+</script>

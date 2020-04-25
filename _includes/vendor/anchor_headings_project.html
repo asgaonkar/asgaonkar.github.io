@@ -102,21 +102,18 @@
         {% assign _id_HeadingName = _id_Heading[0] | split: '>' %}
         {% assign _id_HeadingName = _id_Heading[0] | replace: '-', ' ' %}
         
-        {% if _id_HeadingName == "table of contents" or _id_HeadingName == "projects arizona state university" or _id_HeadingName == "personal projects" or _id_HeadingName == "projects vellore institue of technology"%}
+        {% if _id_HeadingName == "table of contents" or _id_HeadingName == "projects arizona state university" or _id_HeadingName == "personal projects" or _id_HeadingName == "projects vellore institue of technology" or _id_HeadingName == "work experience" or _id_HeadingName == "certification" or _id_HeadingName == "education" or _id_HeadingName == "volunteering experience" or _id_HeadingName == "research" or _id_HeadingName == "independent research" or _id_HeadingName == "arizona state university" or _id_HeadingName == "vellore institute of technology" %}
           {{ new_heading }}
         {% else %}
-          <div class="bootstrap-iso">
-            <div class="shadow p-3 mb-5 bg-white rounded" style="padding-left: 25px !important; padding-right: 25px !important; 
-            box-shadow:
-  0px 0px 10px 10px rgba(0, 0, 0, 0.025),
-  0px 0px 10px 10px rgba(0, 0, 0, 0.025),
-  0px 0px 10px 10px rgba(0, 0, 0, 0.025),
-  0px 0px 10px 10px rgba(0, 0, 0, 0.025),
-  0px 0px 10px 10px rgba(0, 0, 0, 0.025),
-  0px 0px 10px 10px rgba(0, 0, 0, 0.025),
-  0px 0px 10px 10px rgba(0, 0, 0, 0.025) !important; 
-  border-radius: 5px !important;">                      
+          <div class="tags" style="padding-top: 30px !important;">
+          <div class="bootstrap-iso" style="" data-aos="fade-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="500">
+            <div class="p-3 mb-5 bg-white rounded" style="padding-left: 25px !important; padding-right: 25px !important; 
+            box-shadow:  0px 0px 15px 10px rgba(0, 0, 0, 0.075) !important; 
+  border-radius: 3px !important; margin-bottom: 20px !important;">                      
               {{ new_heading }}
+              </div>
             </div>
           </div>
         {% endif %}
