@@ -3,6 +3,7 @@ layout: default_project
 title: Certification
 nav_order: 6
 permalink: /certification/
+description: "Atit Gaonkar | Certification"
 ---
 
 # Certification

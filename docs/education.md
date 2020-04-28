@@ -3,6 +3,7 @@ layout: default_project
 title: Education
 nav_order: 2
 permalink: /education/
+description: "Atit Gaonkar | Education"
 ---
 
 # Education

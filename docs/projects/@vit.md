@@ -5,15 +5,68 @@ nav_order: 2
 parent: Academic
 grand_parent: Projects
 permalink: /projects/academics/@VIT
+description: "Atit Gaonkar | Projects @VIT"
 ---
 
 <link rel="stylesheet" href="..\..\assets\css\bootstrap-iso.css" crossorigin="anonymous">
+<style>
+  .hidden{
+    color: white;
+    user-select: none;
+  }
+  .down {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  padding: 15px;
+  border-radius: 4px;
+}
+.down:hover {
+}
+.blinking {
+  animation: blinkingText 0.7s infinite;
+}
+@keyframes blinkingText {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+</style>
+
+![Direction](../../assets/images/arrow-down-1.png){: .img-responsive .blinking .direction .down}
+
 
 # Projects @Vellore Institue of Technology
 {: .no_toc }
 
+#### Display
+{: .no_toc }
+
+[All](#filter){: .btn .mr-4 .mb-2 .filter} [Top Projects](#filter){: .btn .btn-blue .mr-4 .mb-2 .filter} [Current (In-Progress)](#filter){: .btn .btn-blue .mr-4 .mb-2 .filter} [Completed](#filter){: .btn .btn-blue .mr-4 .mb-2 .filter}
+
+<hr>
+
+
 ## Table of contents
 {: .no_toc .text-delta }
+
+[Hide](#){: .mt-2 .btn .toc-toggle}
 
 1. TOC
 {:toc}
@@ -21,6 +74,13 @@ permalink: /projects/academics/@VIT
 ---
 
 ## Inline code
+{: .d-inline-block .all .in-progress .top-project}
+
+Data Visualization
+{: .label .label-blue }
+
+In-Progress
+{: .label .label-yellow }
 
 Code can be rendered inline by wrapping it in single back ticks.
 
@@ -34,6 +94,10 @@ Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiu
 
 
 ## Syntax highlighted code blocks
+{: .d-inline-block .completed .top-project .all}
+
+Data Visualization
+{: .label .label-blue }
 
 Use Jekyll's built-in syntax highlighting with Rouge for code blocks by using three backticks, followed by the language name:
 
@@ -59,6 +123,12 @@ var fun = function lang(l) {
 
 
 ## Code blocks with rendered examples
+{: .d-inline-block .all}
+
+Applied Cryptography
+{: .label .label-blue }
+Stable
+{: .label .label-green }
 
 To demonstrate front end code, sometimes it's useful to show a rendered example of that code. After including the styles from your project that you'll need to show the rendering, you can use a `<div>` with the `code-example` class, followed by the code block syntax. If you want to render your output with Markdown instead of HTML, use the `markdown="1"` attribute to tell Jekyll that the code you are rendering will be in Markdown format... This is about to get meta...
 
@@ -90,31 +160,92 @@ To demonstrate front end code, sometimes it's useful to show a rendered example 
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
-  AOS.init();
-  $(window).on('load', function() {
-        for(var i=0;i<document.getElementsByClassName('bootstrap-iso').length;i++)
-        {
-            document.getElementsByClassName('tags')[i].setAttribute("id", document.getElementsByClassName('bootstrap-iso')[i].getElementsByTagName('h2')[0].getAttribute('id'))
-        }
-        AOS.refresh();
-        var $animation_elements = $('.bootstrap-iso');
-        var $window = $(window);
-        var window_height = $window.height();
-        var window_top_position = $window.scrollTop();
-        var window_bottom_position = (window_top_position + window_height);
-        $('.main-content-wrap').on('scroll', function() {
-            console.log("triggered");
-            $.each($animation_elements, function() {
-                var $element = $(this);
-                var element_height = $element.outerHeight();
-                var element_top_position = $element.offset().top;
-                var element_bottom_position = (element_top_position + element_height);
-                if ((element_bottom_position >= window_top_position + 100) && (element_top_position <= window_bottom_position - 50)) {
-                    $element.addClass('aos-animate');
-                } else {
-                    $element.removeClass('aos-animate');
-                }
-            });
-        });
-  });
+  try {
+    AOS.init();
+    $(window).on('load', function() {
+      for(var i=0;i<document.getElementsByClassName('bootstrap-iso').length;i++)
+      {
+          document.getElementsByClassName('tags')[i].setAttribute("id", document.getElementsByClassName('bootstrap-iso')[i].getElementsByTagName('h2')[0].getAttribute('id'))
+      }
+      AOS.refresh();
+      var $animation_elements = $('.bootstrap-iso');
+      var $window = $(window);
+      var window_height = $window.height();
+      var window_top_position = $window.scrollTop();
+      var window_bottom_position = (window_top_position + window_height);
+      $('.main-content-wrap').on('scroll', function() {
+          console.log("triggered");
+          $.each($animation_elements, function() {
+              var $element = $(this);
+              var element_height = $element.outerHeight();
+              var element_top_position = $element.offset().top;
+              var element_bottom_position = (element_top_position + element_height);
+              if ((element_bottom_position >= window_top_position) && (element_top_position <= window_bottom_position)) {
+                  $element.addClass('aos-animate');
+              } else {
+                  $element.removeClass('aos-animate');
+              }
+          });
+      });
+    });
+    $('.toc-toggle').on('click', function () {
+      var toc = document.getElementById('markdown-toc');
+      if($(this)[0].innerHTML=="Hide")
+      {
+        $(this)[0].innerHTML="Show";
+        toc.style.display = "none";
+      }
+      else
+      {
+        $(this)[0].innerHTML="Hide";
+        toc.style.display = "block";
+      }
+      $('.main-content-wrap')[0].scrollTop += 1;
+      $('.main-content-wrap')[0].scrollTop -= 1;
+    });
+    $('a.filter').on('click', function () {  
+      var action = $(this)[0];
+      for(var i=0;i<$('.filter').length;i++)
+      {
+        console.log($('.filter')[i].classList.add('btn-blue'));
+      }
+      if($('.toc-toggle')[0].innerHTML=="Hide" && action.innerHTML != "All")
+      {
+        $('.toc-toggle')[0].click();
+      }
+      action.classList.remove('btn-blue');
+      console.log("New: ",action.classList,(action.classList).contains('btn-blue'), action.innerHTML);
+      var class_name; 
+      if(action.innerHTML=="Completed")
+      {
+        class_name = "completed";
+      }
+      else if(action.innerHTML=="Top Projects")
+      {
+        class_name = "top-project";
+      }
+      else if(action.innerHTML=="Current (In-Progress)")
+      {
+        class_name = "in-progress";
+      }
+      else
+      {
+        class_name = "all";
+      }
+      for(var i=0;i<$('.tags').length;i++)
+      {
+        $('.tags')[i].style.display = "none";
+      }
+      var class_object = document.getElementsByClassName(class_name);
+      for(var i=0;i<class_object.length;i++)
+      {
+        class_object[i].parentNode.parentNode.parentNode.style.display = "block";
+      }
+      $('.main-content-wrap')[0].scrollTop += 1;
+      $('.main-content-wrap')[0].scrollTop -= 1;
+    });
+}
+catch(error) {
+  location.reload()
+}
 </script>

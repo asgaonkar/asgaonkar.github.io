@@ -3,6 +3,7 @@ layout: default_project
 title: Volunteering
 nav_order: 8
 permalink: /volunteering/
+description: "Atit Gaonkar | Volunteering"
 ---
 
 # Volunteering Experience

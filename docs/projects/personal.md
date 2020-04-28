@@ -4,6 +4,7 @@ title: Personal
 nav_order: 3
 parent: Projects
 permalink: /projects/personal
+description: "Atit Gaonkar | Personal Projects"
 ---
 
 <link rel="stylesheet" href="..\..\assets\css\bootstrap-iso.css" crossorigin="anonymous">
