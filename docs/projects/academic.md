@@ -5,6 +5,7 @@ nav_order: 3
 has_children: true
 parent: Projects
 permalink: /projects/academics
+description: "Atit Gaonkar | Academic Projects"
 ---
 
 # UI Components

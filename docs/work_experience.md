@@ -3,6 +3,7 @@ layout: default_project
 title: Work Experience
 nav_order: 4
 permalink: /work_experience/
+description: "Atit Gaonkar | Work Experience"
 ---
 
 # Work Experience

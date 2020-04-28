@@ -5,6 +5,7 @@ nav_order: 1
 parent: Academic
 grand_parent: Projects
 permalink: /projects/academics/@ASU
+description: "Atit Gaonkar | Project @ASU"
 ---
 
 <link rel="stylesheet" href="..\..\assets\css\bootstrap-iso.css" crossorigin="anonymous">
@@ -13,7 +14,42 @@ permalink: /projects/academics/@ASU
     color: white;
     user-select: none;
   }
+  .down {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  padding: 15px;
+  border-radius: 4px;
+}
+.down:hover {
+}
+.blinking {
+  animation: blinkingText 0.7s infinite;
+}
+@keyframes blinkingText {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 </style>
+
+![Direction](../../assets/images/arrow-down-1.png){: .img-responsive .blinking .direction .down}
 
 # Projects @Arizona State University
 {: .no_toc }
@@ -256,30 +292,30 @@ Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiu
   try {
     AOS.init();
     $(window).on('load', function() {
-            for(var i=0;i<document.getElementsByClassName('bootstrap-iso').length;i++)
-            {
-                document.getElementsByClassName('tags')[i].setAttribute("id", document.getElementsByClassName('bootstrap-iso')[i].getElementsByTagName('h2')[0].getAttribute('id'))
-            }
-            AOS.refresh();
-            var $animation_elements = $('.bootstrap-iso');
-            var $window = $(window);
-            var window_height = $window.height();
-            var window_top_position = $window.scrollTop();
-            var window_bottom_position = (window_top_position + window_height);
-            $('.main-content-wrap').on('scroll', function() {
-                console.log("triggered");
-                $.each($animation_elements, function() {
-                    var $element = $(this);
-                    var element_height = $element.outerHeight();
-                    var element_top_position = $element.offset().top;
-                    var element_bottom_position = (element_top_position + element_height);
-                    if ((element_bottom_position >= window_top_position) && (element_top_position <= window_bottom_position)) {
-                        $element.addClass('aos-animate');
-                    } else {
-                        $element.removeClass('aos-animate');
-                    }
-                });
-            });
+      for(var i=0;i<document.getElementsByClassName('bootstrap-iso').length;i++)
+      {
+          document.getElementsByClassName('tags')[i].setAttribute("id", document.getElementsByClassName('bootstrap-iso')[i].getElementsByTagName('h2')[0].getAttribute('id'))
+      }
+      AOS.refresh();
+      var $animation_elements = $('.bootstrap-iso');
+      var $window = $(window);
+      var window_height = $window.height();
+      var window_top_position = $window.scrollTop();
+      var window_bottom_position = (window_top_position + window_height);
+      $('.main-content-wrap').on('scroll', function() {
+          console.log("triggered");
+          $.each($animation_elements, function() {
+              var $element = $(this);
+              var element_height = $element.outerHeight();
+              var element_top_position = $element.offset().top;
+              var element_bottom_position = (element_top_position + element_height);
+              if ((element_bottom_position >= window_top_position) && (element_top_position <= window_bottom_position)) {
+                  $element.addClass('aos-animate');
+              } else {
+                  $element.removeClass('aos-animate');
+              }
+          });
+      });
     });
     $('.toc-toggle').on('click', function () {
       var toc = document.getElementById('markdown-toc');
@@ -296,11 +332,15 @@ Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiu
       $('.main-content-wrap')[0].scrollTop += 1;
       $('.main-content-wrap')[0].scrollTop -= 1;
     });
-    $('a.filter').on('click', function () {
+    $('a.filter').on('click', function () {  
       var action = $(this)[0];
       for(var i=0;i<$('.filter').length;i++)
       {
         console.log($('.filter')[i].classList.add('btn-blue'));
+      }
+      if($('.toc-toggle')[0].innerHTML=="Hide" && action.innerHTML != "All")
+      {
+        $('.toc-toggle')[0].click();
       }
       action.classList.remove('btn-blue');
       console.log("New: ",action.classList,(action.classList).contains('btn-blue'), action.innerHTML);
