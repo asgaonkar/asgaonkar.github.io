@@ -1,5 +1,5 @@
 ---
-layout: default_project
+layout: default_card
 title: Research
 nav_order: 3
 permalink: /research/
@@ -63,5 +63,7 @@ logo: "/assets/images/just-the-docs.png"
                 }
             });
         });
+        $('.main-content-wrap')[0].scrollTop += 1;
+        $('.main-content-wrap')[0].scrollTop -= 1;
   });
 </script>

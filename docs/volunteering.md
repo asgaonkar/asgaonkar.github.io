@@ -1,5 +1,5 @@
 ---
-layout: default_project
+layout: default_card
 title: Volunteering
 nav_order: 8
 permalink: /volunteering/
@@ -61,5 +61,7 @@ logo: "/assets/images/just-the-docs.png"
                 }
             });
         });
+        $('.main-content-wrap')[0].scrollTop += 1;
+        $('.main-content-wrap')[0].scrollTop -= 1;
   });
 </script>

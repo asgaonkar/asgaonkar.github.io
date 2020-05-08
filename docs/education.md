@@ -1,5 +1,5 @@
 ---
-layout: default_project
+layout: default_card
 title: Education
 nav_order: 2
 permalink: /education/
@@ -10,7 +10,7 @@ description: "Atit Gaonkar | Education"
 {: .no_toc }
 
 
-"Learning to learn is the best thing you could ever learn" - Atit S Gaonkar
+"Learning to learn is the best thing you could ever learn" - Atit Gaonkar
 {: .fs-4 .fw-100}
 
 ## Table of contents
@@ -85,6 +85,8 @@ Co-Cirricular
 2014 - 2018
 {: .label .label-yellow }
 
+![Vellore Institute of Technology](../../assets/images/vit.png){: .img-responsive .logo height="10%" width="10%"}
+
 Bachelor of Technology in Computer Science and Engineering - CGPA: 8.98/10.0
 ```yaml
 Overall Experience during Bachelors
@@ -119,5 +121,7 @@ Extra Curricular
                 }
             });
         });
+        $('.main-content-wrap')[0].scrollTop += 1;
+        $('.main-content-wrap')[0].scrollTop -= 1;
   });
 </script>

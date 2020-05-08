@@ -1,7 +1,7 @@
 ---
-layout: default_project
+layout: default_card
 title: Work Experience
-nav_order: 4
+nav_order: 5
 permalink: /work_experience/
 description: "Atit Gaonkar | Work Experience"
 ---
@@ -47,10 +47,6 @@ logo: "/assets/images/just-the-docs.png"
 <script>
   AOS.init();
   $(window).on('load', function() {
-        for(var i=0;i<document.getElementsByClassName('bootstrap-iso').length;i++)
-        {
-            document.getElementsByClassName('tags')[i].setAttribute("id", document.getElementsByClassName('bootstrap-iso')[i].getElementsByTagName('h2')[0].getAttribute('id'))
-        }
         AOS.refresh();
         var $animation_elements = $('.bootstrap-iso');
         var $window = $(window);
@@ -71,5 +67,7 @@ logo: "/assets/images/just-the-docs.png"
                 }
             });
         });
+        $('.main-content-wrap')[0].scrollTop += 1;
+        $('.main-content-wrap')[0].scrollTop -= 1;
   });
 </script>

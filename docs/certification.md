@@ -1,5 +1,5 @@
 ---
-layout: default_project
+layout: default_card
 title: Certification
 nav_order: 6
 permalink: /certification/
@@ -63,5 +63,7 @@ Insert Images
                 }
             });
         });
+        $('.main-content-wrap')[0].scrollTop += 1;
+        $('.main-content-wrap')[0].scrollTop -= 1;
   });
 </script>

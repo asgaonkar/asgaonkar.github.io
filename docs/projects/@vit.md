@@ -1,5 +1,5 @@
 ---
-layout: default_project
+layout: default_card
 title: Projects @VIT
 nav_order: 2
 parent: Academic
@@ -22,34 +22,51 @@ description: "Atit Gaonkar | Projects @VIT"
   font-size: 18px;
   border: none;
   outline: none;
-  padding: 15px;
-  border-radius: 4px;
+  padding: 10px;
+  border-radius: 25px;
+  background-image: linear-gradient(#4593fb, #227efa);
+  background-color: #227efa;
+  opacity: 0.75;
 }
 .down:hover {
+  animation: none;
+  opacity: 0.75;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
 }
 .blinking {
-  animation: blinkingText 0.7s infinite;
+  animation: blinkingText 1.0s infinite;
+  cursor: pointer;
+}
+.non-blinking {
+  animation: none;
+  cursor: pointer;
 }
 @keyframes blinkingText {
   0% {
-    opacity: 0;
+    opacity: 0.35;
   }
   25% {
     opacity: 0.5;
   }
   50% {
-    opacity: 1;
+    opacity: 0.70;
   }
   75% {
     opacity: 0.5;
   }
   100% {
-    opacity: 0;
+    opacity: 0.35;
   }
 }
 </style>
 
-![Direction](../../assets/images/arrow-down-1.png){: .img-responsive .blinking .direction .down}
+![Direction](../../assets/images/arrow-down.png){: .img-responsive .blinking .direction .down}
 
 
 # Projects @Vellore Institue of Technology
@@ -58,7 +75,7 @@ description: "Atit Gaonkar | Projects @VIT"
 #### Display
 {: .no_toc }
 
-[All](#filter){: .btn .mr-4 .mb-2 .filter} [Top Projects](#filter){: .btn .btn-blue .mr-4 .mb-2 .filter} [Current (In-Progress)](#filter){: .btn .btn-blue .mr-4 .mb-2 .filter} [Completed](#filter){: .btn .btn-blue .mr-4 .mb-2 .filter}
+[All](#filter){: .btn .mr-4 .mb-2 .filter} [Top Projects](#filter){: .btn .btn-blue .mr-4 .mb-2 .filter}
 
 <hr>
 
@@ -74,13 +91,10 @@ description: "Atit Gaonkar | Projects @VIT"
 ---
 
 ## Inline code
-{: .d-inline-block .all .in-progress .top-project}
+{: .d-inline-block .all .top-project}
 
 Data Visualization
 {: .label .label-blue }
-
-In-Progress
-{: .label .label-yellow }
 
 Code can be rendered inline by wrapping it in single back ticks.
 
@@ -163,6 +177,7 @@ To demonstrate front end code, sometimes it's useful to show a rendered example 
   try {
     AOS.init();
     $(window).on('load', function() {
+      document.getElementsByClassName('filter')[1].click();
       for(var i=0;i<document.getElementsByClassName('bootstrap-iso').length;i++)
       {
           document.getElementsByClassName('tags')[i].setAttribute("id", document.getElementsByClassName('bootstrap-iso')[i].getElementsByTagName('h2')[0].getAttribute('id'))
@@ -173,7 +188,32 @@ To demonstrate front end code, sometimes it's useful to show a rendered example 
       var window_height = $window.height();
       var window_top_position = $window.scrollTop();
       var window_bottom_position = (window_top_position + window_height);
+      function moveDown()
+      {
+        document.getElementsByClassName('main-content-wrap')[0].scrollTop += 100;
+      }
+      $('.direction').on('click', function() {
+        if(document.getElementsByClassName('direction')[0].getAttribute("src").split('-')[1].split('.')[0] == "down")
+          {
+            moveDown();
+          }
+          else{
+            document.getElementsByClassName('main-content-wrap')[0].scrollTop = 0;
+          }
+        });
       $('.main-content-wrap').on('scroll', function() {
+          if(document.getElementsByClassName('direction')[0].getAttribute("src").split('-')[1].split('.')[0] == "up")
+          {
+            document.getElementsByClassName('direction')[0].classList.remove("blinking");
+            document.getElementsByClassName('direction')[0].classList.add("no-blinking");
+          }
+          if ($('.main-content-wrap').scrollTop() >= 100.0) {
+            document.getElementsByClassName('direction')[0].setAttribute("src","../../assets/images/arrow-up.png");
+          }
+          else
+          {
+            document.getElementsByClassName('direction')[0].setAttribute("src","../../assets/images/arrow-down.png");
+          }
           console.log("triggered");
           $.each($animation_elements, function() {
               var $element = $(this);
@@ -204,17 +244,18 @@ To demonstrate front end code, sometimes it's useful to show a rendered example 
       $('.main-content-wrap')[0].scrollTop -= 1;
     });
     $('a.filter').on('click', function () {  
+      document.getElementsByClassName('direction')[0].classList.remove("no-blinking");
+      document.getElementsByClassName('direction')[0].classList.add("blinking");
       var action = $(this)[0];
       for(var i=0;i<$('.filter').length;i++)
       {
-        console.log($('.filter')[i].classList.add('btn-blue'));
+        $('.filter')[i].classList.add('btn-blue');
       }
       if($('.toc-toggle')[0].innerHTML=="Hide" && action.innerHTML != "All")
       {
         $('.toc-toggle')[0].click();
       }
       action.classList.remove('btn-blue');
-      console.log("New: ",action.classList,(action.classList).contains('btn-blue'), action.innerHTML);
       var class_name; 
       if(action.innerHTML=="Completed")
       {

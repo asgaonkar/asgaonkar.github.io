@@ -1,14 +1,12 @@
 ---
 layout: default
-title: Home
-nav_order: 1
-description: "Atit Gaonkar | Home"
-permalink: /
+title: What Else
+nav_order: 98
+permalink: what-else/
+description: "Atit Gaonkar | What Else"
 ---
 
-
-
-# Welcome
+# What Else
 {: }
 
 [Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](){: .btn .fs-5 .mb-4 .mb-md-0 }
@@ -27,4 +25,3 @@ permalink: /
 ```
 Resume - Online and Download
 ```
-

@@ -70,7 +70,7 @@ layout: table_wrappers
           <div id="main-content" class="page-content" role="main">
             {% if site.heading_anchors != false %}
               <!-- Start -->
-              {% include vendor/anchor_headings_project.html html=content beforeHeading="true" anchorBody="<svg viewBox=\"0 0 16 16\" aria-hidden=\"true\"><use xlink:href=\"#link\"></use></svg>" anchorClass="anchor-heading" %}
+              {% include vendor/anchor_headings_card.html html=content beforeHeading="true" anchorBody="<svg viewBox=\"0 0 16 16\" aria-hidden=\"true\"><use xlink:href=\"#link\"></use></svg>" anchorClass="anchor-heading" %}
               <!-- End -->
             {% else %}
               {{ content }}
