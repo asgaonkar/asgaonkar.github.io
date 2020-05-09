@@ -77,8 +77,6 @@ description: "Atit Gaonkar | Projects @VIT"
 
 [All](#filter){: .btn .mr-4 .mb-2 .filter} [Top Projects](#filter){: .btn .btn-blue .mr-4 .mb-2 .filter}
 
-<hr>
-
 
 ## Table of contents
 {: .no_toc .text-delta }

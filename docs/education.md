@@ -10,7 +10,7 @@ description: "Atit Gaonkar | Education"
 {: .no_toc }
 
 
-"Learning to learn is the best thing you could ever learn" - Atit Gaonkar
+"Mastering the ability to learn is the best thing you could ever learn" - Atit Gaonkar
 {: .fs-4 .fw-100}
 
 ## Table of contents

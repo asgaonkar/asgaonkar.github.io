@@ -5,6 +5,7 @@ nav_order: 4
 has_children: true
 permalink: /projects/
 description: "Atit Gaonkar | Projects"
+search: exclude
 ---
 
 # UI Components

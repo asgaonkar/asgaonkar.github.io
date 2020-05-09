@@ -87,8 +87,6 @@ a img
 
 [All](#filter){: .btn .mr-4 .mb-2 .filter} [Top Projects](#filter){: .btn .btn-blue .mr-4 .mb-2 .filter} [Current (In-Progress)](#filter){: .btn .btn-blue .mr-4 .mb-2 .filter} [Completed](#filter){: .btn .btn-blue .mr-4 .mb-2 .filter}
 
-<hr>
-
 
 ## Table of contents
 {: .no_toc .text-delta }
@@ -102,30 +100,24 @@ a img
 
 
 ## Food Explorer
-{: .d-inline-block .all .in-progress .top-project .mr-3}
-
-Data Visualization
-{: .label .label-blue }
-
-In-Progress
-{: .label .label-yellow }
+{: .all .in-progress .top-project .mr-3 }
 
 2014-2018
 
-[![Food-Explorer][food-explorer-img]{: .img-responsive .noDecoration .logo height="25%" width="25%"}][food-explorer-link]
+[![Food-Explorer][food-explorer-img]{: .img-responsive .noDecoration .logo .logo-link height="25%" width="25%"}][food-explorer-link]
 
 [food-explorer-img]:  ../../assets/images/food-explorer.png
 [food-explorer-link]:  https://asgaonkar.github.io/The-Hungry-Customer/ "Redirect to Food Explorer" 
 
-<div class="code-example" markdown="1">
+
 Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-</div>
+
 ```markdown
-Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ```
-<a href="https://github.com/asgaonkar/The-Hungry-Entrepreneur" class="btn btn-purple mr-2" style="color:white">Github</a>
+<a href="https://github.com/asgaonkar/The-Hungry-Customer" class="btn btn-purple mr-2" target="blank" style="color:white">Github</a>
 <!-- [Github](https://github.com/asgaonkar/The-Hungry-Entrepreneur){: .btn .btn-purple .mr-2 } -->
-<a href="#" class="btn btn-green disabled" style="color:white; background-color: gray">Demo</a>
+<a href="https://asgaonkar.github.io/The-Hungry-Customer/" class="btn btn-green" target="blank" style="color:white; background-color: gray">Demo</a>
 <!-- [Demo](){: .btn .btn-green .disabled} -->
 
 
@@ -338,6 +330,7 @@ Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiu
         document.getElementsByClassName('main-content-wrap')[0].scrollTop += 100;
       }
       $('a > img').parent().addClass("image-link");
+      $('img.logo-link').parent().attr('target','blank');
       $('.direction').on('click', function() {
         if(document.getElementsByClassName('direction')[0].getAttribute("src").split('-')[1].split('.')[0] == "down")
           {

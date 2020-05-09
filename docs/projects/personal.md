@@ -74,8 +74,6 @@ description: "Atit Gaonkar | Personal Projects"
 
 [All](#filter){: .btn .mr-4 .mb-2 .filter} [Top Projects](#filter){: .btn .btn-blue .mr-4 .mb-2 .filter} [Current (In-Progress)](#filter){: .btn .btn-blue .mr-4 .mb-2 .filter} [Completed](#filter){: .btn .btn-blue .mr-4 .mb-2 .filter}
 
-<hr>
-
 ## Table of contents
 {: .no_toc .text-delta }
 
