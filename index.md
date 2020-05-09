@@ -27,6 +27,7 @@ permalink: /
     </div>
 </div>
 <br>
+
 <p class="card-text">Some of my hobbies include travelling, logo designing and photo manipulation. </p>
 <p class="card-text">I am currently seeking a full-time opportunity to work in a team-based environment where I can make a direct impact in the field of Cyber-Security and Software Engineering.  </p>
 
