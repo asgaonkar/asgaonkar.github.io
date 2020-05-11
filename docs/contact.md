@@ -26,8 +26,6 @@ Just the Docs gives your documentation a jumpstart with a responsive Jekyll them
 Resume - Online and Download
 ```
 
-<link rel="stylesheet" href="..\assets\css\bootstrap-iso.css" crossorigin="anonymous">
-
 <script src="https://kit.fontawesome.com/a773360a89.js" crossorigin="anonymous"></script>
 
 <a href="mailto:atit.sgaonkar@gmail.com" class="fas fa-envelope" target="_blank"></a>{: .fs-6 .mb-4 .mb-md-0 .mr-4 }
