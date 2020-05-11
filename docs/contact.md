@@ -6,30 +6,52 @@ permalink: /contact/
 description: "Atit Gaonkar | Contact"
 ---
 
-# Welcome
-{: .fs-9 }
-
-Just the Docs gives your documentation a jumpstart with a responsive Jekyll theme that is easily customizable and hosted on GitHub Pages.
-{: .fs-6 .fw-300 }
-
-[Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](){: .btn .fs-5 .mb-4 .mb-md-0 }
-
-
-
----
-
-## Things to Add
-
-### Required
-
-```
-Resume - Online and Download
-```
+<div class="bootstrap-iso">
+    <div class="card" style="box-shadow:  0px 0px 15px 5px rgba(0, 0, 0, 0.075) !important; border-radius: 5px;">
+        <div class="card-header text-center">
+            <img src="../assets/images/logo.png" class="img-fluid z-depth-1 logo" alt="Atit Gaonkar" height='75px' width='75px'>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-xl-4 col-lg-5 col-md-5 col-sm-6 mt-8 my-auto" style="padding-bottom: 20px">
+                    <img src="../assets/images/atit-gaonkar.jpg" class="ml-5 img-fluid z-depth-1 rounded-circle shadow atit-intro" alt="Atit Gaonkar" style="box-shadow: 0 5px 10px 0 rgba(0,0,0,0.16),0 8px 15px 0 rgba(0,0,0,0.12) !important;" width='75%'>
+                </div>
+                <div class="col-xl-8 col-lg-7 col-md-7 col-sm-6">
+                    <p class='fs-4 ml-2 mb-2'><a href="mailto:atit.sgaonkar@gmail.com" class="fas fa-envelope fs-7 mr-2" style='vertical-align: middle;' target="_blank"></a><a target="_blank" style='color:#007bff' href="mailto:atit.sgaonkar@gmail.com">atit.sgaonkar@gmail.com</a></p>                    
+                    <p class='fs-4 ml-2 mb-2'><a href="https://www.linkedin.com/in/atit-gaonkar/" class="fab fa-linkedin fs-7 mr-2" style='vertical-align: middle;' target="_blank"></a><a target="_blank" style='color:#007bff' href="https://www.linkedin.com/in/atit-gaonkar/">linkedin.com/in/atit-gaonkar</a></p>
+                    <p class='fs-4 ml-2 mb-2'><a href="https://github.com/asgaonkar" class="fab fa-github fs-7 mr-2" style='vertical-align: middle;' target="_blank"></a><a target="_blank" style='color:#007bff' href="https://github.com/asgaonkar">github.com/asgaonkar</a></p>
+                    <p class='fs-4 ml-2 mb-2'><a href="https://www.instagram.com/atit.sgaonkar/" class="fab fa-instagram fs-7 mr-2" style='vertical-align: middle;' target="_blank"></a><a target="_blank" style='color:#007bff' href="https://www.instagram.com/atit.sgaonkar/">instagram.com/atit.sgaonkar</a></p>
+                </div>
+            </div>
+            <div class='row map mb-0 ml-2 mr-2 mt-2' style='display: block; box-shadow:  0px 0px 15px 5px rgba(0, 0, 0, 0.075) !important;'>      
+                <iframe src="https://maps.google.com/maps?q=Tempe+85281&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" width='100%' height='300px' style="border:0" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="card-footer text-center" style='display: none'>
+            <a href="javascript:void(0)" onclick='show_location()' class="btn btn-blue mb-2 mr-2 mt-0 location" style="color:white;" title="View Location">Hide Location</a>
+        </div>
+    </div>
+</div>
 
 <script src="https://kit.fontawesome.com/a773360a89.js" crossorigin="anonymous"></script>
-
-<a href="mailto:atit.sgaonkar@gmail.com" class="fas fa-envelope" target="_blank"></a>{: .fs-6 .mb-4 .mb-md-0 .mr-4 }
-<a href="https://www.linkedin.com/in/atit-gaonkar/" class="fab fa-linkedin" target="_blank" style=""></a>{: .fs-6 .mb-4 .mb-md-0 .mr-4 }
-<a href="https://github.com/asgaonkar" class="fab fa-github" target="_blank"></a>{: .fs-6 .mb-4 .mb-md-0 .mr-4 }
-<a href="https://www.instagram.com/atit.sgaonkar/" class="fab fa-instagram" target="_blank"></a>{: .fs-6 .mb-4 .mb-md-0 .mr-4 }
-
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script>
+    function show_location()
+    {
+        var current = document.getElementsByClassName('location')[0].innerHTML;
+        if (current=='Show Location')
+        {
+            document.getElementsByClassName('map')[0].style.display = "block";
+            document.getElementsByClassName('location')[0].innerHTML = "Hide Location";
+        }
+        else
+        {
+            document.getElementsByClassName('map')[0].style.display = "none";
+            document.getElementsByClassName('location')[0].innerHTML = "Show Location";
+        }
+    }
+    $(window).on('load', function() {
+    });
+</script>

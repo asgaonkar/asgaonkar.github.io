@@ -20,6 +20,10 @@ description: "Atit Gaonkar | Work Experience"
 
 
 ## Data Engineer (Intern)
+{: .d-inline-block .mr-2}
+
+2019
+{: .label .label-green}
 
 [Tulip Diagnostics](http://www.tulipgroup.com/){: .target-blank} (A [Perkin Elmer](https://www.perkinelmer.com/){: .target-blank} Company), Vasco, India
 {: .mb-0}
@@ -30,11 +34,15 @@ Jan 2019 - Apr 2019
 [Tulip-Diagnostics-img]:  ../../assets/images/tulip.jpg
 [Tulip-Diagnostics-link]:  http://www.tulipgroup.com/ "Redirect to - Tulip Diagnostics" 
 
-- Analyzed internal processes, business operation and sales structure to create info-graphic dashboards using Microsoft’s business intelligence tools, SSAS, SSIS and SSRS. Used Visualization Tools such as Power BI and TIBCO Spotfire to enhance the process of decision making.
+Analyzed internal processes, business operation and sales structure to create info-graphic dashboards using Microsoft’s business intelligence tools, SSAS, SSIS and SSRS. Used Visualization Tools such as Power BI and TIBCO Spotfire to enhance the process of decision making.
 
-- Automated the process of interpreting dashboards and forecasting projected revenue using VBA and SQL. Redesigned reporting system resulting in increased efficiency of 81.25%, hence reducing the time spent on month-end analysis. 
+Automated the process of interpreting dashboards and forecasting projected revenue using VBA and SQL. Redesigned reporting system resulting in increased efficiency of 81.25%, hence reducing the time spent on month-end analysis. 
 
 ## Information Security (Intern)
+{: .d-inline-block .mr-2 }
+
+2019
+{: .label .label-green}
 
 [Tulip Diagnostics](http://www.tulipgroup.com/){: .target-blank} (A [Perkin Elmer](https://www.perkinelmer.com/){: .target-blank} Company), Vasco, India
 {: .mb-0}
@@ -45,8 +53,9 @@ Jan 2019 - Apr 2019
 [Tulip-Diagnostics-img]:  ../../assets/images/tulip.jpg
 [Tulip-Diagnostics-link]:  http://www.tulipgroup.com/ "Redirect to - Tulip Diagnostics" 
 
-- Worked Closely with Database Administrators and Network Managers to establish new security guidelines and practices.
-- Executed regular network evaluation and vulnerability scans. Significantly improved security processes. 
+Worked Closely with Database Administrators and Network Managers to establish new security guidelines and practices.
+
+Executed regular network evaluation and vulnerability scans. Significantly improved security processes. 
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
