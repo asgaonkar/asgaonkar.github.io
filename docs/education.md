@@ -54,7 +54,7 @@ Mathematics: [Number Theory](https://en.wikipedia.org/wiki/Number_theory){: .tar
 
 <div class="bootstrap-iso">
 <div class="row">
-<div class="col-6 mb-2">
+<div class="col-sm-12 col-lg-6 col-md-6 mb-2">
 <div class="code-example" markdown="1">
 1. Information Assurance and Security
 1. Mobile Computing
@@ -64,7 +64,7 @@ Mathematics: [Number Theory](https://en.wikipedia.org/wiki/Number_theory){: .tar
 Fall 2020
 {% endhighlight %}
 </div>
-<div class="col-6 mb-2">
+<div class="col-sm-12 col-lg-6 col-md-6 mb-2">
 <div class="code-example" markdown="1">
 1. [Computer and Network Forensics](https://sites.google.com/view/jjbaek/cse469s20?authuser=0){: .target-blank}
 1. [Data Visualization](https://sites.google.com/a/asu.edu/cse578_datavisualization-spring-2020/home){: .target-blank}
@@ -74,7 +74,7 @@ Fall 2020
 Spring 2020
 {% endhighlight %}  
 </div>
-<div class="col-6 mb-2">
+<div class="col-sm-12 col-lg-6 col-md-6 mb-2">
 <div class="code-example" markdown="1">
 1. Software Security
 1. [Applied Cryptography](https://parthad.com/Teaching/539.2019/){: .target-blank}
@@ -84,7 +84,7 @@ Spring 2020
 Fall 2019
 {% endhighlight %}
 </div>
-<div class="col-6 mb-2"></div>
+<div class="col-sm-12 col-lg-6 col-md-6 mb-2"></div>
 </div>
 </div>
 
@@ -107,7 +107,7 @@ Co-Cirricular
 Extra-Cirricular
 ```
 
-[Racquetball](https://en.wikipedia.org/wiki/Racquetball){: .target-blank}: Since my introduction to Racquetball at Arizona State University, I have never let go of an opportunity to play.
+[Racquetball](https://en.wikipedia.org/wiki/Racquetball){: .target-blank}: Since my introduction to Racquetball at Arizona State University, I have never let go of an opportunity to play the game.
 
 ---
 

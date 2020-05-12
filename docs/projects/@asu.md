@@ -8,7 +8,6 @@ permalink: /projects/academics/@ASU
 description: "Atit Gaonkar | Project @ASU"
 ---
 
-<link rel="stylesheet" href="..\..\assets\css\bootstrap-iso.css" crossorigin="anonymous">
 <style>
   .hidden{
     color: white;
@@ -311,6 +310,23 @@ Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiu
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
+  function moveDown()
+  {
+    document.getElementsByClassName('main-content-wrap')[0].scrollTop = $("#display").position().top;
+    console.log($("#display").position().top);
+    $(window).scrollTop($("#display").position().top);
+  }
+  function direction_movement()
+  {
+    if(document.getElementsByClassName('direction')[0].getAttribute("src").split('-')[1].split('.')[0] == "down")
+      {
+        moveDown();
+      }
+      else{
+        document.getElementsByClassName('main-content-wrap')[0].scrollTop = 0;
+        $(window).scrollTop(0);
+      }
+  }
   try {
     AOS.init();
     $(window).on('load', function() {
@@ -325,46 +341,75 @@ Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiu
       var window_height = $window.height();
       var window_top_position = $window.scrollTop();
       var window_bottom_position = (window_top_position + window_height);
-      function moveDown()
-      {
-        document.getElementsByClassName('main-content-wrap')[0].scrollTop += 100;
-      }
       $('a > img').parent().addClass("image-link");
       $('img.logo-link').parent().attr('target','blank');
+      document.getElementsByClassName('direction')[0].parentNode.setAttribute('onclick','direction_movement()');
+      document.getElementsByClassName('direction')[0].setAttribute('onclick','direction_movement()');
       $('.direction').on('click', function() {
-        if(document.getElementsByClassName('direction')[0].getAttribute("src").split('-')[1].split('.')[0] == "down")
-          {
-            moveDown();
-          }
-          else{
-            document.getElementsByClassName('main-content-wrap')[0].scrollTop = 0;
-          }
+        direction_movement()
         });
+      document.addEventListener('click', function (event) {
+          $(event.target).hasClass('direction');
+          {
+            console.log('Clicked');
+            direction_movement()
+          }
+      }, true /*Capture event*/);
       $('.main-content-wrap').on('scroll', function() {
+          console.log("triggered");
           if(document.getElementsByClassName('direction')[0].getAttribute("src").split('-')[1].split('.')[0] == "up")
           {
             document.getElementsByClassName('direction')[0].classList.remove("blinking");
             document.getElementsByClassName('direction')[0].classList.add("no-blinking");
           }
-          if ($('.main-content-wrap').scrollTop() >= 100.0) {
+          if ($('.main-content-wrap').scrollTop() >= $("#display").position().top) {
             document.getElementsByClassName('direction')[0].setAttribute("src","../../assets/images/arrow-up.png");
           }
           else
           {
             document.getElementsByClassName('direction')[0].setAttribute("src","../../assets/images/arrow-down.png");
           }
-          console.log("triggered");
           $.each($animation_elements, function() {
-              var $element = $(this);
-              var element_height = $element.outerHeight();
-              var element_top_position = $element.offset().top;
-              var element_bottom_position = (element_top_position + element_height);
-              if ((element_bottom_position >= window_top_position) && (element_top_position <= window_bottom_position)) {
-                  $element.addClass('aos-animate');
-              } else {
-                  $element.removeClass('aos-animate');
-              }
+                var $element = $(this);
+                var element_height = $element.outerHeight();
+                var element_top_position = $element.offset().top;
+                var element_bottom_position = (element_top_position + element_height);
+                if ((element_bottom_position >= window_top_position) && (element_top_position <= window_bottom_position)) {
+                    $element.addClass('aos-animate');
+                } else {
+                    $element.removeClass('aos-animate');
+                }
+            });
           });
+    });
+    $(window).on('scroll', function() {
+      if(document.getElementsByClassName('direction')[0].getAttribute("src").split('-')[1].split('.')[0] == "up")
+      {
+        document.getElementsByClassName('direction')[0].classList.remove("blinking");
+        document.getElementsByClassName('direction')[0].classList.add("no-blinking");
+      }
+      if ($(window).scrollTop() >= $("#display").position().top) {
+        document.getElementsByClassName('direction')[0].setAttribute("src","../../assets/images/arrow-up.png");
+      }
+      else
+      {
+        document.getElementsByClassName('direction')[0].setAttribute("src","../../assets/images/arrow-down.png");
+      } 
+      var $animation_elements = $('.bootstrap-iso');
+      var $window = $(window);
+      var window_height = $window.height();
+      var window_top_position = $window.scrollTop();
+      var window_bottom_position = (window_top_position + window_height);
+      $.each($animation_elements, function() {
+          var $element = $(this);
+          var element_height = $element.outerHeight();
+          var element_top_position = $element.offset().top;
+          var element_bottom_position = (element_top_position + element_height);
+          if ((element_bottom_position >= window_top_position) && (element_top_position <= window_bottom_position)) {
+              $element.addClass('aos-animate');
+          } else {
+              $element.removeClass('aos-animate');
+          }
       });
     });
     $('.toc-toggle').on('click', function () {
