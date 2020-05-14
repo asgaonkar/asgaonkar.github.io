@@ -6,6 +6,14 @@ permalink: /work_experience/
 description: "Atit Gaonkar | Work Experience"
 ---
 
+<style>
+
+.horizontal-rule{
+    border-top: 1px solid #DDD;
+}
+
+</style>
+
 # Work Experience
 {: .no_toc }
 
@@ -28,13 +36,16 @@ description: "Atit Gaonkar | Work Experience"
 [Tulip Diagnostics](http://www.tulipgroup.com/){: .target-blank} (A [Perkin Elmer](https://www.perkinelmer.com/){: .target-blank} Company), Vasco, India
 {: .mb-0}
 Jan 2019 - Apr 2019
+{: .mb-2}
 
-[![Tulip Diagnostics][Tulip-Diagnostics-img]{: .img-responsive .logo .d-inline-block .logo-link height="10%" width="10%"}][Tulip-Diagnostics-link]
+<div class="horizontal-rule mb-4"></div>
+
+<!-- [![Tulip Diagnostics][Tulip-Diagnostics-img]{: .img-responsive .logo .d-inline-block .logo-link height="10%" width="10%"}][Tulip-Diagnostics-link]
 
 [Tulip-Diagnostics-img]:  ../../assets/images/tulip.jpg
-[Tulip-Diagnostics-link]:  http://www.tulipgroup.com/ "Redirect to - Tulip Diagnostics" 
+[Tulip-Diagnostics-link]:  http://www.tulipgroup.com/ "Redirect to - Tulip Diagnostics"  -->
 
-Analyzed internal processes, business operation and sales structure to create info-graphic dashboards using Microsoft’s business intelligence tools, SSAS, SSIS and SSRS. Used Visualization Tools such as Power BI and TIBCO Spotfire to enhance the process of decision making.
+Analyzed internal processes, business operation and sales structure to create [Info-graphic Dashboards](https://en.wikipedia.org/wiki/Dashboard_(business)){: .target-blank} using Microsoft’s business intelligence tools, [SSAS](https://docs.microsoft.com/en-us/analysis-services/analysis-services-overview?view=asallproducts-allversions){: .target-blank}, [SSIS](https://docs.microsoft.com/en-us/sql/integration-services/sql-server-integration-services?view=sql-server-ver15){: .target-blank} and [SSRS](https://docs.microsoft.com/en-us/sql/reporting-services/create-deploy-and-manage-mobile-and-paginated-reports?view=sql-server-ver15){: .tagret-blank}. Used Visualization Tools such as [Power BI](https://powerbi.microsoft.com/en-us/){: .target-blank} and [TIBCO Spotfire](https://www.tibco.com/products/tibco-spotfire){: .target-blank} to enhance the process of decision making.
 
 Automated the process of interpreting dashboards and forecasting projected revenue using VBA and SQL. Redesigned reporting system resulting in increased efficiency of 81.25%, hence reducing the time spent on month-end analysis. 
 
@@ -47,11 +58,14 @@ Automated the process of interpreting dashboards and forecasting projected reven
 [Tulip Diagnostics](http://www.tulipgroup.com/){: .target-blank} (A [Perkin Elmer](https://www.perkinelmer.com/){: .target-blank} Company), Vasco, India
 {: .mb-0}
 Jan 2019 - Apr 2019
+{: .mb-2}
 
-[![Tulip Diagnostics][Tulip-Diagnostics-img]{: .img-responsive .logo .d-inline-block .logo-link height="10%" width="10%"}][Tulip-Diagnostics-link]
+<div class="horizontal-rule mb-4"></div>
+
+<!-- [![Tulip Diagnostics][Tulip-Diagnostics-img]{: .img-responsive .logo .d-inline-block .logo-link height="10%" width="10%"}][Tulip-Diagnostics-link]
 
 [Tulip-Diagnostics-img]:  ../../assets/images/tulip.jpg
-[Tulip-Diagnostics-link]:  http://www.tulipgroup.com/ "Redirect to - Tulip Diagnostics" 
+[Tulip-Diagnostics-link]:  http://www.tulipgroup.com/ "Redirect to - Tulip Diagnostics"  -->
 
 Worked Closely with Database Administrators and Network Managers to establish new security guidelines and practices.
 

@@ -70,8 +70,8 @@ a img
   text-decoration: none;
 }
 
-.intermediate{
-  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.5)), to(rgba(0,0,0,0))) !important;
+.last-item{
+  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.75)), to(rgba(0,0,0,0))) !important;
 }
 
 .label-items {
@@ -117,7 +117,7 @@ background: -webkit-linear-gradient(left, #f2d082 25%, #f28282 75%) !important; 
                   <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
                   <p class="card-text"><a href="education">Computer Science Graduate student</a> at Arizona State University with focus on <a href="certification">Cyber-Security</a>. I passionate about Binary Analysis, Web security and Data Visualization. I am currently <a href="research">researching</a> on "The need for dynamic security Implementations". I have <a href="work_experience">worked</a> on System Security, Reverse Engineering Binaries, Web Security.</p>
                   <p class="card-text">Along with interest in Cyber-Security, I also involve myself in <a href="research">Mathematics</a>, specifically Number Theory. I am investigating on ways to identify unique patterns and sequences in the process of exponentiation.</p>
-                  <p class="card-text">I keep myself productive working on personal <a href="education">projects</a>. My <a href="what-else">hobbies</a> include travelling, logo designing, photo manipulation and <a href="volunteering">volunteering</a></p>
+                  <p class="card-text">I keep myself productive working on personal <a href="education">projects</a>. My hobbies include travelling, logo designing, photo manipulation and <a href="volunteering">volunteering</a></p>
                   <a href="#" class="btn btn-blue mb-2 mr-2 mt-0 resume" target="blank" style="color:white; background-color: gray" title="View Resume">Resume (Online)</a>
                   <a href="#" class="btn btn-blue mb-2 mr-2 mt-0 resume" target="blank" style="color:white; background-color: gray" title="Download Resume">Resume (PDF)</a>
               </div>
@@ -159,7 +159,7 @@ background: -webkit-linear-gradient(left, #f2d082 25%, #f28282 75%) !important; 
                     <p class="card-text mb-4">Flask, Jekyll, Bootstrap</p>
                   </div>                    
                 </div>
-                <div class='intermediate mt-2 intermediate-handle'>    
+                <div class='intermediate mt-2 last-item-handle last-item'>    
                   <div class="label-items">
                     <span>Intermediate Skills</span>
                     <span>70%</span>
@@ -173,6 +173,22 @@ background: -webkit-linear-gradient(left, #f2d082 25%, #f28282 75%) !important; 
                     <h4 class="card-title mb-0">CMS</h4>
                     <!-- Text -->
                     <p class="card-text mb-4">Drupal</p>
+                  </div>                    
+                </div>
+                <div class='beginner mt-2 hides' style='display: none'>    
+                  <div class="label-items">
+                    <span>Beginner Skills</span>
+                    <span>30%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">
+                    </div>
+                  </div>
+                  <div class='beginner-skills ml-4'>                                      
+                    <!-- Title -->
+                    <h4 class="card-title mb-0">Frameworks</h4>
+                    <!-- Text -->
+                    <p class="card-text mb-4">Django, Angular, React</p>
                   </div>                    
                 </div>
               </div>
@@ -190,27 +206,27 @@ background: -webkit-linear-gradient(left, #f2d082 25%, #f28282 75%) !important; 
               </div>
               <!-- Card content -->
               <div class="card-body">      
-                <div class='advanced'>    
+                <div class='advanced'>
                   <div class="label-items">
-                    <span>Advance Skills</span>
+                    <span>Advanced Skills</span>
                     <span>90%</span>
                   </div>
                   <div class="progress">
                     <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
                     </div>
                   </div>
-                  <div class='advanced-skills ml-4'>                  
+                  <div class='advanced-skills ml-4'>                                      
                     <!-- Title -->
-                    <h4 class="card-title mb-0">Languages</h4>
-                    <!-- Text -->                
-                    <p class="card-text mb-4"><a style="color: #007bff">HTML</a>, CSS, JS, PHP, SQL, Python</p>
-                    <!-- Title -->
-                    <h4 class="card-title mb-0">Framework</h4>
+                    <h4 class="card-title mb-0">Binary Analysis</h4>
                     <!-- Text -->
-                    <p class="card-text mb-4">Flask, Jekyll, Bootstrap</p>
+                    <p class="card-text mb-4">Buffer Overflow, Shellcodes, Format Strings</p>
+                    <!-- Title -->
+                    <h4 class="card-title mb-0">Web Exploitation</h4>
+                    <!-- Text -->
+                    <p class="card-text mb-4">XSS and SQL Injection</p>
                   </div>                    
                 </div>
-                <div class='intermediate mt-2 intermediate-handle'>    
+                <div class='intermediate mt-2 last-item-handle last-item'>    
                   <div class="label-items">
                     <span>Intermediate Skills</span>
                     <span>70%</span>
@@ -221,9 +237,163 @@ background: -webkit-linear-gradient(left, #f2d082 25%, #f28282 75%) !important; 
                   </div>
                   <div class='intermediate-skills ml-4'>                                      
                     <!-- Title -->
-                    <h4 class="card-title mb-0">CMS</h4>
+                    <h4 class="card-title mb-0">Binary Analysis</h4>
                     <!-- Text -->
-                    <p class="card-text mb-4">Drupal</p>
+                    <p class="card-text mb-4">Heap Exploitation, Reverse Engineering</p>
+                    <!-- Title -->
+                    <h4 class="card-title mb-0">Forensics</h4>
+                    <!-- Text -->
+                    <p class="card-text mb-4">Phishing Kit Analysis, Network Traffic Analysis</p>
+                  </div>                    
+                </div>
+                <div class='beginner mt-2 hides' style='display: none'>    
+                  <div class="label-items">
+                    <span>Beginner Skills</span>
+                    <span>30%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">
+                    </div>
+                  </div>
+                  <div class='beginner-skills ml-4'>                                      
+                    <!-- Title -->
+                    <h4 class="card-title mb-0">Web Exploitation</h4>
+                    <!-- Text -->
+                    <p class="card-text mb-4">CSRF</p>
+                  </div>                    
+                </div>
+              </div>
+              <div class='card-footer mb-0 text-center'>
+              <a href="javascript:void(0);" class="btn btn-blue mb-0 mt-0 load-more" style="color:white; background-color: gray" title="Show More">Show More<i class="fas fa-angle-down fs-7 ml-2" style='vertical-align: middle;'></i></a>
+            </div>            
+            <!-- Card -->            
+          </div>
+          <div class='card col-lg-12 col-md-12 sol-sm-12 mb-3 ml-1' style='padding: 0px'>            
+            <!-- Card -->            
+              <div class="card-header">
+                <div class='row' style='width:100%; margin: 0px'>
+                  <p><h4 class='mb-0'><i class="fas fa-fingerprint fs-7 ml-2" style='vertical-align: middle; color: #10ac7d'></i><strong style='vertical-align: middle; vertical-align: middle;' class='ml-2'>Data Visualization</strong></h4></p>
+                </div>
+              </div>
+              <!-- Card content -->
+              <div class="card-body">      
+                <div class='advanced'>
+                  <div class="label-items">
+                    <span>Advanced Skills</span>
+                    <span>90%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                    </div>
+                  </div>
+                  <div class='advanced-skills ml-4'>                                      
+                    <!-- Title -->
+                    <h4 class="card-title mb-0">Visualization Techniques</h4>
+                    <!-- Text -->
+                    <p class="card-text mb-4">Interactive Visualization</p>
+                    <!-- Title -->
+                    <h4 class="card-title mb-0">Designing</h4>
+                    <!-- Text -->
+                    <p class="card-text mb-4">Adobe Suite (Illustrator, Photoshop)</p>
+                  </div>                    
+                </div>
+                <div class='intermediate mt-2 last-item-handle last-item'>    
+                  <div class="label-items">
+                    <span>Intermediate Skills</span>
+                    <span>70%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                    </div>
+                  </div>
+                  <div class='intermediate-skills ml-4'>                                      
+                    <!-- Title -->
+                    <h4 class="card-title mb-0">Languages and Library</h4>
+                    <!-- Text -->
+                    <p class="card-text mb-4">D3.js, R</p>
+                    <!-- Title -->
+                    <h4 class="card-title mb-0">Softwares</h4>
+                    <!-- Text -->
+                    <p class="card-text mb-4">Tableau, PowerBI, TIBCO Spotfire</p>
+                  </div>                    
+                </div>
+                <div class='beginner mt-2 hides' style='display: none'>    
+                  <div class="label-items">
+                    <span>Beginner Skills</span>
+                    <span>30%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">
+                    </div>
+                  </div>
+                  <div class='beginner-skills ml-4'>                                      
+                    <!-- Title -->
+                    <h4 class="card-title mb-0">Techniques</h4>
+                    <!-- Text -->
+                    <p class="card-text mb-4">Network Visualization</p>
+                  </div>                    
+                </div>
+              </div>
+              <div class='card-footer mb-0 text-center'>
+              <a href="javascript:void(0);" class="btn btn-blue mb-0 mt-0 load-more" style="color:white; background-color: gray" title="Show More">Show More<i class="fas fa-angle-down fs-7 ml-2" style='vertical-align: middle;'></i></a>
+            </div>            
+            <!-- Card -->            
+          </div>
+          <div class='card col-lg-12 col-md-12 sol-sm-12 mb-3 ml-1' style='padding: 0px'>            
+            <!-- Card -->            
+              <div class="card-header">
+                <div class='row' style='width:100%; margin: 0px'>
+                  <p><h4 class='mb-0'><i class="fas fa-fingerprint fs-7 ml-2" style='vertical-align: middle; color: #10ac7d'></i><strong style='vertical-align: middle; vertical-align: middle;' class='ml-2'>Computer Programming</strong></h4></p>
+                </div>
+              </div>
+              <!-- Card content -->
+              <div class="card-body">      
+                <div class='advanced'>
+                  <div class="label-items">
+                    <span>Advanced Skills</span>
+                    <span>90%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                    </div>
+                  </div>
+                  <div class='advanced-skills ml-4'>                                      
+                    <!-- Title -->
+                    <h4 class="card-title mb-0">Languages</h4>
+                    <!-- Text -->
+                    <p class="card-text mb-4">Python</p>                                 
+                  </div>                    
+                </div>
+                <div class='intermediate mt-2 last-item-handle last-item'>    
+                  <div class="label-items">
+                    <span>Intermediate Skills</span>
+                    <span>70%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                    </div>
+                  </div>
+                  <div class='intermediate-skills ml-4'>                                      
+                    <!-- Title -->
+                    <h4 class="card-title mb-0">Languages</h4>
+                    <!-- Text -->
+                    <p class="card-text mb-4">C++, JS, C</p>                    
+                  </div>                    
+                </div>
+                <div class='beginner mt-2 hides' style='display: none'>    
+                  <div class="label-items">
+                    <span>Beginner Skills</span>
+                    <span>30%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">
+                    </div>
+                  </div>
+                  <div class='beginner-skills ml-4'>                                      
+                    <!-- Title -->
+                    <h4 class="card-title mb-0">Languages</h4>
+                    <!-- Text -->
+                    <p class="card-text mb-4">Go, Prolog</p>
                   </div>                    
                 </div>
               </div>
@@ -269,7 +439,8 @@ background: -webkit-linear-gradient(left, #f2d082 25%, #f28282 75%) !important; 
       $('.load-more').on('click', function() {
         if ($(this)[0].innerHTML[5]=='M'){
           for(var i=0;i<$('.load-more').length;i++){
-          $('.load-more')[i].parentNode.parentNode.getElementsByClassName('intermediate-handle')[0].classList.add("intermediate");
+          $('.load-more')[i].parentNode.parentNode.getElementsByClassName('last-item-handle')[0].classList.add("last-item");
+          $('.load-more')[i].parentNode.parentNode.getElementsByClassName('hides')[0].style.display='none';
           $('.load-more')[i].innerHTML = 'Show More<i class="fas fa-angle-down fs-7 ml-2" style="vertical-align: middle;" aria-hidden="true"></i>';
           $('.load-more')[i].classList.remove('btn-green');
           $('.load-more')[i].classList.add('btn-blue');
@@ -277,14 +448,16 @@ background: -webkit-linear-gradient(left, #f2d082 25%, #f28282 75%) !important; 
         }
         if ($(this)[0].innerHTML[5]=='M')
         {
-          $(this)[0].parentNode.parentNode.getElementsByClassName('intermediate-handle')[0].classList.remove("intermediate");
+          $(this)[0].parentNode.parentNode.getElementsByClassName('last-item-handle')[0].classList.remove("last-item");
+          $(this)[0].parentNode.parentNode.getElementsByClassName('hides')[0].style.display='block';
           $(this)[0].innerHTML = 'Show Less<i class="fas fa-angle-up fs-7 ml-2" style="vertical-align: middle;" aria-hidden="true"></i>';
           $(this)[0].classList.add('btn-green');
           $(this)[0].classList.remove('btn-blue');
         }
         else
         {
-          $(this)[0].parentNode.parentNode.getElementsByClassName('intermediate-handle')[0].classList.add("intermediate");
+          $(this)[0].parentNode.parentNode.getElementsByClassName('last-item-handle')[0].classList.add("last-item");
+          $(this)[0].parentNode.parentNode.getElementsByClassName('hides')[0].style.display='none';
           $(this)[0].innerHTML = 'Show More<i class="fas fa-angle-down fs-7 ml-2" style="vertical-align: middle;" aria-hidden="true"></i>';
           $(this)[0].classList.remove('btn-green');
           $(this)[0].classList.add('btn-blue');

@@ -32,12 +32,12 @@ Current
 **2019 - 2021**
 {: .label .label-yellow }
 
-[![Arizona State University][Arizona-State-University-img]{: .img-responsive .logo .d-inline-block .col-6 .logo-link width="10%"}][Arizona-State-University-link]
+<!-- [![Arizona State University][Arizona-State-University-img]{: .img-responsive .logo .d-inline-block .col-6 .logo-link width="10%"}][Arizona-State-University-link]
 
 [Arizona-State-University-img]:  ../../assets/images/vit.png
-[Arizona-State-University-link]:  https://www.asu.edu/ "Redirect to - Arizona State University" 
+[Arizona-State-University-link]:  https://www.asu.edu/ "Redirect to - Arizona State University"  -->
 
-Master of Science in Computer Science - GPA: 3.56/4.00
+Master of Science in Computer Science - GPA: 3.78/4.00
 
 
 ### Interest

@@ -29,10 +29,10 @@ description: "Atit Gaonkar | Certification"
 
 Oct 2017
 
-[![Certificate][Certificate-img]{: .img-responsive .logo .d-inline-block .logo-link height="10%" width="20%"}][Certificate-link]
+<!-- [![Certificate][Certificate-img]{: .img-responsive .logo .d-inline-block .logo-link height="10%" width="20%"}][Certificate-link]
 
 [Certificate-img]:  ../../assets/images/CEH_2E345519D3F7.png
-[Certificate-link]:  https://vit.ac.in/ "Redirect to - EC-Council" 
+[Certificate-link]:  https://vit.ac.in/ "Redirect to - EC-Council"  -->
 
 
 ```yaml

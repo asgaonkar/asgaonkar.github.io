@@ -35,6 +35,7 @@
     width: calc((100% - #{$nav-width + $content-width}) / 2 + #{$nav-width});
     min-width: $nav-width;
   }
+
 }
 
 .main-content-wrap {
@@ -57,9 +58,14 @@
     margin-left: $nav-width-md;
   }
 
+  // @include mq(lg) {
+  //   margin-left: calc((100% - #{$nav-width + $content-width}) / 2 + #{$nav-width});
+  // }
+
   @include mq(lg) {
     margin-left: calc((100% - #{$nav-width + $content-width}) / 2 + #{$nav-width});
   }
+
 }
 
 .js-main-content:focus {

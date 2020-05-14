@@ -12,19 +12,19 @@ description: "Atit Gaonkar | Contact"
             <img src="../assets/images/logo.png" class="img-fluid z-depth-1 logo" alt="Atit Gaonkar" height='75px' width='75px'>
         </div>
         <div class="card-body">
-            <div class="row">
-                <div class="col-xl-4 col-lg-5 col-md-5 col-sm-6 mt-8 my-auto" style="padding-bottom: 20px">
-                    <img src="../assets/images/atit-gaonkar.jpg" class="ml-5 img-fluid z-depth-1 rounded-circle shadow atit-intro" alt="Atit Gaonkar" style="box-shadow: 0 5px 10px 0 rgba(0,0,0,0.16),0 8px 15px 0 rgba(0,0,0,0.12) !important;" width='75%'>
-                </div>
-                <div class="col-xl-8 col-lg-7 col-md-7 col-sm-6">
+            <div class="row">                
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 my-auto">
                     <p class='fs-4 ml-2 mb-2'><a href="mailto:atit.sgaonkar@gmail.com" class="fas fa-envelope fs-7 mr-2" style='vertical-align: middle;' target="_blank"></a><a target="_blank" style='color:#007bff' href="mailto:atit.sgaonkar@gmail.com">atit.sgaonkar@gmail.com</a></p>                    
                     <p class='fs-4 ml-2 mb-2'><a href="https://www.linkedin.com/in/atit-gaonkar/" class="fab fa-linkedin fs-7 mr-2" style='vertical-align: middle;' target="_blank"></a><a target="_blank" style='color:#007bff' href="https://www.linkedin.com/in/atit-gaonkar/">linkedin.com/in/atit-gaonkar</a></p>
                     <p class='fs-4 ml-2 mb-2'><a href="https://github.com/asgaonkar" class="fab fa-github fs-7 mr-2" style='vertical-align: middle;' target="_blank"></a><a target="_blank" style='color:#007bff' href="https://github.com/asgaonkar">github.com/asgaonkar</a></p>
                     <p class='fs-4 ml-2 mb-2'><a href="https://www.instagram.com/atit.sgaonkar/" class="fab fa-instagram fs-7 mr-2" style='vertical-align: middle;' target="_blank"></a><a target="_blank" style='color:#007bff' href="https://www.instagram.com/atit.sgaonkar/">instagram.com/atit.sgaonkar</a></p>
                 </div>
-            </div>
-            <div class='row map mb-0 ml-2 mr-2 mt-2' style='display: block; box-shadow:  0px 0px 15px 5px rgba(0, 0, 0, 0.075) !important;'>      
-                <iframe src="https://maps.google.com/maps?q=Tempe+85281&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" width='100%' height='300px' style="border:0" allowfullscreen></iframe>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 mt-8 my-auto" style="padding-bottom: 20px">
+                    <!-- <img src="../assets/images/atit-gaonkar.jpg" class="ml-5 img-fluid z-depth-1 rounded-circle shadow atit-intro" alt="Atit Gaonkar" style="box-shadow: 0 5px 10px 0 rgba(0,0,0,0.16),0 8px 15px 0 rgba(0,0,0,0.12) !important;" width='75%'> -->
+                    <div class='row map mb-0 ml-2 mr-2 mt-2 mb-2'>      
+                        <iframe style='display: block; box-shadow:  0px 0px 15px 10px rgba(0, 0, 0, 0.075) !important;' src="https://maps.google.com/maps?q=Tempe+85281&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" width='100%' height='300px' allowfullscreen></iframe>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="card-footer text-center" style='display: none'>

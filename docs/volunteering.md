@@ -6,6 +6,14 @@ permalink: /volunteering/
 description: "Atit Gaonkar | Volunteering"
 ---
 
+<style>
+
+.horizontal-rule{
+    border-top: 1px solid #DDD;
+}
+
+</style>
+
 # Volunteering Experience
 {: .no_toc }
 
@@ -30,8 +38,11 @@ Prem Ashram Charitable Trust, India
 {: .mb-0}
 
 Jul 2018 - Sep 2018
+{: .mb-2}
 
-- Worked on developing a website following iterative SDLC approach to replace the old existing website. Front-end is supported by HTML, CSS (Bootstrap) and JS, whereas the Back-end was coded using PHP/MySQL.
+<div class="horizontal-rule mb-4"></div>
+
+- Worked on developing a website following iterative SDLC approach to replace the old existing website. Front-end is supported by [HTML](https://en.wikipedia.org/wiki/HTML5){: .target-blank}, [CSS (Bootstrap)](https://getbootstrap.com/){: .target-blank} and [JS](https://en.wikipedia.org/wiki/JavaScript){: .target-blank}, whereas the Back-end was coded using [PHP](){: .target-blank}/[MySQL](){: .target-blank}.
 
 - Interacting with people at various level indeed exposed me to situation where my abilities to prioritise and manage time effectively was tested It had a positive impact on me psychologically as well as physically. Taught me the importance of how a small good gesture can bring about a huge difference in others.
 

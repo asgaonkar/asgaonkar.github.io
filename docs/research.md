@@ -28,7 +28,7 @@ description: "Atit Gaonkar | Research"
 In-Progress
 {: .label .label-yellow .ml-3}
 
-Tradeoff between Data availability and Data security: "Is there a need for Dynamic Security Implementation ?"
+Tradeoff between Data availability and Data security: "Is there a need for Dynamic Security Implementation ?" ([Data Security](https://en.wikipedia.org/wiki/Data_security){: .target-blank})
 
 Current Status: <strong>Literature Survey</strong>
 
