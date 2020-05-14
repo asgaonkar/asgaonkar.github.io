@@ -117,10 +117,10 @@ Extra-Cirricular
 2014 - 2018
 {: .label .label-yellow }
 
-[![Vellore Institute of Technology][Vellore-Institute-of-Technology-img]{: .img-responsive .logo .d-inline-block .logo-link height="10%" width="10%"}][Vellore-Institute-of-Technology-link]
+<!-- [![Vellore Institute of Technology][Vellore-Institute-of-Technology-img]{: .img-responsive .logo .d-inline-block .logo-link height="10%" width="10%"}][Vellore-Institute-of-Technology-link]
 
 [Vellore-Institute-of-Technology-img]:  ../../assets/images/vit.png
-[Vellore-Institute-of-Technology-link]:  https://vit.ac.in/ "Redirect to - Vellore Institute of Technology" 
+[Vellore-Institute-of-Technology-link]:  https://vit.ac.in/ "Redirect to - Vellore Institute of Technology"  -->
 
 Bachelor of Technology in Computer Science and Engineering - CGPA: 8.98/10.0
 

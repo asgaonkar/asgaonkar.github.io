@@ -126,7 +126,7 @@ background: -webkit-linear-gradient(left, #f2d082 25%, #f28282 75%) !important; 
   </div>
   <div class="card mb-5" style="box-shadow:  0px 0px 15px 5px rgba(0, 0, 0, 0.075) !important; border-radius: 5px;">
       <div class="card-body">
-        <div class='row text-center'>
+        <div class='row text-center mb-4'>
           <h4 class="no_toc mb-2 text-center" id="skillset" style='width:100%;'><span style="font-size: 20px"><strong>SKILL SET</strong></span></h4>
         </div>        
         <div class='row ml-1 mr-1'>
@@ -272,7 +272,7 @@ background: -webkit-linear-gradient(left, #f2d082 25%, #f28282 75%) !important; 
             <!-- Card -->            
               <div class="card-header">
                 <div class='row' style='width:100%; margin: 0px'>
-                  <p><h4 class='mb-0'><i class="fas fa-fingerprint fs-7 ml-2" style='vertical-align: middle; color: #10ac7d'></i><strong style='vertical-align: middle; vertical-align: middle;' class='ml-2'>Data Visualization</strong></h4></p>
+                  <p><h4 class='mb-0'><i class="fas fa-chart-line fs-7 ml-2" style='vertical-align: middle; color: #10ac7d'></i><strong style='vertical-align: middle; vertical-align: middle;' class='ml-2'>Data Visualization</strong></h4></p>
                 </div>
               </div>
               <!-- Card content -->
@@ -343,7 +343,7 @@ background: -webkit-linear-gradient(left, #f2d082 25%, #f28282 75%) !important; 
             <!-- Card -->            
               <div class="card-header">
                 <div class='row' style='width:100%; margin: 0px'>
-                  <p><h4 class='mb-0'><i class="fas fa-fingerprint fs-7 ml-2" style='vertical-align: middle; color: #10ac7d'></i><strong style='vertical-align: middle; vertical-align: middle;' class='ml-2'>Computer Programming</strong></h4></p>
+                  <p><h4 class='mb-0'><i class="fas fa-code fs-7 ml-2" style='vertical-align: middle; color: #10ac7d'></i><strong style='vertical-align: middle; vertical-align: middle;' class='ml-2'>Computer Programming</strong></h4></p>
                 </div>
               </div>
               <!-- Card content -->
@@ -404,8 +404,8 @@ background: -webkit-linear-gradient(left, #f2d082 25%, #f28282 75%) !important; 
           </div>
         </div>
       </div>
-      <div class="card-footer text-center">
-      </div>
+      <!-- <div class="card-footer text-center">
+      </div> -->
   </div>          
 </div>
 

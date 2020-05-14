@@ -1,5 +1,5 @@
 ---
-layout: default_card
+layout: default_card_modal
 title: What Else
 nav_order: 98
 permalink: what-else/
