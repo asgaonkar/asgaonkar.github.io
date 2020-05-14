@@ -15,5 +15,5 @@ search: exclude
 {: .fs-4 .fw-100}
 
 
-Along with Academic projects, I keep myself productive with personal projects in-order to re-fuel my passion, hone my skills and to keep myself constantly motivated.
+I keep myself productive with personal projects in-order to re-fuel my passion, hone my skills and to stay constantly motivated.
 {: .fs-6 .fw-300 }

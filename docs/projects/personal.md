@@ -62,6 +62,9 @@ description: "Atit Gaonkar | Personal Projects"
     opacity: 0.35;
   }
 }
+.horizontal-rule{
+    border-top: 1px solid #DDD;
+}
 </style>
 
 ![Direction](../../assets/images/arrow-down.png){: .img-responsive .blinking .direction .down}
@@ -72,7 +75,7 @@ description: "Atit Gaonkar | Personal Projects"
 #### Display
 {: .no_toc }
 
-[All](#filter){: .btn .mr-4 .mb-2 .filter} [Top Projects](#filter){: .btn .btn-blue .mr-4 .mb-2 .filter} [Current (In-Progress)](#filter){: .btn .btn-blue .mr-4 .mb-2 .filter} [Completed](#filter){: .btn .btn-blue .mr-4 .mb-2 .filter}
+[Top Projects](#filter){: .btn .btn-blue .mr-4 .mb-2 .filter} [Completed](#filter){: .btn .btn-blue .mr-4 .mb-2 .filter} [Current (In-Progress)](#filter){: .btn .btn-blue .mr-4 .mb-2 .filter} 
 
 ## Table of contents
 {: .no_toc .text-delta }
@@ -85,87 +88,92 @@ description: "Atit Gaonkar | Personal Projects"
 ---
 
 ## Classifile
-{: .d-inline-block .all}
+{: .d-inline-block .top-project .all}
 
 python Watch-dog
-{: .label .label-blue }
+{: .label .label-green }
 
 Enhancing
 {: .label .label-yellow }
 
 
-Code can be rendered inline by wrapping it in single back ticks.
-
-<div class="code-example" markdown="1">
-Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-</div>
-```markdown
-Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+```yaml
+content
+button-link
+how to order (date or complex)
 ```
+
 <a href="https://github.com/asgaonkar/Classifile" class="btn btn-purple mr-2" style="color:white">Github</a>
 <!-- [Github](https://github.com/asgaonkar/Classifile){: .btn .btn-purple .mr-2} -->
 <!-- [Demo](){: .btn .btn-green .disabled} -->
 
+## Multi-fi
+{: .d-inline-block .top-project .completed .all}
+
+Python Scrapper
+{: .label .label-green }
+
+
+```yaml
+content
+button-link
+how to order (date or complex)
+```
+
+<a href="https://github.com/asgaonkar/Scrap-on-Campus" class="btn btn-purple mr-2" style="color:white">Github</a>
+<!-- [Github](https://github.com/asgaonkar/Scrap-on-Campus){: .btn .btn-purple } -->
 
 
 ## Scrap-on-Campus
-{: .d-inline-block .all}
+{: .d-inline-block .top-project .completed .all}
 
 Python Scrapper
-{: .label .label-blue }
+{: .label .label-green }
 
 
-Code can be rendered inline by wrapping it in single back ticks.
-
-<div class="code-example" markdown="1">
-Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-</div>
-```markdown
-Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+```yaml
+content
+button-link
+how to order (date or complex)
 ```
+
 <a href="https://github.com/asgaonkar/Scrap-on-Campus" class="btn btn-purple mr-2" style="color:white">Github</a>
 <!-- [Github](https://github.com/asgaonkar/Scrap-on-Campus){: .btn .btn-purple } -->
 
 
 
 ## US-AZ-2012 Election Visualization
-{: .d-inline-block .all}
+{: .d-inline-block .top-project .completed .all}
 
 Data Visualization
-{: .label .label-blue }
-Stable
 {: .label .label-green }
 
 
-Code can be rendered inline by wrapping it in single back ticks.
 
-<div class="code-example" markdown="1">
-Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-</div>
-```markdown
-Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+```yaml
+content
+button-link
+how to order (date or complex)
 ```
 
+
 ## The Hungry Customer
-{: .d-inline-block .all .in-progress .top-project}
+{: .d-inline-block .top-project .all .in-progress .top-project}
 
 Data Visualization
-{: .label .label-blue }
+{: .label .label-green }
 
 In-Progress
 {: .label .label-yellow }
 
 2014-2018
 
-Code can be rendered inline by wrapping it in single back ticks.
-
-
-<div class="code-example" markdown="1">
-Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-</div>
-```markdown
-Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+```yaml
+content
+button-link
+how to order (date or complex)
 ```
+
 <a href="https://github.com/asgaonkar/The-Hungry-Entrepreneur" class="btn btn-purple mr-2" style="color:white">Github</a>
 <!-- [Github](https://github.com/asgaonkar/The-Hungry-Entrepreneur){: .btn .btn-purple .mr-2 } -->
 <a href="#" class="btn btn-green disabled" style="color:white; background-color: gray">Demo</a>
@@ -174,20 +182,18 @@ Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiu
 
 
 ## Road to Glory
-{: .d-inline-block .completed .top-project .all}
+{: .d-inline-block .top-project .completed .top-project .all}
 
 Data Visualization
-{: .label .label-blue }
+{: .label .label-green }
 
 
-Code can be rendered inline by wrapping it in single back ticks.
-
-<div class="code-example" markdown="1">
-Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-</div>
-```markdown
-Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+```yaml
+content
+button-link
+how to order (date or complex)
 ```
+
 
 <a href="https://github.com/asgaonkar/Road-to-Glory" target='blank' class="btn btn-purple mr-2" style="color:white">Github</a>
 <a href="https://asgaonkar.github.io/Road-to-Glory/" target='blank' class="btn btn-green" style="color:white;">Demo</a>
@@ -199,47 +205,37 @@ Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiu
 
 
 ## RSA-Blind-Signature
-{: .d-inline-block .all}
+{: .d-inline-block .top-project .all}
 
 Applied Cryptography
-{: .label .label-blue }
-Stable
 {: .label .label-green }
 
 
-Code can be rendered inline by wrapping it in single back ticks.
 
-<div class="code-example" markdown="1">
-Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-</div>
-```markdown
-Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+```yaml
+content
+button-link
+how to order (date or complex)
 ```
+
 <a href="https://github.com/asgaonkar/RSA-Blind-Signature" class="btn btn-purple mr-2" style="color:white">Github</a>
 <!-- [Github](https://github.com/asgaonkar/RSA-Blind-Signature){: .btn .btn-purple } -->
 
 
 
 ## 2D Blind kMeans-Clustering
-{: .d-inline-block .all}
+{: .d-inline-block .top-project .all}
 
 Machine Learning
-{: .label .label-blue }
-Stable
 {: .label .label-green }
 
 
-Code can be rendered inline by wrapping it in single back ticks.
 
-<div class="code-example" markdown="1">
-Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-</div>
-```markdown
-Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+```yaml
+content
+button-link
+how to order (date or complex)
 ```
-<a href="https://github.com/asgaonkar/2D-Blind-kMeans-Clustering" class="btn btn-purple mr-2" style="color:white">Github</a>
-<!-- [Github](https://github.com/asgaonkar/2D-Blind-kMeans-Clustering){: .btn .btn-purple } -->
-
 
 <a href="https://github.com/asgaonkar/US-AZ-2012Election-Viz" class="btn btn-purple mr-2" style="color:white !important;">Github</a>
 <a href="https://asgaonkar.github.io/US-AZ-2012Election-Viz" class="btn btn-green" style="color:white !important;">Demo</a>
@@ -254,7 +250,7 @@ Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiu
   try {
     AOS.init();
     $(window).on('load', function() {
-      document.getElementsByClassName('filter')[1].click();
+      document.getElementsByClassName('filter')[0].click();
       for(var i=0;i<document.getElementsByClassName('bootstrap-iso').length;i++)
       {
           document.getElementsByClassName('tags')[i].setAttribute("id", document.getElementsByClassName('bootstrap-iso')[i].getElementsByTagName('h2')[0].getAttribute('id'))
@@ -342,13 +338,9 @@ Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiu
       {
         class_name = "top-project";
       }
-      else if(action.innerHTML=="Current (In-Progress)")
-      {
-        class_name = "in-progress";
-      }
       else
       {
-        class_name = "all";
+        class_name = "in-progress";
       }
       for(var i=0;i<$('.tags').length;i++)
       {

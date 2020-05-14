@@ -64,6 +64,9 @@ description: "Atit Gaonkar | Projects @VIT"
     opacity: 0.35;
   }
 }
+.horizontal-rule{
+    border-top: 1px solid #DDD;
+}
 </style>
 
 ![Direction](../../assets/images/arrow-down.png){: .img-responsive .blinking .direction .down}
@@ -75,7 +78,7 @@ description: "Atit Gaonkar | Projects @VIT"
 #### Display
 {: .no_toc }
 
-[All](#filter){: .btn .mr-4 .mb-2 .filter} [Top Projects](#filter){: .btn .btn-blue .mr-4 .mb-2 .filter}
+[Top Projects](#filter){: .btn .btn-blue .mr-4 .mb-2 .filter}
 
 
 ## Table of contents
@@ -88,49 +91,107 @@ description: "Atit Gaonkar | Projects @VIT"
 
 ---
 
-## Inline code
-{: .d-inline-block .all .top-project}
+## Carry-o-Bot
+{: .d-inline-block .top-project .completed .all}
 
-Data Visualization
-{: .label .label-blue }
+Python Scrapper
+{: .label .label-green }
 
-Code can be rendered inline by wrapping it in single back ticks.
 
-<div class="code-example" markdown="1">
-Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-</div>
-```markdown
-Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+```yaml
+content
+button-link
+how to order (date or complex)
 ```
 
+<a href="https://github.com/asgaonkar/Scrap-on-Campus" class="btn btn-purple mr-2" style="color:white">Github</a>
+<!-- [Github](https://github.com/asgaonkar/Scrap-on-Campus){: .btn .btn-purple } -->
 
 
-## Syntax highlighted code blocks
-{: .d-inline-block .completed .top-project .all}
 
-Data Visualization
-{: .label .label-blue }
 
-Use Jekyll's built-in syntax highlighting with Rouge for code blocks by using three backticks, followed by the language name:
+## Katsuva
+{: .d-inline-block .top-project .completed .all}
 
-<div class="code-example" markdown="1">
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
+Python Scrapper
+{: .label .label-green }
+
+
+```yaml
+content
+button-link
+how to order (date or complex)
 ```
-</div>
-{% highlight markdown %}
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
+
+<a href="https://github.com/asgaonkar/Scrap-on-Campus" class="btn btn-purple mr-2" style="color:white">Github</a>
+<!-- [Github](https://github.com/asgaonkar/Scrap-on-Campus){: .btn .btn-purple } -->
+
+
+## Modelling Inter Transit Time
+{: .d-inline-block .top-project .completed .all}
+
+Python Scrapper
+{: .label .label-green }
+
+
+```yaml
+content
+button-link
+how to order (date or complex)
 ```
-{% endhighlight %}
+
+<a href="https://github.com/asgaonkar/Scrap-on-Campus" class="btn btn-purple mr-2" style="color:white">Github</a>
+<!-- [Github](https://github.com/asgaonkar/Scrap-on-Campus){: .btn .btn-purple } -->
+
+## Christopher: Windows Finder
+{: .d-inline-block .top-project .completed .all}
+
+Python Scrapper
+{: .label .label-green }
+
+
+```yaml
+content
+button-link
+how to order (date or complex)
+```
+
+<a href="https://github.com/asgaonkar/Scrap-on-Campus" class="btn btn-purple mr-2" style="color:white">Github</a>
+<!-- [Github](https://github.com/asgaonkar/Scrap-on-Campus){: .btn .btn-purple } -->
+
+
+## Crysteg
+{: .d-inline-block .top-project .completed .all}
+
+Python Scrapper
+{: .label .label-green }
+
+
+```yaml
+content
+button-link
+how to order (date or complex)
+```
+
+<a href="https://github.com/asgaonkar/Scrap-on-Campus" class="btn btn-purple mr-2" style="color:white">Github</a>
+<!-- [Github](https://github.com/asgaonkar/Scrap-on-Campus){: .btn .btn-purple } -->
+
+
+## Automated Rooftop Gardening
+{: .d-inline-block .top-project .completed .all}
+
+Python Scrapper
+{: .label .label-green }
+
+
+```yaml
+content
+button-link
+how to order (date or complex)
+```
+
+<a href="https://github.com/asgaonkar/Scrap-on-Campus" class="btn btn-purple mr-2" style="color:white">Github</a>
+<!-- [Github](https://github.com/asgaonkar/Scrap-on-Campus){: .btn .btn-purple } -->
 
 
 
@@ -175,7 +236,7 @@ To demonstrate front end code, sometimes it's useful to show a rendered example 
   try {
     AOS.init();
     $(window).on('load', function() {
-      document.getElementsByClassName('filter')[1].click();
+      document.getElementsByClassName('filter')[0].click();
       for(var i=0;i<document.getElementsByClassName('bootstrap-iso').length;i++)
       {
           document.getElementsByClassName('tags')[i].setAttribute("id", document.getElementsByClassName('bootstrap-iso')[i].getElementsByTagName('h2')[0].getAttribute('id'))

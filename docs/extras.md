@@ -46,17 +46,17 @@ A good photo manipulation technique invovles but not limited to taking care of c
 <div class="bootstrap-iso">
     <div class="row text-center text-lg-left">
         <div class="col-lg-4 col-md-4 col-sm-12 img-hover-zoom">
-        <a href="#" class="d-block mb-4 h-100">
+        <a href="javascript:void(0)" class="d-block mb-4 h-100 image-href">
                 <img class="img-fluid img-thumbnail" src="../assets/images/what_else/manipulation/birds.jpg" alt="">            
             </a>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-12 img-hover-zoom">
-        <a href="#" class="d-block mb-4 h-100">
+        <a href="javascript:void(0)" class="d-block mb-4 h-100 image-href">
                 <img class="img-fluid img-thumbnail" src="../assets/images/what_else/manipulation/butterfly.jpg" alt="">
             </a>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-12 img-hover-zoom">
-        <a href="#" class="d-block mb-4 h-100">
+        <a href="javascript:void(0)" class="d-block mb-4 h-100 image-href">
                 <img class="img-fluid img-thumbnail" src="../assets/images/what_else/manipulation/dolphin.jpg" alt="">
             </a>
         </div>
@@ -70,42 +70,18 @@ Logo designing brings about creativity and imagination to identify the values, c
 <div class="bootstrap-iso">
     <div class="row text-center text-lg-left">
         <div class="col-lg-4 col-md-4 col-sm-12 img-hover-zoom">
-        <a href="#" class="d-block mb-4 h-100">
+        <a href="javascript:void(0)" class="d-block mb-4 h-100 image-href">
                 <img class="img-fluid img-thumbnail" src="../assets/images/what_else/designing/invisible.jpg" alt="">
             </a>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-12 img-hover-zoom">
-        <a href="#" class="d-block mb-4 h-100">
+        <a href="javascript:void(0)" class="d-block mb-4 h-100 image-href">
                 <img class="img-fluid img-thumbnail" src="../assets/images/what_else/designing/motion.jpg" alt="">
             </a>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-12 img-hover-zoom">
-        <a href="#" class="d-block mb-4 h-100">
+        <a href="javascript:void(0)" class="d-block mb-4 h-100 image-href">
                 <img class="img-fluid img-thumbnail" src="../assets/images/what_else/designing/record.jpg" alt="">
-            </a>
-        </div>
-    </div>
-</div>
-
-## Photo Editing
-
-Instead of mere visualizing an image, there is a possibility to understand the essence of the image through it's captions. Embedding a short caption can enlarge the information images convey.
-
-<div class="bootstrap-iso">
-    <div class="row text-center text-lg-left">
-        <div class="col-lg-4 col-md-4 col-sm-12 img-hover-zoom">
-        <a href="#" class="d-block mb-4 h-100">
-                <img class="img-fluid img-thumbnail" src="../assets/images/what_else/travel/roam.jpg" alt="">
-            </a>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-12 img-hover-zoom">
-        <a href="#" class="d-block mb-4 h-100">
-                <img class="img-fluid img-thumbnail" src="../assets/images/what_else/travel/travel.jpg" alt="">
-            </a>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-12 img-hover-zoom">
-        <a href="#" class="d-block mb-4 h-100">
-                <img class="img-fluid img-thumbnail" src="../assets/images/what_else/travel/wander.jpg" alt="">
             </a>
         </div>
     </div>
@@ -145,5 +121,10 @@ Instead of mere visualizing an image, there is a possibility to understand the e
         });
         $('.main-content-wrap')[0].scrollTop += 1;
         $('.main-content-wrap')[0].scrollTop -= 1;
-  });
+    });
+    $('a.image-href').on('click', function() {
+        console.log($(this)[0],document.getElementsByClassName('modal-button')[0].click());
+        var source = $(this)[0].getElementsByTagName('img')[0].getAttribute('src');
+        document.getElementsByClassName('current-image')[0].setAttribute('src',source);
+    });
 </script>

@@ -72,8 +72,12 @@ a img
   text-decoration: none;
 }
 
+.horizontal-rule{
+    border-top: 1px solid #DDD;
+}
 
 </style>
+
 
 ![Direction](../../assets/images/arrow-down.png){: .img-responsive .blinking .direction .down}
 
@@ -84,7 +88,7 @@ a img
 #### Display
 {: .no_toc }
 
-[All](#filter){: .btn .mr-4 .mb-2 .filter} [Top Projects](#filter){: .btn .btn-blue .mr-4 .mb-2 .filter} [Current (In-Progress)](#filter){: .btn .btn-blue .mr-4 .mb-2 .filter} [Completed](#filter){: .btn .btn-blue .mr-4 .mb-2 .filter}
+[Top Projects](#filter){: .btn .btn-blue .mr-4 .mb-2 .filter} [Completed](#filter){: .btn .btn-blue .mr-4 .mb-2 .filter} [Current (In-Progress)](#filter){: .btn .btn-blue .mr-4 .mb-2 .filter}
 
 
 ## Table of contents
@@ -98,22 +102,29 @@ a img
 ---
 
 
-## Food Explorer
-{: .all .in-progress .top-project .mr-3 }
 
-2014-2018
+## Food Explorer
+{: .top-project .in-progress .top-project .mr-3 .d-inline-block}
+
+Data Visualization
+{: .label .label-green }
+
+Feb 2020 - April 2020
+{: .mb-2}
+
+<div class="horizontal-rule mb-4"></div>
 
 [![Food-Explorer][food-explorer-img]{: .img-responsive .noDecoration .logo .logo-link height="25%" width="25%"}][food-explorer-link]
 
 [food-explorer-img]:  ../../assets/images/food-explorer.png
 [food-explorer-link]:  https://asgaonkar.github.io/The-Hungry-Customer/ "Redirect to Food Explorer" 
 
-
-Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-```markdown
-Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+```yaml
+content
+button-link
+how to order (date or complex)
 ```
+
 <a href="https://github.com/asgaonkar/The-Hungry-Customer" class="btn btn-purple mr-2" target="blank" style="color:white">Github</a>
 <!-- [Github](https://github.com/asgaonkar/The-Hungry-Entrepreneur){: .btn .btn-purple .mr-2 } -->
 <a href="https://asgaonkar.github.io/The-Hungry-Customer/" class="btn btn-green" target="blank" style="color:white; background-color: gray">Demo</a>
@@ -122,19 +133,22 @@ Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit. sed do eiu
 
 
 ## Road to Glory
-{: .d-inline-block .completed .top-project .all}
+{: .d-inline-block .completed .top-project .top-project}
 
 Data Visualization
-{: .label .label-blue }
+{: .label .label-green }
+
+Feb 2020 - April 2020
+{: .mb-2}
+
+<div class="horizontal-rule mb-4"></div>
 
 
-Code can be rendered inline by wrapping it in single back ticks.
-
-<div class="code-example" markdown="1">
-Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-</div>
-```markdown
-Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+```yaml
+content
+static image - roger federer
+button-link
+how to order (date or complex)
 ```
 
 <a href="https://github.com/asgaonkar/Road-to-Glory" target='blank' class="btn btn-purple mr-2" style="color:white">Github</a>
@@ -147,68 +161,88 @@ Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiu
 
 
 ## RSA-Blind-Signature
-{: .d-inline-block .all}
+{: .d-inline-block .top-project}
 
 Applied Cryptography
-{: .label .label-blue }
-Stable
 {: .label .label-green }
 
 
-Code can be rendered inline by wrapping it in single back ticks.
-
-<div class="code-example" markdown="1">
-Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-</div>
-```markdown
-Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+```yaml
+content
+button-link
+how to order (date or complex)
 ```
+
 <a href="https://github.com/asgaonkar/RSA-Blind-Signature" class="btn btn-purple mr-2" style="color:white">Github</a>
 <!-- [Github](https://github.com/asgaonkar/RSA-Blind-Signature){: .btn .btn-purple } -->
 
 
 
 ## 2D Blind kMeans-Clustering
-{: .d-inline-block .all}
+{: .d-inline-block .top-project}
 
 Machine Learning
-{: .label .label-blue }
-Stable
 {: .label .label-green }
 
 
-Code can be rendered inline by wrapping it in single back ticks.
-
-<div class="code-example" markdown="1">
-Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-</div>
-```markdown
-Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+```yaml
+content
+button-link
+how to order (date or complex)
 ```
+
+<a href="https://github.com/asgaonkar/2D-Blind-kMeans-Clustering" class="btn btn-purple mr-2" style="color:white">Github</a>
+<!-- [Github](https://github.com/asgaonkar/2D-Blind-kMeans-Clustering){: .btn .btn-purple } -->
+
+
+## Cryptanalysis
+{: .d-inline-block .top-project}
+
+Machine Learning
+{: .label .label-green }
+
+
+```yaml
+content
+button-link
+how to order (date or complex)
+```
+
+<a href="https://github.com/asgaonkar/2D-Blind-kMeans-Clustering" class="btn btn-purple mr-2" style="color:white">Github</a>
+<!-- [Github](https://github.com/asgaonkar/2D-Blind-kMeans-Clustering){: .btn .btn-purple } -->
+
+
+## Blind Signatures
+{: .d-inline-block .top-project}
+
+Machine Learning
+{: .label .label-green }
+
+
+```yaml
+content
+button-link
+how to order (date or complex)
+```
+
 <a href="https://github.com/asgaonkar/2D-Blind-kMeans-Clustering" class="btn btn-purple mr-2" style="color:white">Github</a>
 <!-- [Github](https://github.com/asgaonkar/2D-Blind-kMeans-Clustering){: .btn .btn-purple } -->
 
 
 
-
-
 ## Naive-Bayes and Logistic Regression
-{: .d-inline-block .all .complete}
+{: .d-inline-block .top-project .complete}
 
 Machine Learning
-{: .label .label-blue }
-Stable
 {: .label .label-green }
 
 
-Code can be rendered inline by wrapping it in single back ticks.
-
-<div class="code-example" markdown="1">
-Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-</div>
-```markdown
-Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+```yaml
+content
+button-link
+how to order (date or complex)
 ```
+
 <a href="https://github.com/asgaonkar/Naive-Bayes_and_Logistic-Regression" class="btn btn-purple mr-2" style="color:white">Github</a>
 <!-- [Github](https://github.com/asgaonkar/Naive-Bayes_and_Logistic-Regression){: .btn .btn-purple } -->
 
@@ -217,45 +251,56 @@ Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiu
 
 
 ## MBR Analysis
-{: .d-inline-block .all}
+{: .d-inline-block .top-project}
 
 Computer Forensics
-{: .label .label-blue }
-Stable
 {: .label .label-green }
 
 
-Code can be rendered inline by wrapping it in single back ticks.
 
-<div class="code-example" markdown="1">
-Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-</div>
-```markdown
-Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+```yaml
+content
+button-link
+how to order (date or complex)
 ```
+
 <a href="https://github.com/asgaonkar/Read-MBR" class="btn btn-purple mr-2" style="color:white">Github</a>
 <!-- [Github](https://github.com/asgaonkar/Read-MBR){: .btn .btn-purple } -->
 
 
 
+## Analysis of Phishing Kit
+{: .d-inline-block .top-project}
 
-## Crypto-Certificate Reader
-{: .d-inline-block .all}
-
-Applied Cryptography
-{: .label .label-blue }
-Stable
+Computer Forensics
 {: .label .label-green }
 
 
-Code can be rendered inline by wrapping it in single back ticks.
 
-<div class="code-example" markdown="1">
-Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-</div>
-```markdown
-Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+```yaml
+content
+button-link
+how to order (date or complex)
 ```
+
+<a href="#" class="btn btn-purple mr-2" style="color:white">Github</a>
+<!-- [Github](https://github.com/asgaonkar/Read-MBR){: .btn .btn-purple } -->
+
+
+## Crypto-Certificate Reader
+{: .d-inline-block .top-project}
+
+Applied Cryptography
+{: .label .label-green }
+
+
+
+```yaml
+content
+button-link
+how to order (date or complex)
+```
+
 <a href="https://github.com/asgaonkar/Crypto-Certificate-Reader" class="btn btn-purple mr-2" style="color:white">Github</a>
 <!-- [Github](https://github.com/asgaonkar/Crypto-Certificate-Reader){: .btn .btn-purple } -->
 
@@ -263,45 +308,91 @@ Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiu
 
 
 ## Blockchain-of-Custody 
-{: .d-inline-block .all}
+{: .d-inline-block .top-project}
 
 Computer Forensics
-{: .label .label-blue }
+{: .label .label-green }
+
 In-progress
 {: .label .label-yellow }
 
-
-Code can be rendered inline by wrapping it in single back ticks.
-
-<div class="code-example" markdown="1">
-Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-</div>
-```markdown
-Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+```yaml
+content
+button-link
+how to order (date or complex)
 ```
+
 <a href="#" class="btn btn-purple mr-2" style="color:white">Github</a>
 <!-- [Github](){: .btn .btn-purple .disabled} -->
 
 
-
-
-## MAC-Encryption 
-{: .d-inline-block .all}
+## Connsplit 
+{: .d-inline-block .top-project}
 
 Applied Cryptography
-{: .label .label-blue }
-Stable
 {: .label .label-green }
 
 
-Code can be rendered inline by wrapping it in single back ticks.
 
-<div class="code-example" markdown="1">
-Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-</div>
-```markdown
-Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+```yaml
+content
+button-link
+how to order (date or complex)
 ```
+
+<a href="https://github.com/asgaonkar/MAC-Encryption" class="btn btn-purple mr-2" style="color:white">Github</a>
+<!-- [Github](https://github.com/asgaonkar/MAC-Encryption){: .btn .btn-purple } -->
+
+
+
+## Binary Exploitation 
+{: .d-inline-block .top-project}
+
+Applied Cryptography
+{: .label .label-green }
+
+
+```yaml
+content
+button-link
+how to order (date or complex)
+```
+
+<a href="https://github.com/asgaonkar/MAC-Encryption" class="btn btn-purple mr-2" style="color:white">Github</a>
+<!-- [Github](https://github.com/asgaonkar/MAC-Encryption){: .btn .btn-purple } -->
+
+
+## Web Exploitation
+{: .d-inline-block .top-project}
+
+Applied Cryptography
+{: .label .label-green }
+
+
+
+```yaml
+content
+button-link
+how to order (date or complex)
+```
+
+<a href="https://github.com/asgaonkar/MAC-Encryption" class="btn btn-purple mr-2" style="color:white">Github</a>
+<!-- [Github](https://github.com/asgaonkar/MAC-Encryption){: .btn .btn-purple } -->
+
+## MAC-Encryption 
+{: .d-inline-block .top-project}
+
+Applied Cryptography
+{: .label .label-green }
+
+
+
+```yaml
+content
+button-link
+how to order (date or complex)
+```
+
 <a href="https://github.com/asgaonkar/MAC-Encryption" class="btn btn-purple mr-2" style="color:white">Github</a>
 <!-- [Github](https://github.com/asgaonkar/MAC-Encryption){: .btn .btn-purple } -->
 
@@ -330,7 +421,7 @@ Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiu
   try {
     AOS.init();
     $(window).on('load', function() {
-      document.getElementsByClassName('filter')[1].click();
+      document.getElementsByClassName('filter')[0].click();
       for(var i=0;i<document.getElementsByClassName('bootstrap-iso').length;i++)
       {
           document.getElementsByClassName('tags')[i].setAttribute("id", document.getElementsByClassName('bootstrap-iso')[i].getElementsByTagName('h2')[0].getAttribute('id'))
@@ -448,14 +539,10 @@ Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiu
       else if(action.innerHTML=="Top Projects")
       {
         class_name = "top-project";
-      }
-      else if(action.innerHTML=="Current (In-Progress)")
-      {
-        class_name = "in-progress";
-      }
+      }      
       else
       {
-        class_name = "all";
+        class_name = "in-progress";
       }
       for(var i=0;i<$('.tags').length;i++)
       {
