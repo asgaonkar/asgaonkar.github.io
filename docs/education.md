@@ -131,7 +131,7 @@ Bachelor of Technology in Computer Science and Engineering - CGPA: 8.98/10.0
 ```yaml
 Capstone Project
 ```
-<strong>Carry-o-Bot</strong>: Our capstone project involved desgining and implementing a secure low-cost [Level-2 Autonomous vehicle](https://en.wikipedia.org/wiki/Self-driving_car){: .target-blank}, able to deliver materialistics goods. 
+<strong>Carry-o-Bot</strong>: Our capstone project involved desgining and implementing a secure low-cost [Level-2 Autonomous vehicle](https://en.wikipedia.org/wiki/Self-driving_car){: .target-blank} able to deliver materialistics goods. 
 
 Carry-o-Bot solved common delivery issues of navigation, human interaction and integrity issues using various inter-disciplinary techniques of Networking, Face Recognition, Image Processing and Machine Learning.
 

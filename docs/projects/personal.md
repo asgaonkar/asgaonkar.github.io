@@ -87,166 +87,80 @@ description: "Atit Gaonkar | Personal Projects"
 
 ---
 
-## Classifile
-{: .d-inline-block .top-project .all}
+## Secure Audit Logs
+{: .top-project .d-inline-block .in-progress}
 
-python Watch-dog
-{: .label .label-green }
+Logging System
+{: .label .label-green .ml-3}
 
-Enhancing
-{: .label .label-yellow }
-
+In-Progress
+{: .label .label-yellow .ml-3}
 
 ```yaml
-content
-button-link
-how to order (date or complex)
+May 2020 - Present
 ```
+
+Implementing and maintaining a ﬁle of **Secure** [Audit Log](https://en.wikipedia.org/wiki/Audit_trail){: .target-blank} system through computationally cheap methods. So in the event of log compromise, it should be impossible for the attacker to read and modify without being detectable.
+
+> [#Security](){: .target-blank} [#Forensics](){: .target-blank}
+
+<!-- <a href="javascript:void(0)" class="btn mr-2" style="color:white; background-color: gray; cursor: no-drop !important" disabled>Github</a> -->
+
+
+
+
+## Classifile
+{: .d-inline-block .top-project .completed }
+
+Automation
+{: .label .label-green }
+
+Automating the process of [File Segregation](){: .target-blank} in a file system based on user defined categories. Folders such as Downloads, Desktop and Documents easily become mixed-up and all over the place. Classifile provides ability to systematically organize such Folders.
+
+> [#Automation](){: .target-blank} [#Python-WatchDog](){: .target-blank}
 
 <a href="https://github.com/asgaonkar/Classifile" class="btn btn-purple mr-2" style="color:white">Github</a>
 <!-- [Github](https://github.com/asgaonkar/Classifile){: .btn .btn-purple .mr-2} -->
 <!-- [Demo](){: .btn .btn-green .disabled} -->
 
+
+
 ## Multi-fi
-{: .d-inline-block .top-project .completed .all}
+{: .d-inline-block .top-project .completed }
 
-Python Scrapper
+Network Utility
 {: .label .label-green }
 
+A network utility that enables a Windows wifi recipient to also act as a wifi hotspot for other devices. **Wifi and Hotspot** at the same time.
 
-```yaml
-content
-button-link
-how to order (date or complex)
-```
+> [#Networks](){: .target-blank} [#Scripting](){: .target-blank}
 
-<a href="https://github.com/asgaonkar/Scrap-on-Campus" class="btn btn-purple mr-2" style="color:white">Github</a>
+<a href="#" class="btn btn-purple mr-2" style="color:white">Github</a>
 <!-- [Github](https://github.com/asgaonkar/Scrap-on-Campus){: .btn .btn-purple } -->
 
-
-## Scrap-on-Campus
-{: .d-inline-block .top-project .completed .all}
-
-Python Scrapper
-{: .label .label-green }
-
-
-```yaml
-content
-button-link
-how to order (date or complex)
-```
-
-<a href="https://github.com/asgaonkar/Scrap-on-Campus" class="btn btn-purple mr-2" style="color:white">Github</a>
-<!-- [Github](https://github.com/asgaonkar/Scrap-on-Campus){: .btn .btn-purple } -->
-
-
-
-## US-AZ-2012 Election Visualization
-{: .d-inline-block .top-project .completed .all}
-
-Data Visualization
-{: .label .label-green }
-
-
-
-```yaml
-content
-button-link
-how to order (date or complex)
-```
-
-
-## The Hungry Customer
-{: .d-inline-block .top-project .all .in-progress .top-project}
-
-Data Visualization
-{: .label .label-green }
-
-In-Progress
-{: .label .label-yellow }
-
-2014-2018
-
-```yaml
-content
-button-link
-how to order (date or complex)
-```
-
-<a href="https://github.com/asgaonkar/The-Hungry-Entrepreneur" class="btn btn-purple mr-2" style="color:white">Github</a>
-<!-- [Github](https://github.com/asgaonkar/The-Hungry-Entrepreneur){: .btn .btn-purple .mr-2 } -->
-<a href="#" class="btn btn-green disabled" style="color:white; background-color: gray">Demo</a>
-<!-- [Demo](){: .btn .btn-green .disabled} -->
-
-
-
-## Road to Glory
-{: .d-inline-block .top-project .completed .top-project .all}
-
-Data Visualization
-{: .label .label-green }
-
-
-```yaml
-content
-button-link
-how to order (date or complex)
-```
-
-
-<a href="https://github.com/asgaonkar/Road-to-Glory" target='blank' class="btn btn-purple mr-2" style="color:white">Github</a>
-<a href="https://asgaonkar.github.io/Road-to-Glory/" target='blank' class="btn btn-green" style="color:white;">Demo</a>
-
-
-<!-- [Github](https://github.com/asgaonkar/Road-to-Glory){: .btn .btn-purple .mr-2} -->
-<!-- [Demo](https://asgaonkar.github.io/Road-to-Glory/){: .btn .btn-green} -->
-
-
-
-## RSA-Blind-Signature
-{: .d-inline-block .top-project .all}
-
-Applied Cryptography
-{: .label .label-green }
-
-
-
-```yaml
-content
-button-link
-how to order (date or complex)
-```
-
-<a href="https://github.com/asgaonkar/RSA-Blind-Signature" class="btn btn-purple mr-2" style="color:white">Github</a>
-<!-- [Github](https://github.com/asgaonkar/RSA-Blind-Signature){: .btn .btn-purple } -->
-
-
-
-## 2D Blind kMeans-Clustering
-{: .d-inline-block .top-project .all}
-
-Machine Learning
-{: .label .label-green }
-
-
-
-```yaml
-content
-button-link
-how to order (date or complex)
-```
-
-<a href="https://github.com/asgaonkar/US-AZ-2012Election-Viz" class="btn btn-purple mr-2" style="color:white !important;">Github</a>
-<a href="https://asgaonkar.github.io/US-AZ-2012Election-Viz" class="btn btn-green" style="color:white !important;">Demo</a>
-<!-- [Github](https://github.com/asgaonkar/US-AZ-2012Election-Viz){: .btn .btn-purple .mr-2} -->
-<!-- [Demo](https://asgaonkar.github.io/US-AZ-2012Election-Viz/){: .btn .btn-green } -->
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
+  function moveDown()
+  {
+    document.getElementsByClassName('main-content-wrap')[0].scrollTop = $("#display").position().top;
+    console.log($("#display").position().top);
+    $(window).scrollTop($("#display").position().top);
+  }
+  function direction_movement()
+  {
+    if(document.getElementsByClassName('direction')[0].getAttribute("src").split('-')[1].split('.')[0] == "down")
+      {
+        moveDown();
+      }
+      else{
+        document.getElementsByClassName('main-content-wrap')[0].scrollTop = 0;
+        $(window).scrollTop(0);
+      }
+  }
   try {
     AOS.init();
     $(window).on('load', function() {
@@ -261,44 +175,80 @@ how to order (date or complex)
       var window_height = $window.height();
       var window_top_position = $window.scrollTop();
       var window_bottom_position = (window_top_position + window_height);
-      function moveDown()
-      {
-        document.getElementsByClassName('main-content-wrap')[0].scrollTop += 100;
-      }
+      $('a > img').parent().addClass("image-link");
+      $('img.logo-link').parent().attr('target','blank');
+      document.getElementsByClassName('direction')[0].parentNode.setAttribute('onclick','direction_movement()');
+      document.getElementsByClassName('direction')[0].setAttribute('onclick','direction_movement()');
       $('.direction').on('click', function() {
-        if(document.getElementsByClassName('direction')[0].getAttribute("src").split('-')[1].split('.')[0] == "down")
-          {
-            moveDown();
-          }
-          else{
-            document.getElementsByClassName('main-content-wrap')[0].scrollTop = 0;
-          }
+        direction_movement()
         });
+      document.addEventListener('click', function (event) {
+          $(event.target).hasClass('direction');
+          {
+            console.log('Clicked');
+            direction_movement()
+          }
+      }, true /*Capture event*/);
+      $('.target-blank').attr('target','blank');
+      $('pre').addClass("mb-0");
+      $('p > a.no-mb').parent().addClass("mb-0");
+      $('a > img').parent().addClass("image-link");
+      $('img.logo-link').parent().attr('target','blank');
       $('.main-content-wrap').on('scroll', function() {
+          console.log("triggered");
           if(document.getElementsByClassName('direction')[0].getAttribute("src").split('-')[1].split('.')[0] == "up")
           {
             document.getElementsByClassName('direction')[0].classList.remove("blinking");
             document.getElementsByClassName('direction')[0].classList.add("no-blinking");
           }
-          if ($('.main-content-wrap').scrollTop() >= 100.0) {
+          if ($('.main-content-wrap').scrollTop() >= $("#display").position().top) {
             document.getElementsByClassName('direction')[0].setAttribute("src","../../assets/images/arrow-up.png");
           }
           else
           {
             document.getElementsByClassName('direction')[0].setAttribute("src","../../assets/images/arrow-down.png");
           }
-          console.log("triggered");
           $.each($animation_elements, function() {
-              var $element = $(this);
-              var element_height = $element.outerHeight();
-              var element_top_position = $element.offset().top;
-              var element_bottom_position = (element_top_position + element_height);
-              if ((element_bottom_position >= window_top_position) && (element_top_position <= window_bottom_position)) {
-                  $element.addClass('aos-animate');
-              } else {
-                  $element.removeClass('aos-animate');
-              }
+                var $element = $(this);
+                var element_height = $element.outerHeight();
+                var element_top_position = $element.offset().top;
+                var element_bottom_position = (element_top_position + element_height);
+                if ((element_bottom_position >= window_top_position) && (element_top_position <= window_bottom_position)) {
+                    $element.addClass('aos-animate');
+                } else {
+                    $element.removeClass('aos-animate');
+                }
+            });
           });
+    });
+    $(window).on('scroll', function() {
+      if(document.getElementsByClassName('direction')[0].getAttribute("src").split('-')[1].split('.')[0] == "up")
+      {
+        document.getElementsByClassName('direction')[0].classList.remove("blinking");
+        document.getElementsByClassName('direction')[0].classList.add("no-blinking");
+      }
+      if ($(window).scrollTop() >= $("#display").position().top) {
+        document.getElementsByClassName('direction')[0].setAttribute("src","../../assets/images/arrow-up.png");
+      }
+      else
+      {
+        document.getElementsByClassName('direction')[0].setAttribute("src","../../assets/images/arrow-down.png");
+      } 
+      var $animation_elements = $('.bootstrap-iso');
+      var $window = $(window);
+      var window_height = $window.height();
+      var window_top_position = $window.scrollTop();
+      var window_bottom_position = (window_top_position + window_height);
+      $.each($animation_elements, function() {
+          var $element = $(this);
+          var element_height = $element.outerHeight();
+          var element_top_position = $element.offset().top;
+          var element_bottom_position = (element_top_position + element_height);
+          if ((element_bottom_position >= window_top_position) && (element_top_position <= window_bottom_position)) {
+              $element.addClass('aos-animate');
+          } else {
+              $element.removeClass('aos-animate');
+          }
       });
     });
     $('.toc-toggle').on('click', function () {
@@ -337,7 +287,7 @@ how to order (date or complex)
       else if(action.innerHTML=="Top Projects")
       {
         class_name = "top-project";
-      }
+      }      
       else
       {
         class_name = "in-progress";

@@ -76,6 +76,10 @@ a img
     border-top: 1px solid #DDD;
 }
 
+.last-item{
+  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.5)), to(rgba(0,0,0,0))) !important;
+}
+
 </style>
 
 
@@ -104,52 +108,72 @@ a img
 
 
 ## Food Explorer
-{: .top-project .in-progress .top-project .mr-3 .d-inline-block}
+{: .top-project .d-inline-block .completed}
 
-Data Visualization
-{: .label .label-green }
+Recommendation System
+{: .label .label-green .ml-3}
 
-Feb 2020 - April 2020
-{: .mb-2}
-
-<div class="horizontal-rule mb-4"></div>
-
-[![Food-Explorer][food-explorer-img]{: .img-responsive .noDecoration .logo .logo-link height="25%" width="25%"}][food-explorer-link]
-
-[food-explorer-img]:  ../../assets/images/food-explorer.png
-[food-explorer-link]:  https://asgaonkar.github.io/The-Hungry-Customer/ "Redirect to Food Explorer" 
+<!-- In-Progress
+{: .label .label-yellow .ml-3} -->
 
 ```yaml
-content
-button-link
-how to order (date or complex)
+Feb 2020 - April 2020
 ```
 
+Unlike conventional recommendation system, Food Explorer recommends restaurants to foodies based on the quality of food. Used techniques like [Named Entity Recognition (NER)](){: .target-blank}, [Fuzzy Logic](){: .target-blank} and [Sentiment Analysis](){: .target-blank} to extract the quality of food from user reviews.
+
+<!-- [![Food-Explorer][food-explorer-img]{: .img-responsive .noDecoration .logo .logo-link height="auto" width="150px"}][food-explorer-link]
+
+[food-explorer-img]:  ../../assets/images/food-explorer.png
+[food-explorer-link]:  https://asgaonkar.github.io/The-Hungry-Customer/ "Redirect to Food Explorer"  -->
+
+> [#Data-Visualization](){: .target-blank} [#Machine-Learning](){: .target-blank}
+
 <a href="https://github.com/asgaonkar/The-Hungry-Customer" class="btn btn-purple mr-2" target="blank" style="color:white">Github</a>
-<!-- [Github](https://github.com/asgaonkar/The-Hungry-Entrepreneur){: .btn .btn-purple .mr-2 } -->
-<a href="https://asgaonkar.github.io/The-Hungry-Customer/" class="btn btn-green" target="blank" style="color:white; background-color: gray">Demo</a>
-<!-- [Demo](){: .btn .btn-green .disabled} -->
+<a href="https://asgaonkar.github.io/The-Hungry-Customer/" class="btn btn-green mr-2" target="blank" style="color:white;">Demo</a>
+
+
+
+
+## Blockchain-of-Custody 
+{: .top-project .d-inline-block .completed}
+
+Utility
+{: .label .label-green .ml-3}
+
+<!-- In-Progress
+{: .label .label-yellow .ml-3} -->
+
+```yaml
+March 2020 - April 2020
+```
+
+Maintains logs for actions performed on every evidence in custody. For these evidence to be admissible in court, integrity of the evidences should be intact and hence the need for [Blockchain](){: .target-blank} to keep track of the same.
+
+> [#Security](){: .target-blank} [#Computer-Forensics](){: .target-blank}
+
+<a href="https://github.com/asgaonkar/Blockchain-of-Custody" class="btn btn-purple mr-2" style="color:white">Github</a>
+<!-- [Github](){: .btn .btn-purple .disabled} -->
+
 
 
 
 ## Road to Glory
-{: .d-inline-block .completed .top-project .top-project}
+{: .top-project .d-inline-block .completed}
 
-Data Visualization
-{: .label .label-green }
+Analysis and Visualization
+{: .label .label-green .ml-3}
 
-Feb 2020 - April 2020
-{: .mb-2}
-
-<div class="horizontal-rule mb-4"></div>
-
+<!-- In-Progress
+{: .label .label-yellow .ml-3} -->
 
 ```yaml
-content
-static image - roger federer
-button-link
-how to order (date or complex)
+Feb 2020 - March 2020
 ```
+
+Visual Analysis to understand why [Roger Federer](){: .target-blank} is the most **Aggressive**(An aggressive player is one who is willing to put pressure on an opponent on every shot) tennis player using [Interactive Visualization](){: .target-blank}, and [Comparative Analysis](){: .target-blank}. A simple analysis of [2017 and 2018 Aus Open Finals](../../assets/images/Roger-Federer.jpg){: .target-blank} demonstrate the playing style of Roger Federer.
+
+> [#Data-Visualization](){: .target-blank}
 
 <a href="https://github.com/asgaonkar/Road-to-Glory" target='blank' class="btn btn-purple mr-2" style="color:white">Github</a>
 <a href="https://asgaonkar.github.io/Road-to-Glory/" target='blank' class="btn btn-green" style="color:white;">Demo</a>
@@ -159,242 +183,137 @@ how to order (date or complex)
 <!-- [Demo](https://asgaonkar.github.io/Road-to-Glory/){: .btn .btn-green} -->
 
 
-
-## RSA-Blind-Signature
-{: .d-inline-block .top-project}
-
-Applied Cryptography
-{: .label .label-green }
-
-
-```yaml
-content
-button-link
-how to order (date or complex)
-```
-
-<a href="https://github.com/asgaonkar/RSA-Blind-Signature" class="btn btn-purple mr-2" style="color:white">Github</a>
-<!-- [Github](https://github.com/asgaonkar/RSA-Blind-Signature){: .btn .btn-purple } -->
-
-
-
-## 2D Blind kMeans-Clustering
-{: .d-inline-block .top-project}
-
-Machine Learning
-{: .label .label-green }
-
-
-```yaml
-content
-button-link
-how to order (date or complex)
-```
-
-<a href="https://github.com/asgaonkar/2D-Blind-kMeans-Clustering" class="btn btn-purple mr-2" style="color:white">Github</a>
-<!-- [Github](https://github.com/asgaonkar/2D-Blind-kMeans-Clustering){: .btn .btn-purple } -->
-
-
-## Cryptanalysis
-{: .d-inline-block .top-project}
-
-Machine Learning
-{: .label .label-green }
-
-
-```yaml
-content
-button-link
-how to order (date or complex)
-```
-
-<a href="https://github.com/asgaonkar/2D-Blind-kMeans-Clustering" class="btn btn-purple mr-2" style="color:white">Github</a>
-<!-- [Github](https://github.com/asgaonkar/2D-Blind-kMeans-Clustering){: .btn .btn-purple } -->
-
-
-## Blind Signatures
-{: .d-inline-block .top-project}
-
-Machine Learning
-{: .label .label-green }
-
-
-```yaml
-content
-button-link
-how to order (date or complex)
-```
-
-<a href="https://github.com/asgaonkar/2D-Blind-kMeans-Clustering" class="btn btn-purple mr-2" style="color:white">Github</a>
-<!-- [Github](https://github.com/asgaonkar/2D-Blind-kMeans-Clustering){: .btn .btn-purple } -->
-
-
-
-## Naive-Bayes and Logistic Regression
-{: .d-inline-block .top-project .complete}
-
-Machine Learning
-{: .label .label-green }
-
-
-```yaml
-content
-button-link
-how to order (date or complex)
-```
-
-<a href="https://github.com/asgaonkar/Naive-Bayes_and_Logistic-Regression" class="btn btn-purple mr-2" style="color:white">Github</a>
-<!-- [Github](https://github.com/asgaonkar/Naive-Bayes_and_Logistic-Regression){: .btn .btn-purple } -->
-
-
-
-
-
 ## MBR Analysis
-{: .d-inline-block .top-project}
+{: .top-project .d-inline-block .completed}
 
-Computer Forensics
-{: .label .label-green }
+Utility
+{: .label .label-green .ml-3}
 
-
+<!-- In-Progress
+{: .label .label-yellow .ml-3} -->
 
 ```yaml
-content
-button-link
-how to order (date or complex)
+Jan 2020 - Feb 2020
 ```
+
+A python utility to analyze [Master Boot Record (MBR)](){: .target-blank}. Provides important information such as Partition Type, Starting Address Value, Size of Partition.
+
+> [#Computer-Forensics](){: .target-blank}
 
 <a href="https://github.com/asgaonkar/Read-MBR" class="btn btn-purple mr-2" style="color:white">Github</a>
 <!-- [Github](https://github.com/asgaonkar/Read-MBR){: .btn .btn-purple } -->
 
 
 
-## Analysis of Phishing Kit
-{: .d-inline-block .top-project}
+## Binary Exploitation 
+{: .top-project .d-inline-block .completed}
 
-Computer Forensics
-{: .label .label-green }
+Offensive Security
+{: .label .label-green .ml-3}
 
-
+<!-- In-Progress
+{: .label .label-yellow .ml-3} -->
 
 ```yaml
-content
-button-link
-how to order (date or complex)
+Nov 2019 - Dec 2019
 ```
 
-<a href="#" class="btn btn-purple mr-2" style="color:white">Github</a>
-<!-- [Github](https://github.com/asgaonkar/Read-MBR){: .btn .btn-purple } -->
+We were tasked to [pawn](){: .target-blank} as many [Binaries](){: .target-blank} (Application) as possible. This project required to utilize skills such as [Buffer Overflow](), [Format Strings](){: .target-blank}, [Arbitrary Code Execution](){: .target-blank} etc
+
+> [#Cryotography](){: .target-blank} [#Security](){: .target-blank} [#Reverse-Engineering](){: .target-blank}
+
+
+<a href="javascript:void(0)" class="btn mr-2" style="color:white; background-color: gray; cursor: no-drop !important" disabled>Github</a>
+<!-- [Github](https://github.com/asgaonkar/MAC-Encryption){: .btn .btn-purple } -->
+
+
+## Connsplit 
+{: .top-project .d-inline-block .completed}
+
+Utility
+{: .label .label-green .ml-3}
+
+<!-- In-Progress
+{: .label .label-yellow .ml-3} -->
+
+```yaml
+Oct 2019 - Nov 2019
+```
+
+To ease the process of analyzing network traffic, Connsplit helps in segregation meaningful TCP/UDP converstaions into single files.
+
+> [#Security](){: .target-blank} [#Reverse-Engineering](){: .target-blank}
+
+
+<a href="javascript:void(0)" class="btn mr-2" style="color:white; background-color: gray; cursor: no-drop !important" disabled>Github</a>
+<!-- [Github](https://github.com/asgaonkar/MAC-Encryption){: .btn .btn-purple } -->
+
 
 
 ## Crypto-Certificate Reader
-{: .d-inline-block .top-project}
+{: .top-project .d-inline-block .completed}
 
-Applied Cryptography
-{: .label .label-green }
+Utility
+{: .label .label-green .ml-3}
 
-
+<!-- In-Progress
+{: .label .label-yellow .ml-3} -->
 
 ```yaml
-content
-button-link
-how to order (date or complex)
+Oct 2019 - Nov 2019
 ```
+
+A python utilty to validate the integrity of a [Crypto-Certificate](){: .target-blank} for example a [SSL Certificate](){: .target-blank}.
+
+> [#Security](){: .target-blank} [#Cryptography](){: .target-blank}
 
 <a href="https://github.com/asgaonkar/Crypto-Certificate-Reader" class="btn btn-purple mr-2" style="color:white">Github</a>
 <!-- [Github](https://github.com/asgaonkar/Crypto-Certificate-Reader){: .btn .btn-purple } -->
 
 
 
-
-## Blockchain-of-Custody 
-{: .d-inline-block .top-project}
-
-Computer Forensics
-{: .label .label-green }
-
-In-progress
-{: .label .label-yellow }
-
-```yaml
-content
-button-link
-how to order (date or complex)
-```
-
-<a href="#" class="btn btn-purple mr-2" style="color:white">Github</a>
-<!-- [Github](){: .btn .btn-purple .disabled} -->
-
-
-## Connsplit 
-{: .d-inline-block .top-project}
-
-Applied Cryptography
-{: .label .label-green }
-
-
-
-```yaml
-content
-button-link
-how to order (date or complex)
-```
-
-<a href="https://github.com/asgaonkar/MAC-Encryption" class="btn btn-purple mr-2" style="color:white">Github</a>
-<!-- [Github](https://github.com/asgaonkar/MAC-Encryption){: .btn .btn-purple } -->
-
-
-
-## Binary Exploitation 
-{: .d-inline-block .top-project}
-
-Applied Cryptography
-{: .label .label-green }
-
-
-```yaml
-content
-button-link
-how to order (date or complex)
-```
-
-<a href="https://github.com/asgaonkar/MAC-Encryption" class="btn btn-purple mr-2" style="color:white">Github</a>
-<!-- [Github](https://github.com/asgaonkar/MAC-Encryption){: .btn .btn-purple } -->
-
-
 ## Web Exploitation
-{: .d-inline-block .top-project}
+{: .top-project .d-inline-block .completed}
 
-Applied Cryptography
-{: .label .label-green }
+Offensive Security
+{: .label .label-green .ml-3}
 
-
+<!-- In-Progress
+{: .label .label-yellow .ml-3} -->
 
 ```yaml
-content
-button-link
-how to order (date or complex)
+Nov 2019 - Dec 2019
 ```
+
+Tasked to exploit various websites and extract secret-key using offensive techniquies like [SQL Injection](){: .target-blank}, [XSS (Cross-Site Scripting)](){: .target-blank}
+
+> [#Security](){: .target-blank} [#Web-Security](){: .target-blank} [#Networking](){: .target-blank}
+
+<a href="javascript:void(0)" class="btn mr-2" style="color:white; background-color: gray; cursor: no-drop !important" disabled>Github</a>
+<!-- [Github](https://github.com/asgaonkar/MAC-Encryption){: .btn .btn-purple } -->
+
+
+## MAC-Encryption
+{: .top-project .d-inline-block .completed}
+
+Algorithm Engineering
+{: .label .label-green .ml-3}
+
+<!-- In-Progress
+{: .label .label-yellow .ml-3} -->
+
+```yaml
+Sep 2019 - Oct 2019
+```
+
+In order to understand the core concepts of [Block Ciphers](){: .target-blank}, we developed our own Encryption and Decryption Algorithm. Performed [Cryptanalysis](){: .target-blank} on our system to find various drawback of our system. Based on these vulnerabilities, we further improved upon our Algorithm.
+
+> [#Security](){: .target-blank} [#Cryptography](){: .target-blank}
 
 <a href="https://github.com/asgaonkar/MAC-Encryption" class="btn btn-purple mr-2" style="color:white">Github</a>
 <!-- [Github](https://github.com/asgaonkar/MAC-Encryption){: .btn .btn-purple } -->
 
-## MAC-Encryption 
-{: .d-inline-block .top-project}
 
-Applied Cryptography
-{: .label .label-green }
-
-
-
-```yaml
-content
-button-link
-how to order (date or complex)
-```
-
-<a href="https://github.com/asgaonkar/MAC-Encryption" class="btn btn-purple mr-2" style="color:white">Github</a>
-<!-- [Github](https://github.com/asgaonkar/MAC-Encryption){: .btn .btn-purple } -->
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -446,6 +365,11 @@ how to order (date or complex)
             direction_movement()
           }
       }, true /*Capture event*/);
+      $('.target-blank').attr('target','blank');
+      $('pre').addClass("mb-0");
+      $('p > a.no-mb').parent().addClass("mb-0");
+      $('a > img').parent().addClass("image-link");
+      $('img.logo-link').parent().attr('target','blank');
       $('.main-content-wrap').on('scroll', function() {
           console.log("triggered");
           if(document.getElementsByClassName('direction')[0].getAttribute("src").split('-')[1].split('.')[0] == "up")
