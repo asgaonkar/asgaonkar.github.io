@@ -16,7 +16,7 @@
 title: Atit Gaonkar
 description: Atit S Gaonkar | Computer Science Graduate student at Arizona State University with focus on Cyber-Security.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://atit-gaonkar.me/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://atit-gaonkar.me" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 permalink: pretty
