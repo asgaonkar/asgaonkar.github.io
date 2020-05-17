@@ -2,7 +2,7 @@
 layout: default
 title: Home
 nav_order: 1
-description: "Atit Gaonkar | Home"
+description: "Atit Gaonkar | Homepage | Description Trial"
 permalink: /
 ---
 
@@ -25,9 +25,12 @@ permalink: /
   background-color: #227efa;
   opacity: 0.75;
 }
+.direction{
+  opacity: 0.5;
+}
 .down:hover {
   animation: none;
-  opacity: 0.75;
+  /* opacity: 0.75; */
   box-shadow:
   0 2.8px 2.2px rgba(0, 0, 0, 0.034),
   0 6.7px 5.3px rgba(0, 0, 0, 0.048),
@@ -40,7 +43,7 @@ permalink: /
   animation: blinkingText 1.0s infinite;
   cursor: pointer;
 }
-.non-blinking {
+.no-blinking {
   animation: none;
   cursor: pointer;
 }
@@ -421,6 +424,8 @@ background: -webkit-linear-gradient(left, #f2d082 25%, #f28282 75%) !important; 
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
     $(window).on('load', function() {
+        $(window).scrollTop(0);
+        $('.main-content-wrap').scrollTop(0);
         $('.main-content-wrap').on('scroll', function() {
           if(document.getElementsByClassName('direction')[0].getAttribute("src").split('-')[1].split('.')[0] == "up")
           {

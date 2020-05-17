@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Atit Gaonkar
-description: Website for Atit Gaonkar
+description: Atit S Gaonkar | Computer Science Graduate student at Arizona State University with focus on Cyber-Security.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -46,7 +46,7 @@ color_scheme: nil
 
 # Google Analytics Tracking (optional)
 # e.g, UA-1234567-89
-# ga_tracking: UA-2709176-10
+ga_tracking: UA-166900548-1
 
 plugins:
   - jekyll-seo-tag
