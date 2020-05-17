@@ -9,7 +9,7 @@ description: "Atit Gaonkar - Connect with me through eMail, LinkedIn, Github or 
 <div class="bootstrap-iso">
     <div class="card" style="box-shadow:  0px 0px 15px 5px rgba(0, 0, 0, 0.075) !important; border-radius: 5px;">
         <div class="card-header text-center">
-            <img src="../assets/images/logo.png" class="img-fluid z-depth-1 logo" alt="Atit Gaonkar" height='75px' width='75px'>
+            <img src="../assets/images/logo.svg" class="img-fluid z-depth-1 logo" alt="Logo - Atit Gaonkar" height='75px' width='75px'>
         </div>
         <div class="card-body">
             <div class="row">                
