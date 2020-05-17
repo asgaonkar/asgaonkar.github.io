@@ -6,6 +6,15 @@ layout: table_wrappers
 
 <html lang="{{ site.lang | default: "en-US" }}">
 {% include head.html %}
+<link rel="stylesheet" href="/assets/css/bootstrap-iso.css" crossorigin="anonymous">
+<style>
+blockquote{
+  border-left: .25em solid #dfe2e5;
+}
+blockquote > p{
+  margin-left: .75em;
+}
+</style>
 <body>
   <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
     <symbol id="link" viewBox="0 0 16 16">
@@ -25,9 +34,9 @@ layout: table_wrappers
         {% include nav.html %}
       </div>
       <footer class="site-footer">
-        <hr>
-        <p class="text-small text-grey-dk-000 mb-3">
+        <!-- <p class="text-small text-grey-dk-000 mb-3">
            Powered by <a href="https://jekyllrb.com">Jekyll</a>
+        </p> -->
       </footer>
     </div>
     <div class="main-content-wrap js-main-content" tabindex="0">
@@ -70,7 +79,7 @@ layout: table_wrappers
           <div id="main-content" class="page-content" role="main">
             {% if site.heading_anchors != false %}
               <!-- Start -->
-              {% include vendor/anchor_headings_project.html html=content beforeHeading="true" anchorBody="<svg viewBox=\"0 0 16 16\" aria-hidden=\"true\"><use xlink:href=\"#link\"></use></svg>" anchorClass="anchor-heading" %}
+              {% include vendor/anchor_headings_card.html html=content beforeHeading="true" anchorBody="<svg viewBox=\"0 0 16 16\" aria-hidden=\"true\"><use xlink:href=\"#link\"></use></svg>" anchorClass="anchor-heading" %}
               <!-- End -->
             {% else %}
               {{ content }}
@@ -92,7 +101,7 @@ layout: table_wrappers
             </ul>
           {% endif %}
           {% if site.footer_content != nil %}
-            <hr>
+            <hr class="mb-2 mt-10">
             <footer role="contentinfo">
               <p class="text-small text-grey-dk-000 mb-0">{{ site.footer_content }}</p>
             </footer>

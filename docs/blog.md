@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Blog
-nav_order: 98
 permalink: blog/
 description: "Atit Gaonkar | Blog"
+nav_exclude: True
 ---
 
 ## Coming Soon...

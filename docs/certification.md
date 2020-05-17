@@ -1,5 +1,5 @@
 ---
-layout: default_project
+layout: default_card
 title: Certification
 nav_order: 6
 permalink: /certification/
@@ -19,18 +19,31 @@ description: "Atit Gaonkar | Certification"
 ---
 
 ## Certified Ethical Hacker
+{: .d-inline-block .mr-2 }
+
+2017
+{: .label .label-green}
+
+[EC-Council](https://www.eccouncil.org/){: .target-blank} CEHv9
+{: .mb-0 }
+
+Oct 2017
+
+<!-- [![Certificate][Certificate-img]{: .img-responsive .logo .d-inline-block .logo-link height="10%" width="20%"}][Certificate-link]
+
+[Certificate-img]:  ../../assets/images/CEH_2E345519D3F7.png
+[Certificate-link]:  https://vit.ac.in/ "Redirect to - EC-Council"  -->
+
 
 ```yaml
-# EC-Council CEHv9
 Name: Atit Shivram Gaonkar
 Number:  ECC67924018402
 ```
 
-Add Info regarding what I have learned from this.
+ <a href="../docs/ECC-CEH-Certificate.pdf" class="btn btn-green mb-0 mr-2 mt-0 certificate" target="blank" style="color:white;" title="View Resume">View Certificate</a>
 
-```
-Insert Images
-```
+<!-- <a href="#" class="btn btn-green certification mr-3" target="blank" style="color:white;" title="Certification Images">View Certificate</a>
+<a href="#" class="btn btn-green certification" target="blank" style="color:white;" title="Certification Images">Download Certificate</a> -->
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -49,6 +62,11 @@ Insert Images
         var window_height = $window.height();
         var window_top_position = $window.scrollTop();
         var window_bottom_position = (window_top_position + window_height);
+        $('.target-blank').attr('target','blank');
+        $('pre').addClass("mb-0");
+        $('p > a.no-mb').parent().addClass("mb-0");
+        $('a > img').parent().addClass("image-link");
+        $('img.logo-link').parent().attr('target','blank');
         $('.main-content-wrap').on('scroll', function() {
             console.log("triggered");
             $.each($animation_elements, function() {
@@ -63,5 +81,7 @@ Insert Images
                 }
             });
         });
+        $('.main-content-wrap')[0].scrollTop += 1;
+        $('.main-content-wrap')[0].scrollTop -= 1;
   });
 </script>

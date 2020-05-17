@@ -1,10 +1,18 @@
 ---
-layout: default_project
+layout: default_card
 title: Volunteering
 nav_order: 8
 permalink: /volunteering/
 description: "Atit Gaonkar | Volunteering"
 ---
+
+<style>
+
+.horizontal-rule{
+    border-top: 1px solid #DDD;
+}
+
+</style>
 
 # Volunteering Experience
 {: .no_toc }
@@ -21,14 +29,22 @@ description: "Atit Gaonkar | Volunteering"
 
 
 ## Full Stack Developer
+{: .d-inline-block .mr-2 }
 
-Prem Ashram Charitable Trust
-(Date)
+2018
+{: .label .label-green}
 
-```yaml
-# Set a path/url to a logo that will be displayed instead of the title
-logo: "/assets/images/just-the-docs.png"
-```
+Prem Ashram Charitable Trust, India
+{: .mb-0}
+
+Jul 2018 - Sep 2018
+{: .mb-2}
+
+<div class="horizontal-rule mb-4"></div>
+
+- Worked on developing a website following iterative SDLC approach to replace the old existing website. Front-end is supported by [HTML](https://en.wikipedia.org/wiki/HTML5){: .target-blank}, [CSS (Bootstrap)](https://getbootstrap.com/){: .target-blank} and [JS](https://en.wikipedia.org/wiki/JavaScript){: .target-blank}, whereas the Back-end was coded using [PHP](){: .target-blank}/[MySQL](){: .target-blank}.
+
+- Interacting with people at various level indeed exposed me to situation where my abilities to prioritise and manage time effectively was tested It had a positive impact on me psychologically as well as physically. Taught me the importance of how a small good gesture can bring about a huge difference in others.
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -61,5 +77,7 @@ logo: "/assets/images/just-the-docs.png"
                 }
             });
         });
+        $('.main-content-wrap')[0].scrollTop += 1;
+        $('.main-content-wrap')[0].scrollTop -= 1;
   });
 </script>

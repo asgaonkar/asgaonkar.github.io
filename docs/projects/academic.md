@@ -6,12 +6,14 @@ has_children: true
 parent: Projects
 permalink: /projects/academics
 description: "Atit Gaonkar | Academic Projects"
+search: exclude
 ---
 
-# UI Components
+# Academic Projects
 
-To make it as easy as possible to write documentation in plain Markdown, most UI components are styled using default Markdown elements with few additional CSS classes needed.
-{: .no_toc .fs-6 .fw-300 }
+“An investment in knowledge pays the best interest.” ― Benjamin Franklin
+{: .fs-4 .fw-100}
 
-## Make Col-6 
-two clickable cards instead links
+Along with theoretical knowledge, it was the projects I undertook for successfull completion of academic courses, that honed my technical skillset.
+{: .fs-6 .fw-300 }
+

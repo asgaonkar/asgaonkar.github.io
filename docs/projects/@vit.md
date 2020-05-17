@@ -1,5 +1,5 @@
 ---
-layout: default_project
+layout: default_card
 title: Projects @VIT
 nav_order: 2
 parent: Academic
@@ -22,34 +22,54 @@ description: "Atit Gaonkar | Projects @VIT"
   font-size: 18px;
   border: none;
   outline: none;
-  padding: 15px;
-  border-radius: 4px;
+  padding: 10px;
+  border-radius: 25px;
+  background-image: linear-gradient(#4593fb, #227efa);
+  background-color: #227efa;
+  opacity: 0.75;
 }
 .down:hover {
+  animation: none;
+  opacity: 0.75;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
 }
 .blinking {
-  animation: blinkingText 0.7s infinite;
+  animation: blinkingText 1.0s infinite;
+  cursor: pointer;
+}
+.non-blinking {
+  animation: none;
+  cursor: pointer;
 }
 @keyframes blinkingText {
   0% {
-    opacity: 0;
+    opacity: 0.35;
   }
   25% {
     opacity: 0.5;
   }
   50% {
-    opacity: 1;
+    opacity: 0.70;
   }
   75% {
     opacity: 0.5;
   }
   100% {
-    opacity: 0;
+    opacity: 0.35;
   }
+}
+.horizontal-rule{
+    border-top: 1px solid #DDD;
 }
 </style>
 
-![Direction](../../assets/images/arrow-down-1.png){: .img-responsive .blinking .direction .down}
+![Direction](../../assets/images/arrow-down.png){: .img-responsive .blinking .direction .down}
 
 
 # Projects @Vellore Institue of Technology
@@ -58,9 +78,7 @@ description: "Atit Gaonkar | Projects @VIT"
 #### Display
 {: .no_toc }
 
-[All](#filter){: .btn .mr-4 .mb-2 .filter} [Top Projects](#filter){: .btn .btn-blue .mr-4 .mb-2 .filter} [Current (In-Progress)](#filter){: .btn .btn-blue .mr-4 .mb-2 .filter} [Completed](#filter){: .btn .btn-blue .mr-4 .mb-2 .filter}
-
-<hr>
+[Top Projects](#filter){: .btn .btn-blue .mr-4 .mb-2 .filter}
 
 
 ## Table of contents
@@ -73,96 +91,141 @@ description: "Atit Gaonkar | Projects @VIT"
 
 ---
 
-## Inline code
-{: .d-inline-block .all .in-progress .top-project}
+## Carry-o-Bot
+{: .top-project .d-inline-block .completed}
 
-Data Visualization
-{: .label .label-blue }
+Capstone Project
+{: .label .label-green .ml-3}
 
-In-Progress
-{: .label .label-yellow }
+<!-- In-Progress
+{: .label .label-yellow .ml-3} -->
 
-Code can be rendered inline by wrapping it in single back ticks.
-
-<div class="code-example" markdown="1">
-Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-</div>
-```markdown
-Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+```yaml
+Dec 2017 - Mar 2018
 ```
 
+Implementing a secure low-cost [Level-2 Autonomous vehicle](https://en.wikipedia.org/wiki/Self-driving_car){: .target-blank} able to deliver materialistics goods. Carry-o-Bot solved common delivery issues of navigation, human interaction and integrity issues using various inter-disciplinary techniques of Networking, Face Recognition, Image Processing and Machine Learning.
 
+Inspiration: [Starship](https://www.starship.xyz/){: .target-blank} 
 
-## Syntax highlighted code blocks
-{: .d-inline-block .completed .top-project .all}
+> [#Image-Processing](){: .target-blank} [#Machine-Learning](){: .target-blank} [#Networking](){: .target-blank}
 
-Data Visualization
-{: .label .label-blue }
-
-Use Jekyll's built-in syntax highlighting with Rouge for code blocks by using three backticks, followed by the language name:
-
-<div class="code-example" markdown="1">
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-</div>
-{% highlight markdown %}
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-{% endhighlight %}
+<a href="javascript:void(0)" class="btn mr-2" style="color:white; background-color: gray; cursor: no-drop !important" disabled>Github</a>
+<!-- [Github](https://github.com/asgaonkar/MAC-Encryption){: .btn .btn-purple } -->
 
 
 
-## Code blocks with rendered examples
-{: .d-inline-block .all}
+## Katsuva
+{: .top-project .d-inline-block .completed}
 
-Applied Cryptography
-{: .label .label-blue }
-Stable
-{: .label .label-green }
+Compiler
+{: .label .label-green .ml-3}
 
-To demonstrate front end code, sometimes it's useful to show a rendered example of that code. After including the styles from your project that you'll need to show the rendering, you can use a `<div>` with the `code-example` class, followed by the code block syntax. If you want to render your output with Markdown instead of HTML, use the `markdown="1"` attribute to tell Jekyll that the code you are rendering will be in Markdown format... This is about to get meta...
 
-<div class="code-example" markdown="1">
-
-<div class="code-example" markdown="1">
-
-[Link button](http://example.com/){: .btn }
-
-</div>
-```markdown
-[Link button](http://example.com/){: .btn }
+```yaml
+Dec 2017 - Mar 2018
 ```
 
-</div>
-{% highlight markdown %}
-<div class="code-example" markdown="1">
+Developed a child-friendly [Compiler](){: .target-blank} with ability to understand basic english commands. Incorporated wide range of features not just limited to Arithmetic Operations, Input/Output Operations and File Handling.
 
-[Link button](http://example.com/){: .btn }
+> [#Compiler-Design](){: .target-blank} [#Programming-Language](){: .target-blank} [#System-Design](){: .target-blank}
 
-</div>
-```markdown
-[Link button](http://example.com/){: .btn }
+<a href="javascript:void(0)" class="btn mr-2" style="color:white; background-color: gray; cursor: no-drop !important" disabled>Github</a>
+<!-- [Github](https://github.com/asgaonkar/MAC-Encryption){: .btn .btn-purple } -->
+
+
+## Modelling Inter Transit Time
+{: .top-project .d-inline-block .completed}
+
+Analytics and Modelling
+{: .label .label-green .ml-3}
+
+
+```yaml
+Dec 2017 - Mar 2018
 ```
-{% endhighlight %}
+
+Modelled a system to identify current **Inter-Transit time**(Time taken by a student to shift from one class to another) and redesigned the classroom allocation system to significantly reduce the time wasted by a student in transition from one classroom to another while still maintaining the [FFCS](https://vit.ac.in/academics/ffcs){: .target-blank} regulation.
+
+> [#Modelling](){: .target-blank} [#Analystics](){: .target-blank}
+
+
+
+
+## Christopher: Windows Finder
+{: .top-project .d-inline-block .completed}
+
+System Application
+{: .label .label-green .ml-3}
+
+
+```yaml
+Dec 2017 - Mar 2018
+```
+
+Replicated one of the coolest feature that Mac provides; [Finder](https://support.apple.com/en-us/HT201732){: .target-blank} for Windows, making the tasking of searching simpler.
+
+> [#Application](){: .target-blank}
+
+
+
+## Crysteg
+{: .top-project .d-inline-block .completed}
+
+System Application
+{: .label .label-green .ml-3}
+
+
+```yaml
+Dec 2017 - Mar 2018
+```
+
+Implemented a secure application for information transfer by integrating [Cryptography](){: .target-blank} and [Steganography](){: .target-blank}.
+
+> [#Security](){: .target-blank}
+
+
+## Automated Rooftop Gardening
+{: .top-project .d-inline-block .completed}
+
+Microprocessing
+{: .label .label-green .ml-3}
+
+
+```yaml
+Dec 2017 - Mar 2018
+```
+
+Automated the process of rooftop gardening including but not limited to Temperature Control, Moisture Control and Soil Content.
+
+> [#Automation](){: .target-blank}
+
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
+  function moveDown()
+  {
+    document.getElementsByClassName('main-content-wrap')[0].scrollTop = $("#display").position().top;
+    $(window).scrollTop($("#display").position().top);
+  }
+  function direction_movement()
+  {
+    if(document.getElementsByClassName('direction')[0].getAttribute("src").split('-')[1].split('.')[0] == "down")
+      {
+        moveDown();
+      }
+      else{
+        document.getElementsByClassName('main-content-wrap')[0].scrollTop = 0;
+        $(window).scrollTop(0);
+      }
+  }
   try {
     AOS.init();
     $(window).on('load', function() {
+      document.getElementsByClassName('filter')[0].click();
       for(var i=0;i<document.getElementsByClassName('bootstrap-iso').length;i++)
       {
           document.getElementsByClassName('tags')[i].setAttribute("id", document.getElementsByClassName('bootstrap-iso')[i].getElementsByTagName('h2')[0].getAttribute('id'))
@@ -173,19 +236,80 @@ To demonstrate front end code, sometimes it's useful to show a rendered example 
       var window_height = $window.height();
       var window_top_position = $window.scrollTop();
       var window_bottom_position = (window_top_position + window_height);
+      $('a > img').parent().addClass("image-link");
+      $('img.logo-link').parent().attr('target','blank');
+      document.getElementsByClassName('direction')[0].parentNode.setAttribute('onclick','direction_movement()');
+      document.getElementsByClassName('direction')[0].setAttribute('onclick','direction_movement()');
+      $('.direction').on('click', function() {
+        direction_movement()
+        });
+      document.addEventListener('click', function (event) {
+          if ($(event.target).hasClass('direction'))
+          {
+            console.log('Clicked');
+            direction_movement()
+          }
+      }, true /*Capture event*/);
+      $('.target-blank').attr('target','blank');
+      $('pre').addClass("mb-0");
+      $('p > a.no-mb').parent().addClass("mb-0");
+      $('a > img').parent().addClass("image-link");
+      $('img.logo-link').parent().attr('target','blank');
       $('.main-content-wrap').on('scroll', function() {
           console.log("triggered");
+          if(document.getElementsByClassName('direction')[0].getAttribute("src").split('-')[1].split('.')[0] == "up")
+          {
+            document.getElementsByClassName('direction')[0].classList.remove("blinking");
+            document.getElementsByClassName('direction')[0].classList.add("no-blinking");
+          }
+          if ($('.main-content-wrap').scrollTop() >= $("#display").position().top) {
+            document.getElementsByClassName('direction')[0].setAttribute("src","../../assets/images/arrow-up.png");
+          }
+          else
+          {
+            document.getElementsByClassName('direction')[0].setAttribute("src","../../assets/images/arrow-down.png");
+          }
           $.each($animation_elements, function() {
-              var $element = $(this);
-              var element_height = $element.outerHeight();
-              var element_top_position = $element.offset().top;
-              var element_bottom_position = (element_top_position + element_height);
-              if ((element_bottom_position >= window_top_position) && (element_top_position <= window_bottom_position)) {
-                  $element.addClass('aos-animate');
-              } else {
-                  $element.removeClass('aos-animate');
-              }
+                var $element = $(this);
+                var element_height = $element.outerHeight();
+                var element_top_position = $element.offset().top;
+                var element_bottom_position = (element_top_position + element_height);
+                if ((element_bottom_position >= window_top_position) && (element_top_position <= window_bottom_position)) {
+                    $element.addClass('aos-animate');
+                } else {
+                    $element.removeClass('aos-animate');
+                }
+            });
           });
+    });
+    $(window).on('scroll', function() {
+      if(document.getElementsByClassName('direction')[0].getAttribute("src").split('-')[1].split('.')[0] == "up")
+      {
+        document.getElementsByClassName('direction')[0].classList.remove("blinking");
+        document.getElementsByClassName('direction')[0].classList.add("no-blinking");
+      }
+      if ($(window).scrollTop() >= $("#display").position().top) {
+        document.getElementsByClassName('direction')[0].setAttribute("src","../../assets/images/arrow-up.png");
+      }
+      else
+      {
+        document.getElementsByClassName('direction')[0].setAttribute("src","../../assets/images/arrow-down.png");
+      } 
+      var $animation_elements = $('.bootstrap-iso');
+      var $window = $(window);
+      var window_height = $window.height();
+      var window_top_position = $window.scrollTop();
+      var window_bottom_position = (window_top_position + window_height);
+      $.each($animation_elements, function() {
+          var $element = $(this);
+          var element_height = $element.outerHeight();
+          var element_top_position = $element.offset().top;
+          var element_bottom_position = (element_top_position + element_height);
+          if ((element_bottom_position >= window_top_position) && (element_top_position <= window_bottom_position)) {
+              $element.addClass('aos-animate');
+          } else {
+              $element.removeClass('aos-animate');
+          }
       });
     });
     $('.toc-toggle').on('click', function () {
@@ -204,17 +328,18 @@ To demonstrate front end code, sometimes it's useful to show a rendered example 
       $('.main-content-wrap')[0].scrollTop -= 1;
     });
     $('a.filter').on('click', function () {  
+      document.getElementsByClassName('direction')[0].classList.remove("no-blinking");
+      document.getElementsByClassName('direction')[0].classList.add("blinking");
       var action = $(this)[0];
       for(var i=0;i<$('.filter').length;i++)
       {
-        console.log($('.filter')[i].classList.add('btn-blue'));
+        $('.filter')[i].classList.add('btn-blue');
       }
       if($('.toc-toggle')[0].innerHTML=="Hide" && action.innerHTML != "All")
       {
         $('.toc-toggle')[0].click();
       }
       action.classList.remove('btn-blue');
-      console.log("New: ",action.classList,(action.classList).contains('btn-blue'), action.innerHTML);
       var class_name; 
       if(action.innerHTML=="Completed")
       {
@@ -223,14 +348,10 @@ To demonstrate front end code, sometimes it's useful to show a rendered example 
       else if(action.innerHTML=="Top Projects")
       {
         class_name = "top-project";
-      }
-      else if(action.innerHTML=="Current (In-Progress)")
-      {
-        class_name = "in-progress";
-      }
+      }      
       else
       {
-        class_name = "all";
+        class_name = "in-progress";
       }
       for(var i=0;i<$('.tags').length;i++)
       {
