@@ -5,8 +5,8 @@ nav_order: 3
 has_children: true
 parent: Projects
 permalink: /projects/academics
-description: "Atit Gaonkar | Academic Projects"
-search: exclude
+description: "Atit Gaonkar - Academic Projects undertook during my academic years at Arizona State University and Vellore Institute of Technology."
+search_exclude: true
 ---
 
 # Academic Projects

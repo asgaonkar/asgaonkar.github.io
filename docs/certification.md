@@ -3,7 +3,7 @@ layout: default_card
 title: Certification
 nav_order: 6
 permalink: /certification/
-description: "Atit Gaonkar | Certification"
+description: "Atit Gaonkar - Certified Ethical Hacker from EC-Council, provided a balance to hands on as well as theoretical knowledge in the field of Cyber-Security."
 ---
 
 # Certification

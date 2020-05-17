@@ -3,7 +3,7 @@ layout: default_card
 title: Work Experience
 nav_order: 5
 permalink: /work_experience/
-description: "Atit Gaonkar | Work Experience"
+description: "Atit Gaonkar - Working as Information Security (Intern) and Data Engineer (Intern) honed my Cyber-Security and Data Science skills."
 ---
 
 <style>

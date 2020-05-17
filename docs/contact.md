@@ -3,7 +3,7 @@ layout: default
 title: Contact
 nav_order: 100
 permalink: /contact/
-description: "Atit Gaonkar | Contact"
+description: "Atit Gaonkar - Connect with me through eMail, LinkedIn, Github or Instagram"
 ---
 
 <div class="bootstrap-iso">

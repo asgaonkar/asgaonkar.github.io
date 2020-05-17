@@ -3,7 +3,7 @@ layout: default_card
 title: Volunteering
 nav_order: 8
 permalink: /volunteering/
-description: "Atit Gaonkar | Volunteering"
+description: "Atit Gaonkar - My desire to volunteer landed me as a FUll Stack Developer at Prem Ashram Charitable trust."
 ---
 
 <style>

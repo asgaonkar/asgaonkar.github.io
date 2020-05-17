@@ -1,10 +1,10 @@
 ---
 layout: default_card
 title: Personal
-nav_order: 3
+nav_order: 4
 parent: Projects
 permalink: /projects/personal
-description: "Atit Gaonkar | Personal Projects"
+description: "Atit Gaonkar - Worked on various projects related to Cyber-Security, Automation, Visualization and Scripting. Ex: Secure Audit Logs, Classifile and Multifi"
 ---
 
 <link rel="stylesheet" href="..\..\assets\css\bootstrap-iso.css" crossorigin="anonymous">
@@ -26,9 +26,12 @@ description: "Atit Gaonkar | Personal Projects"
   background-image: linear-gradient(#4593fb, #227efa);
   background-color: #227efa;
 }
+.direction{
+  opacity: 0.5;
+}
 .down:hover {
   animation: none;
-  opacity: 0.75;
+  /* opacity: 0.75; */
   box-shadow:
   0 2.8px 2.2px rgba(0, 0, 0, 0.034),
   0 6.7px 5.3px rgba(0, 0, 0, 0.048),
@@ -41,7 +44,7 @@ description: "Atit Gaonkar | Personal Projects"
   animation: blinkingText 1.0s infinite;
   cursor: pointer;
 }
-.non-blinking {
+.no-blinking {
   animation: none;
   cursor: pointer;
 }
@@ -164,8 +167,6 @@ A network utility that enables a Windows wifi recipient to also act as a wifi ho
   try {
     AOS.init();
     $(window).on('load', function() {
-      $(".direction").show();
-      setTimeout(function() { $(".direction").hide(); }, 2500);
       document.getElementsByClassName('filter')[0].click();
       for(var i=0;i<document.getElementsByClassName('bootstrap-iso').length;i++)
       {
@@ -196,7 +197,7 @@ A network utility that enables a Windows wifi recipient to also act as a wifi ho
       $('p > a.no-mb').parent().addClass("mb-0");
       $('a > img').parent().addClass("image-link");
       $('img.logo-link').parent().attr('target','blank');
-      $('.main-content-wrap').on('scroll', function() {
+      $('.main-content-wrap').on('scroll', function() {          
           console.log("triggered");
           if(document.getElementsByClassName('direction')[0].getAttribute("src").split('-')[1].split('.')[0] == "up")
           {
@@ -223,7 +224,7 @@ A network utility that enables a Windows wifi recipient to also act as a wifi ho
             });
           });
     });
-    $(window).on('scroll', function() {
+    $(window).on('scroll', function() {      
       if(document.getElementsByClassName('direction')[0].getAttribute("src").split('-')[1].split('.')[0] == "up")
       {
         document.getElementsByClassName('direction')[0].classList.remove("blinking");
@@ -252,8 +253,6 @@ A network utility that enables a Windows wifi recipient to also act as a wifi ho
               $element.removeClass('aos-animate');
           }
       });
-      $(".direction").show();
-      setTimeout(function() { $(".direction").hide(); }, 5000);
     });
     $('.toc-toggle').on('click', function () {
       var toc = document.getElementById('markdown-toc');

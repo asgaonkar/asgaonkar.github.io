@@ -3,7 +3,7 @@ layout: default_card
 title: Research
 nav_order: 3
 permalink: /research/
-description: "Atit Gaonkar | Research"
+description: "Atit Gaonkar - Currently researching on Data Availability vs Data Security. Also takes interest in Number Theory and it's Application"
 ---
 
 # Research

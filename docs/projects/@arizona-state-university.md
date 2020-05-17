@@ -4,8 +4,9 @@ title: Projects @ASU
 nav_order: 1
 parent: Academic
 grand_parent: Projects
-permalink: /projects/academics/@ASU
-description: "Atit Gaonkar | Project @ASU"
+permalink: /projects/academics/@arizona-state-university
+description: "Atit Gaonkar - Undertook several projects in the field of Software Security, Computer and Network Forensics, Data Visualization and Number Theory"
+extra: "Arizona State University (ASU) Projects"
 ---
 
 <style>
@@ -27,9 +28,12 @@ description: "Atit Gaonkar | Project @ASU"
   background-color: #227efa;
   opacity: 0.75;
 }
+.direction{
+  opacity: 0.5;
+}
 .down:hover {
   animation: none;
-  opacity: 0.75;
+  /* opacity: 0.75; */
   box-shadow:
   0 2.8px 2.2px rgba(0, 0, 0, 0.034),
   0 6.7px 5.3px rgba(0, 0, 0, 0.048),
@@ -42,7 +46,7 @@ description: "Atit Gaonkar | Project @ASU"
   animation: blinkingText 1.0s infinite;
   cursor: pointer;
 }
-.non-blinking {
+.no-blinking {
   animation: none;
   cursor: pointer;
 }

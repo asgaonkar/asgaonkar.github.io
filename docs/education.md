@@ -3,7 +3,7 @@ layout: default_card
 title: Education
 nav_order: 2
 permalink: /education/
-description: "Atit Gaonkar | Education"
+description: "Atit Gaonkar - Computer Science Graduate student at Arizona State University with focus on Cyber-security. Worked on Binary and Web Exploitation."
 ---
 
 # Education
@@ -94,7 +94,7 @@ Fall 2019
 I have worked around different domains of Computer Science. [Cyber-Security](https://en.wikipedia.org/wiki/Computer_security){: .target-blank}, [Data Science](https://en.wikipedia.org/wiki/Data_science){: .target-blank} and [Algorithm Engineering](https://en.wikipedia.org/wiki/Algorithm_engineering){: .target-blank} intrigue me the most. 
 
 <!-- [Projects](/projects/academics/@ASU){: .btn .btn-blue } -->
-<a href="/projects/academics/@ASU" class="btn btn-blue no-mb" target="blank" style="color:white; background-color: gray">Projects</a>
+<a href="/projects/academics/@arizona-state-university" class="btn btn-blue no-mb" target="blank" style="color:white; background-color: gray">Projects</a>
 
 ### Co-curricular & Extra-curricular
 ```yaml
