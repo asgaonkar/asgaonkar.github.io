@@ -1,9 +1,8 @@
 ---
 layout: default
-title: Home
+title: Home | Atit Gaonkar
 nav_order: 1
-description: "Atit Gaonkar | Homepage | Description Trial"
-permalink: /
+description: "Homepage - \nWelcome to Atit Gaonkar's homepage"
 ---
 
 <style>
