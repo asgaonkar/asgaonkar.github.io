@@ -164,6 +164,8 @@ A network utility that enables a Windows wifi recipient to also act as a wifi ho
   try {
     AOS.init();
     $(window).on('load', function() {
+      $(".direction").show();
+      setTimeout(function() { $(".direction").hide(); }, 2500);
       document.getElementsByClassName('filter')[0].click();
       for(var i=0;i<document.getElementsByClassName('bootstrap-iso').length;i++)
       {
@@ -183,7 +185,7 @@ A network utility that enables a Windows wifi recipient to also act as a wifi ho
         direction_movement()
         });
       document.addEventListener('click', function (event) {
-          $(event.target).hasClass('direction');
+          if ($(event.target).hasClass('direction'))
           {
             console.log('Clicked');
             direction_movement()
@@ -250,6 +252,8 @@ A network utility that enables a Windows wifi recipient to also act as a wifi ho
               $element.removeClass('aos-animate');
           }
       });
+      $(".direction").show();
+      setTimeout(function() { $(".direction").hide(); }, 5000);
     });
     $('.toc-toggle').on('click', function () {
       var toc = document.getElementById('markdown-toc');

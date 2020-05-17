@@ -116,122 +116,90 @@ Inspiration: [Starship](https://www.starship.xyz/){: .target-blank}
 
 
 ## Katsuva
-{: .d-inline-block .top-project .completed .all}
+{: .top-project .d-inline-block .completed}
 
-Python Scrapper
-{: .label .label-green }
+Compiler
+{: .label .label-green .ml-3}
 
 
 ```yaml
-content
-button-link
-how to order (date or complex)
+Dec 2017 - Mar 2018
 ```
 
-<a href="https://github.com/asgaonkar/Scrap-on-Campus" class="btn btn-purple mr-2" style="color:white">Github</a>
-<!-- [Github](https://github.com/asgaonkar/Scrap-on-Campus){: .btn .btn-purple } -->
+Developed a child-friendly [Compiler](){: .target-blank} with ability to understand basic english commands. Incorporated wide range of features not just limited to Arithmetic Operations, Input/Output Operations and File Handling.
+
+> [#Compiler-Design](){: .target-blank} [#Programming-Language](){: .target-blank} [#System-Design](){: .target-blank}
+
+<a href="javascript:void(0)" class="btn mr-2" style="color:white; background-color: gray; cursor: no-drop !important" disabled>Github</a>
+<!-- [Github](https://github.com/asgaonkar/MAC-Encryption){: .btn .btn-purple } -->
 
 
 ## Modelling Inter Transit Time
-{: .d-inline-block .top-project .completed .all}
+{: .top-project .d-inline-block .completed}
 
-Python Scrapper
-{: .label .label-green }
+Analytics and Modelling
+{: .label .label-green .ml-3}
 
 
 ```yaml
-content
-button-link
-how to order (date or complex)
+Dec 2017 - Mar 2018
 ```
 
-<a href="https://github.com/asgaonkar/Scrap-on-Campus" class="btn btn-purple mr-2" style="color:white">Github</a>
-<!-- [Github](https://github.com/asgaonkar/Scrap-on-Campus){: .btn .btn-purple } -->
+Modelled a system to identify current **Inter-Transit time**(Time taken by a student to shift from one class to another) and redesigned the classroom allocation system to significantly reduce the time wasted by a student in transition from one classroom to another while still maintaining the [FFCS](https://vit.ac.in/academics/ffcs){: .target-blank} regulation.
+
+> [#Modelling](){: .target-blank} [#Analystics](){: .target-blank}
+
+
+
 
 ## Christopher: Windows Finder
-{: .d-inline-block .top-project .completed .all}
+{: .top-project .d-inline-block .completed}
 
-Python Scrapper
-{: .label .label-green }
+System Application
+{: .label .label-green .ml-3}
 
 
 ```yaml
-content
-button-link
-how to order (date or complex)
+Dec 2017 - Mar 2018
 ```
 
-<a href="https://github.com/asgaonkar/Scrap-on-Campus" class="btn btn-purple mr-2" style="color:white">Github</a>
-<!-- [Github](https://github.com/asgaonkar/Scrap-on-Campus){: .btn .btn-purple } -->
+Replicated one of the coolest feature that Mac provides; [Finder](https://support.apple.com/en-us/HT201732){: .target-blank} for Windows, making the tasking of searching simpler.
+
+> [#Application](){: .target-blank}
+
 
 
 ## Crysteg
-{: .d-inline-block .top-project .completed .all}
+{: .top-project .d-inline-block .completed}
 
-Python Scrapper
-{: .label .label-green }
+System Application
+{: .label .label-green .ml-3}
 
 
 ```yaml
-content
-button-link
-how to order (date or complex)
+Dec 2017 - Mar 2018
 ```
 
-<a href="https://github.com/asgaonkar/Scrap-on-Campus" class="btn btn-purple mr-2" style="color:white">Github</a>
-<!-- [Github](https://github.com/asgaonkar/Scrap-on-Campus){: .btn .btn-purple } -->
+Implemented a secure application for information transfer by integrating [Cryptography](){: .target-blank} and [Steganography](){: .target-blank}.
+
+> [#Security](){: .target-blank}
 
 
 ## Automated Rooftop Gardening
-{: .d-inline-block .top-project .completed .all}
+{: .top-project .d-inline-block .completed}
 
-Python Scrapper
-{: .label .label-green }
+Microprocessing
+{: .label .label-green .ml-3}
 
 
 ```yaml
-content
-button-link
-how to order (date or complex)
+Dec 2017 - Mar 2018
 ```
 
-<a href="https://github.com/asgaonkar/Scrap-on-Campus" class="btn btn-purple mr-2" style="color:white">Github</a>
-<!-- [Github](https://github.com/asgaonkar/Scrap-on-Campus){: .btn .btn-purple } -->
+Automated the process of rooftop gardening including but not limited to Temperature Control, Moisture Control and Soil Content.
 
+> [#Automation](){: .target-blank}
 
-
-## Code blocks with rendered examples
-{: .d-inline-block .all}
-
-Applied Cryptography
-{: .label .label-blue }
-Stable
-{: .label .label-green }
-
-To demonstrate front end code, sometimes it's useful to show a rendered example of that code. After including the styles from your project that you'll need to show the rendering, you can use a `<div>` with the `code-example` class, followed by the code block syntax. If you want to render your output with Markdown instead of HTML, use the `markdown="1"` attribute to tell Jekyll that the code you are rendering will be in Markdown format... This is about to get meta...
-
-<div class="code-example" markdown="1">
-
-<div class="code-example" markdown="1">
-
-[Link button](http://example.com/){: .btn }
-
-</div>
-```markdown
-[Link button](http://example.com/){: .btn }
-```
-
-</div>
-{% highlight markdown %}
-<div class="code-example" markdown="1">
-
-[Link button](http://example.com/){: .btn }
-
-</div>
-```markdown
-[Link button](http://example.com/){: .btn }
-```
-{% endhighlight %}
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -241,7 +209,6 @@ To demonstrate front end code, sometimes it's useful to show a rendered example 
   function moveDown()
   {
     document.getElementsByClassName('main-content-wrap')[0].scrollTop = $("#display").position().top;
-    console.log($("#display").position().top);
     $(window).scrollTop($("#display").position().top);
   }
   function direction_movement()
@@ -277,7 +244,7 @@ To demonstrate front end code, sometimes it's useful to show a rendered example 
         direction_movement()
         });
       document.addEventListener('click', function (event) {
-          $(event.target).hasClass('direction');
+          if ($(event.target).hasClass('direction'))
           {
             console.log('Clicked');
             direction_movement()

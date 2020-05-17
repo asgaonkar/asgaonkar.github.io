@@ -359,7 +359,7 @@ In order to understand the core concepts of [Block Ciphers](){: .target-blank}, 
         direction_movement()
         });
       document.addEventListener('click', function (event) {
-          $(event.target).hasClass('direction');
+          if ($(event.target).hasClass('direction'))
           {
             console.log('Clicked');
             direction_movement()
