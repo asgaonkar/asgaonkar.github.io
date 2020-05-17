@@ -1,8 +1,9 @@
 ---
 layout: default
-title: Home | Atit Gaonkar
+title: Home
 nav_order: 1
-description: "Homepage - \nWelcome to Atit Gaonkar's homepage"
+description: "Atit Gaonkar - Computer Science (Cyber-Security) Graduate student at Arizona State University. A passionate Coder, Web developer, and gamer."
+permalink: /
 ---
 
 <style>
