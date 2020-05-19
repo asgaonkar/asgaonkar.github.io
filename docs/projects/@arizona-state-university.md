@@ -486,6 +486,6 @@ In order to understand the core concepts of [Block Ciphers](){: .target-blank}, 
     });
 }
 catch(error) {
-  location.reload()
+  setTimeout(function(){ location.reload(); }, 2000);
 }
 </script>

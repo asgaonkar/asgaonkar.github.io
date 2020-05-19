@@ -121,8 +121,8 @@ background: -webkit-linear-gradient(left, #f2d082 25%, #f28282 75%) !important; 
                   <p class="card-text"><a href="education">Computer Science Graduate student</a> at Arizona State University with focus on <a href="certification">Cyber-Security</a>. I passionate about Binary Analysis, Web security and Data Visualization. I am currently <a href="research">researching</a> on "The need for dynamic security Implementations". I have <a href="work_experience">worked</a> on System Security, Reverse Engineering Binaries, Web Security.</p>
                   <p class="card-text">Along with interest in Cyber-Security, I also involve myself in <a href="research">Mathematics</a>, specifically Number Theory. I am investigating on ways to identify unique patterns and sequences in the process of exponentiation.</p>
                   <p class="card-text">I keep myself productive working on personal <a href="education">projects</a>. My hobbies include travelling, logo designing, photo manipulation and <a href="volunteering">volunteering</a></p>
-                  <a href="#" class="btn btn-blue mb-2 mr-2 mt-0 resume" target="blank" style="color:white; background-color: gray" title="View Resume">Resume (Online)</a>
-                  <a href="#" class="btn btn-blue mb-2 mr-2 mt-0 resume" target="blank" style="color:white; background-color: gray" title="Download Resume">Resume (PDF)</a>
+                  <a href="resume" class="btn btn-blue mb-2 mr-2 mt-0 resume" target="blank" style="color:white; background-color: gray" title="View Resume">Resume (Online)</a>
+                  <a href="Atit Gaonkar (Resume).pdf" class="btn btn-green mb-2 mr-2 mt-0 resume" target="blank" style="color:white; background-color: gray" title="Download Resume">Resume (PDF)</a>
               </div>
           </div>
       </div>

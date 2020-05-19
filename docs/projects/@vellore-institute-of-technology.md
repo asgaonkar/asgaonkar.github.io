@@ -371,6 +371,6 @@ Automated the process of rooftop gardening including but not limited to Temperat
     });
 }
 catch(error) {
-  location.reload()
+  setTimeout(function(){ location.reload(); }, 2000);
 }
 </script>

@@ -53,5 +53,7 @@ description: "Atit Gaonkar - Connect with me through eMail, LinkedIn, Github or 
         }
     }
     $(window).on('load', function() {
+        $(window).scrollTop(0);
+        $('.main-content-wrap').scrollTop(0);
     });
 </script>

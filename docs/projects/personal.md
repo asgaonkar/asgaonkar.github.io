@@ -309,6 +309,6 @@ A network utility that enables a Windows wifi recipient to also act as a wifi ho
     });
 }
 catch(error) {
-  location.reload()
+  setTimeout(function(){ location.reload(); }, 2000);
 }
 </script>

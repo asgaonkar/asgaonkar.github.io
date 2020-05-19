@@ -78,6 +78,8 @@ Executed regular network evaluation and vulnerability scans. Significantly impro
 <script>
   AOS.init();
   $(window).on('load', function() {
+        $(window).scrollTop(0);
+        $('.main-content-wrap').scrollTop(0);
         AOS.refresh();
         var $animation_elements = $('.bootstrap-iso');
         var $window = $(window);

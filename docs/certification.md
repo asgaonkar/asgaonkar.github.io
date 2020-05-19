@@ -40,7 +40,7 @@ Name: Atit Shivram Gaonkar
 Number:  ECC67924018402
 ```
 
- <a href="../docs/ECC-CEH-Certificate.pdf" class="btn btn-green mb-0 mr-2 mt-0 certificate" target="blank" style="color:white;" title="View Resume">View Certificate</a>
+ <a href="../ECC-CEH-Certificate.pdf" class="btn btn-green mb-0 mr-2 mt-0 certificate" target="blank" style="color:white;" title="View Resume">View Certificate</a>
 
 <!-- <a href="#" class="btn btn-green certification mr-3" target="blank" style="color:white;" title="Certification Images">View Certificate</a>
 <a href="#" class="btn btn-green certification" target="blank" style="color:white;" title="Certification Images">Download Certificate</a> -->
@@ -52,6 +52,8 @@ Number:  ECC67924018402
 <script>
   AOS.init();
   $(window).on('load', function() {
+        $(window).scrollTop(0);
+        $('.main-content-wrap').scrollTop(0);
         for(var i=0;i<document.getElementsByClassName('bootstrap-iso').length;i++)
         {
             document.getElementsByClassName('tags')[i].setAttribute("id", document.getElementsByClassName('bootstrap-iso')[i].getElementsByTagName('h2')[0].getAttribute('id'))

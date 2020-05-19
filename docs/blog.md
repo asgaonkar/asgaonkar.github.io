@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Blog
-permalink: blog/
+permalink: /blog/
 description: "Atit Gaonkar | Blog"
 nav_exclude: True
 ---

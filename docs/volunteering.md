@@ -53,6 +53,8 @@ Jul 2018 - Sep 2018
 <script>
   AOS.init();
   $(window).on('load', function() {
+        $(window).scrollTop(0);
+        $('.main-content-wrap').scrollTop(0);
         for(var i=0;i<document.getElementsByClassName('bootstrap-iso').length;i++)
         {
             document.getElementsByClassName('tags')[i].setAttribute("id", document.getElementsByClassName('bootstrap-iso')[i].getElementsByTagName('h2')[0].getAttribute('id'))
