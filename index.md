@@ -120,14 +120,14 @@ background: -webkit-linear-gradient(left, #f2d082 25%, #f2c8c8 75%) !important;
                   </div>
                   <!-- <img src="assets/images/logo.png" class="img-fluid z-depth-1" width="10%" alt="Atit-Gaonkar"> -->
               </div>
-              <div class="col-xl-7 col-md-7 mb-3">        
+              <div class="col-xl-7 col-md-7 mb-0">        
                   <!-- <h5 class="card-title">Special title treatment</h5> -->
                   <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
-                  <p class="card-text"><a href="education">Computer Science Graduate student</a> at Arizona State University with focus on <a href="certification">Cyber-Security</a>. I passionate about Binary Analysis, Web security and Data Visualization. I am currently <a href="research">researching</a> on "The need for dynamic security Implementations". I have <a href="work_experience">worked</a> on System Security, Reverse Engineering Binaries, Web Security.</p>
-                  <p class="card-text">Along with interest in Cyber-Security, I also involve myself in <a href="research">Mathematics</a>, specifically Number Theory. I am investigating on ways to identify unique patterns and sequences in the process of exponentiation.</p>
-                  <p class="card-text">I keep myself productive working on personal <a href="education">projects</a>. My hobbies include travelling, logo designing, photo manipulation and <a href="volunteering">volunteering</a></p>
-                  <a href="resume" class="btn mb-2 mr-2 mt-0 resume" target="blank" style="color:white; background-color: gray !important; cursor: no-drop" title="View Resume">Resume (Online)</a>
-                  <a href="Atit Gaonkar (Resume).pdf" class="btn btn-green mb-2 mr-2 mt-0 resume" target="blank" style="color:white; background-color: gray" title="Download Resume">Resume (PDF)</a>
+                  <p class="card-text"><a href="education">Computer Science Graduate student</a> at Arizona State University with focus on <a href="certification">Cyber-Security</a>. I am passionate about Binary Analysis, Web security and Data Visualization. I am currently <a href="research">researching</a> on "The need for dynamic security Implementations". I have <a href="work_experience">worked</a> on System Security, Reverse Engineering Binaries and Web Security.</p>
+                  <p class="card-text">Along with my interest in Cyber-Security, I also involve myself in <a href="research">Mathematics</a>, especially Number Theory. I am currently investigating on ways to identify unique patterns and sequences in the process of exponentiation.</p>
+                  <p class="card-text">I keep myself productive working on personal <a href="projects">projects</a>. My hobbies include travelling, logo designing, photo manipulation and <a href="volunteering">volunteering</a></p>
+                  <!-- <a href="resume" class="btn mb-2 mr-2 mt-0 resume" target="blank" style="color:white; background-color: gray !important; cursor: no-drop" title="View Resume">Resume (Online)</a> -->
+                  <a href="Atit Gaonkar (Resume).pdf" class="btn btn-green mb-0 mr-2 mt-0 resume" target="blank" style="color:white; background-color: gray" title="Download Resume">Resume (PDF)</a>
               </div>
           </div>
       </div>
@@ -200,8 +200,8 @@ background: -webkit-linear-gradient(left, #f2d082 25%, #f2c8c8 75%) !important;
                   </div>                    
                 </div>
               </div>
-              <div class='card-footer mb-0 text-center'>
-              <a href="javascript:void(0);" class="btn btn-blue mb-0 mt-0 load-more" style="color:white; background-color: gray" title="Show More">Show More<i class="fas fa-angle-down fs-7 ml-2" style='vertical-align: middle;'></i></a>
+              <div class='pt-0 pl-0 pr-0 pb-3 mb-0 text-center' style='margin-top: -10px'>
+              <a href="javascript:void(0);" class="btn btn-blue mb-0 mt-0 load-more" style="color:white; background-color: gray" title="More">More<i class="fas fa-angle-down fs-7 ml-2" style='vertical-align: middle;'></i></a>
             </div>            
             <!-- Card -->            
           </div>          
@@ -271,8 +271,8 @@ background: -webkit-linear-gradient(left, #f2d082 25%, #f2c8c8 75%) !important;
                   </div>                    
                 </div>
               </div>
-              <div class='card-footer mb-0 text-center'>
-              <a href="javascript:void(0);" class="btn btn-blue mb-0 mt-0 load-more" style="color:white; background-color: gray" title="Show More">Show More<i class="fas fa-angle-down fs-7 ml-2" style='vertical-align: middle;'></i></a>
+              <div class='pt-0 pl-0 pr-0 pb-3 mb-0 text-center' style='margin-top: -10px'>
+              <a href="javascript:void(0);" class="btn btn-blue mb-0 mt-0 load-more" style="color:white; background-color: gray" title="More">More<i class="fas fa-angle-down fs-7 ml-2" style='vertical-align: middle;'></i></a>
             </div>            
             <!-- Card -->            
           </div>
@@ -342,8 +342,8 @@ background: -webkit-linear-gradient(left, #f2d082 25%, #f2c8c8 75%) !important;
                   </div>                    
                 </div>
               </div>
-              <div class='card-footer mb-0 text-center'>
-              <a href="javascript:void(0);" class="btn btn-blue mb-0 mt-0 load-more" style="color:white; background-color: gray" title="Show More">Show More<i class="fas fa-angle-down fs-7 ml-2" style='vertical-align: middle;'></i></a>
+              <div class='pt-0 pl-0 pr-0 pb-3 mb-0 text-center' style='margin-top: -10px'>
+              <a href="javascript:void(0);" class="btn btn-blue mb-0 mt-0 load-more" style="color:white; background-color: gray" title="More">More<i class="fas fa-angle-down fs-7 ml-2" style='vertical-align: middle;'></i></a>
             </div>            
             <!-- Card -->            
           </div>
@@ -405,8 +405,8 @@ background: -webkit-linear-gradient(left, #f2d082 25%, #f2c8c8 75%) !important;
                   </div>                    
                 </div>
               </div>
-              <div class='card-footer mb-0 text-center'>
-              <a href="javascript:void(0);" class="btn btn-blue mb-0 mt-0 load-more" style="color:white; background-color: gray" title="Show More">Show More<i class="fas fa-angle-down fs-7 ml-2" style='vertical-align: middle;'></i></a>
+              <div class='pt-0 pl-0 pr-0 pb-3 mb-0 text-center' style='margin-top: -10px'>
+              <a href="javascript:void(0);" class="btn btn-blue mb-0 mt-0 load-more" style="color:white; background-color: gray" title="More">More<i class="fas fa-angle-down fs-7 ml-2" style='vertical-align: middle;'></i></a>
             </div>            
             <!-- Card -->            
           </div>
@@ -458,20 +458,20 @@ background: -webkit-linear-gradient(left, #f2d082 25%, #f2c8c8 75%) !important;
           console.log("Scrolled");
       });
       $('.load-more').on('click', function() {
-        if ($(this)[0].innerHTML[5]=='M'){
+        if ($(this)[0].innerHTML[0]=='M'){
           for(var i=0;i<$('.load-more').length;i++){
           $('.load-more')[i].parentNode.parentNode.getElementsByClassName('last-item-handle')[0].classList.add("last-item");
           $('.load-more')[i].parentNode.parentNode.getElementsByClassName('hides')[0].style.display='none';
-          $('.load-more')[i].innerHTML = 'Show More<i class="fas fa-angle-down fs-7 ml-2" style="vertical-align: middle;" aria-hidden="true"></i>';
+          $('.load-more')[i].innerHTML = 'More<i class="fas fa-angle-down fs-7 ml-2" style="vertical-align: middle;" aria-hidden="true"></i>';
           $('.load-more')[i].classList.remove('btn-green');
           $('.load-more')[i].classList.add('btn-blue');
         };
         }
-        if ($(this)[0].innerHTML[5]=='M')
+        if ($(this)[0].innerHTML[0]=='M')
         {
           $(this)[0].parentNode.parentNode.getElementsByClassName('last-item-handle')[0].classList.remove("last-item");
           $(this)[0].parentNode.parentNode.getElementsByClassName('hides')[0].style.display='block';
-          $(this)[0].innerHTML = 'Show Less<i class="fas fa-angle-up fs-7 ml-2" style="vertical-align: middle;" aria-hidden="true"></i>';
+          $(this)[0].innerHTML = 'Less<i class="fas fa-angle-up fs-7 ml-2" style="vertical-align: middle;" aria-hidden="true"></i>';
           $(this)[0].classList.add('btn-green');
           $(this)[0].classList.remove('btn-blue');
         }
@@ -479,7 +479,7 @@ background: -webkit-linear-gradient(left, #f2d082 25%, #f2c8c8 75%) !important;
         {
           $(this)[0].parentNode.parentNode.getElementsByClassName('last-item-handle')[0].classList.add("last-item");
           $(this)[0].parentNode.parentNode.getElementsByClassName('hides')[0].style.display='none';
-          $(this)[0].innerHTML = 'Show More<i class="fas fa-angle-down fs-7 ml-2" style="vertical-align: middle;" aria-hidden="true"></i>';
+          $(this)[0].innerHTML = 'More<i class="fas fa-angle-down fs-7 ml-2" style="vertical-align: middle;" aria-hidden="true"></i>';
           $(this)[0].classList.remove('btn-green');
           $(this)[0].classList.add('btn-blue');
         }
