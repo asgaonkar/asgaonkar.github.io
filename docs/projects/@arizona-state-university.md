@@ -124,14 +124,14 @@ Recommendation System
 Feb 2020 - April 2020
 ```
 
-Unlike conventional recommendation system, Food Explorer recommends restaurants to foodies based on the quality of food. Used techniques like [Named Entity Recognition (NER)](){: .target-blank}, [Fuzzy Logic](){: .target-blank} and [Sentiment Analysis](){: .target-blank} to extract the quality of food from user reviews.
+Unlike conventional recommendation system, Food Explorer recommends restaurants to foodies based on the quality of food. Used techniques like [Named Entity Recognition (NER)](https://en.wikipedia.org/wiki/Named-entity_recognition){: .target-blank}, [Fuzzy Logic](https://en.wikipedia.org/wiki/Fuzzy_logic){: .target-blank} and [Sentiment Analysis](https://en.wikipedia.org/wiki/Sentiment_analysis){: .target-blank} to extract the quality of food from user reviews.
 
 <!-- [![Food-Explorer][food-explorer-img]{: .img-responsive .noDecoration .logo .logo-link height="auto" width="150px"}][food-explorer-link]
 
 [food-explorer-img]:  ../../assets/images/food-explorer.png
 [food-explorer-link]:  https://asgaonkar.github.io/The-Hungry-Customer/ "Redirect to Food Explorer"  -->
 
-> [#Data-Visualization](){: .target-blank} [#Machine-Learning](){: .target-blank}
+> [#Data-Visualization](javascript:void(0)){: .target-blank} [#Machine-Learning](javascript:void(0)){: .target-blank}
 
 <a href="https://github.com/asgaonkar/The-Hungry-Customer" class="btn btn-purple mr-2" target="blank" style="color:white">Github</a>
 <a href="https://asgaonkar.github.io/The-Hungry-Customer/" class="btn btn-green mr-2" target="blank" style="color:white;">Demo</a>
@@ -152,9 +152,9 @@ Utility
 March 2020 - April 2020
 ```
 
-Maintains logs for actions performed on every evidence in custody. For these evidence to be admissible in court, integrity of the evidences should be intact and hence the need for [Blockchain](){: .target-blank} to keep track of the same.
+Maintains logs for actions performed on every evidence in custody. For these evidence to be admissible in court, integrity of the evidences should be intact and hence the need for [Blockchain](https://en.wikipedia.org/wiki/Blockchain){: .target-blank} to keep track of the same.
 
-> [#Security](){: .target-blank} [#Computer-Forensics](){: .target-blank}
+> [#Security](javascript:void(0)){: .target-blank} [#Computer-Forensics](javascript:void(0)){: .target-blank}
 
 <a href="https://github.com/asgaonkar/Blockchain-of-Custody" class="btn btn-purple mr-2" style="color:white">Github</a>
 <!-- [Github](){: .btn .btn-purple .disabled} -->
@@ -175,9 +175,9 @@ Analysis and Visualization
 Feb 2020 - March 2020
 ```
 
-Visual Analysis to understand why [Roger Federer](){: .target-blank} is the most **Aggressive**(An aggressive player is one who is willing to put pressure on an opponent on every shot) tennis player using [Interactive Visualization](){: .target-blank}, and [Comparative Analysis](){: .target-blank}. A simple analysis of [2017 and 2018 Aus Open Finals](../../assets/images/Roger-Federer.jpg){: .target-blank} demonstrate the playing style of Roger Federer.
+Visual Analysis to understand why [Roger Federer](https://en.wikipedia.org/wiki/Roger_Federer){: .target-blank} is the most **Aggressive**(An aggressive player is one who is willing to put pressure on an opponent on every shot) tennis player using [Interactive Visualization](https://en.wikipedia.org/wiki/Interactive_visualization){: .target-blank}, and [Comparative Analysis](javascript:void(0)){: .target-blank}. A simple analysis of [2017 and 2018 Aus Open Finals](../../assets/images/Roger-Federer.jpg){: .target-blank} demonstrate the playing style of Roger Federer.
 
-> [#Data-Visualization](){: .target-blank}
+> [#Data-Visualization](javascript:void(0)){: .target-blank}
 
 <a href="https://github.com/asgaonkar/Road-to-Glory" target='blank' class="btn btn-purple mr-2" style="color:white">Github</a>
 <a href="https://asgaonkar.github.io/Road-to-Glory/" target='blank' class="btn btn-green" style="color:white;">Demo</a>
@@ -200,9 +200,9 @@ Utility
 Jan 2020 - Feb 2020
 ```
 
-A python utility to analyze [Master Boot Record (MBR)](){: .target-blank}. Provides important information such as Partition Type, Starting Address Value, Size of Partition.
+A python utility to analyze [Master Boot Record (MBR)](https://en.wikipedia.org/wiki/Master_boot_record){: .target-blank}. Provides important information such as Partition Type, Starting Address Value, Size of Partition.
 
-> [#Computer-Forensics](){: .target-blank}
+> [#Computer-Forensics](javascript:void(0)){: .target-blank}
 
 <a href="https://github.com/asgaonkar/Read-MBR" class="btn btn-purple mr-2" style="color:white">Github</a>
 <!-- [Github](https://github.com/asgaonkar/Read-MBR){: .btn .btn-purple } -->
@@ -222,9 +222,9 @@ Offensive Security
 Nov 2019 - Dec 2019
 ```
 
-We were tasked to [pawn](){: .target-blank} as many [Binaries](){: .target-blank} (Application) as possible. This project required to utilize skills such as [Buffer Overflow](), [Format Strings](){: .target-blank}, [Arbitrary Code Execution](){: .target-blank} etc
+We were tasked to **pawn** (take control of) as many [Binaries](https://en.wikipedia.org/wiki/Binary_file){: .target-blank} (Application) as possible. This project required to utilize skills such as [Buffer Overflow](https://owasp.org/www-community/vulnerabilities/Buffer_Overflow), [Format Strings](https://owasp.org/www-community/attacks/Format_string_attack){: .target-blank}, [Arbitrary Code Execution](https://owasp.org/www-community/attacks/Code_Injection){: .target-blank} etc
 
-> [#Cryotography](){: .target-blank} [#Security](){: .target-blank} [#Reverse-Engineering](){: .target-blank}
+> [#Cryptography](javascript:void(0)){: .target-blank} [#Security](javascript:void(0)){: .target-blank} [#Reverse-Engineering](javascript:void(0)){: .target-blank}
 
 
 <a href="javascript:void(0)" class="btn mr-2" style="color:white; background-color: gray; cursor: no-drop !important" disabled>Github</a>
@@ -246,7 +246,7 @@ Oct 2019 - Nov 2019
 
 To ease the process of analyzing network traffic, Connsplit helps in segregation meaningful TCP/UDP converstaions into single files.
 
-> [#Security](){: .target-blank} [#Reverse-Engineering](){: .target-blank}
+> [#Security](javascript:void(0)){: .target-blank} [#Reverse-Engineering](javascript:void(0)){: .target-blank}
 
 
 <a href="javascript:void(0)" class="btn mr-2" style="color:white; background-color: gray; cursor: no-drop !important" disabled>Github</a>
@@ -267,9 +267,9 @@ Utility
 Oct 2019 - Nov 2019
 ```
 
-A python utilty to validate the integrity of a [Crypto-Certificate](){: .target-blank} for example a [SSL Certificate](){: .target-blank}.
+A python utilty to validate the integrity of a [Crypto-Certificate](https://en.wikipedia.org/wiki/Public_key_certificate){: .target-blank} for example a [SSL Certificate](https://en.wikipedia.org/wiki/Transport_Layer_Security){: .target-blank}.
 
-> [#Security](){: .target-blank} [#Cryptography](){: .target-blank}
+> [#Security](javascript:void(0)){: .target-blank} [#Cryptography](javascript:void(0)){: .target-blank}
 
 <a href="https://github.com/asgaonkar/Crypto-Certificate-Reader" class="btn btn-purple mr-2" style="color:white">Github</a>
 <!-- [Github](https://github.com/asgaonkar/Crypto-Certificate-Reader){: .btn .btn-purple } -->
@@ -289,9 +289,9 @@ Offensive Security
 Nov 2019 - Dec 2019
 ```
 
-Tasked to exploit various websites and extract secret-key using offensive techniquies like [SQL Injection](){: .target-blank}, [XSS (Cross-Site Scripting)](){: .target-blank}
+Tasked to exploit various websites and extract secret-key using offensive techniquies like [SQL Injection](https://owasp.org/www-community/attacks/SQL_Injection){: .target-blank}, [XSS (Cross-Site Scripting)](https://owasp.org/www-community/attacks/xss/){: .target-blank}
 
-> [#Security](){: .target-blank} [#Web-Security](){: .target-blank} [#Networking](){: .target-blank}
+> [#Security](javascript:void(0)){: .target-blank} [#Web-Security](javascript:void(0)){: .target-blank} [#Networking](javascript:void(0)){: .target-blank}
 
 <a href="javascript:void(0)" class="btn mr-2" style="color:white; background-color: gray; cursor: no-drop !important" disabled>Github</a>
 <!-- [Github](https://github.com/asgaonkar/MAC-Encryption){: .btn .btn-purple } -->
@@ -310,9 +310,9 @@ Algorithm Engineering
 Sep 2019 - Oct 2019
 ```
 
-In order to understand the core concepts of [Block Ciphers](){: .target-blank}, we developed our own Encryption and Decryption Algorithm. Performed [Cryptanalysis](){: .target-blank} on our system to find various drawback of our system. Based on these vulnerabilities, we further improved upon our Algorithm.
+In order to understand the core concepts of [Block Ciphers](https://en.wikipedia.org/wiki/Block_cipher){: .target-blank}, we developed our own Encryption and Decryption Algorithm. Performed [Cryptanalysis](https://en.wikipedia.org/wiki/Cryptanalysis){: .target-blank} on our system to find various drawback of our system. Based on these vulnerabilities, we further improved upon our Algorithm.
 
-> [#Security](){: .target-blank} [#Cryptography](){: .target-blank}
+> [#Security](javascript:void(0)){: .target-blank} [#Cryptography](javascript:void(0)){: .target-blank}
 
 <a href="https://github.com/asgaonkar/MAC-Encryption" class="btn btn-purple mr-2" style="color:white">Github</a>
 <!-- [Github](https://github.com/asgaonkar/MAC-Encryption){: .btn .btn-purple } -->
@@ -356,7 +356,7 @@ In order to understand the core concepts of [Block Ciphers](){: .target-blank}, 
       var window_top_position = $window.scrollTop();
       var window_bottom_position = (window_top_position + window_height);
       $('a > img').parent().addClass("image-link");
-      $('img.logo-link').parent().attr('target','blank');
+      $('img.logo-link').parent().attr('target','_');
       document.getElementsByClassName('direction')[0].parentNode.setAttribute('onclick','direction_movement()');
       document.getElementsByClassName('direction')[0].setAttribute('onclick','direction_movement()');
       $('.direction').on('click', function() {
@@ -369,11 +369,11 @@ In order to understand the core concepts of [Block Ciphers](){: .target-blank}, 
             direction_movement()
           }
       }, true /*Capture event*/);
-      $('.target-blank').attr('target','blank');
+      $('.target-blank').attr('target','_');
       $('pre').addClass("mb-0");
       $('p > a.no-mb').parent().addClass("mb-0");
       $('a > img').parent().addClass("image-link");
-      $('img.logo-link').parent().attr('target','blank');
+      $('img.logo-link').parent().attr('target','_');
       $('.main-content-wrap').on('scroll', function() {
           console.log("triggered");
           if(document.getElementsByClassName('direction')[0].getAttribute("src").split('-')[1].split('.')[0] == "up")

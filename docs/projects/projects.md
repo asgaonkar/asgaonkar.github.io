@@ -4,7 +4,7 @@ title: Projects
 nav_order: 4
 has_children: true
 permalink: /projects/
-description: "Atit Gaonkar - Working on a project has always strengthened understanding of a subject. You'll often find me working on one project or another."
+description: "Atit Gaonkar - Working on a project has always strengthened my understanding of a subject. You'll often find me working on one project or another."
 search_exclude: true
 ---
 

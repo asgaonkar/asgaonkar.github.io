@@ -112,7 +112,7 @@ Implementing a secure low-cost [Level-2 Autonomous vehicle](https://en.wikipedia
 
 Inspiration: [Starship](https://www.starship.xyz/){: .target-blank} 
 
-> [#Image-Processing](){: .target-blank} [#Machine-Learning](){: .target-blank} [#Networking](){: .target-blank}
+> [#Image-Processing](javascript:void(0)){: .target-blank} [#Machine-Learning](javascript:void(0)){: .target-blank} [#Networking](javascript:void(0)){: .target-blank}
 
 <a href="javascript:void(0)" class="btn mr-2" style="color:white; background-color: gray; cursor: no-drop !important" disabled>Github</a>
 <!-- [Github](https://github.com/asgaonkar/MAC-Encryption){: .btn .btn-purple } -->
@@ -130,9 +130,9 @@ Compiler
 Dec 2017 - Mar 2018
 ```
 
-Developed a child-friendly [Compiler](){: .target-blank} with ability to understand basic english commands. Incorporated wide range of features not just limited to Arithmetic Operations, Input/Output Operations and File Handling.
+Developed a child-friendly [Compiler](https://en.wikipedia.org/wiki/Compiler){: .target-blank} with ability to understand basic english commands. Incorporated wide range of features not just limited to Arithmetic Operations, Input/Output Operations and File Handling.
 
-> [#Compiler-Design](){: .target-blank} [#Programming-Language](){: .target-blank} [#System-Design](){: .target-blank}
+> [#Compiler-Design](javascript:void(0)){: .target-blank} [#Programming-Language](javascript:void(0)){: .target-blank} [#System-Design](javascript:void(0)){: .target-blank}
 
 <a href="javascript:void(0)" class="btn mr-2" style="color:white; background-color: gray; cursor: no-drop !important" disabled>Github</a>
 <!-- [Github](https://github.com/asgaonkar/MAC-Encryption){: .btn .btn-purple } -->
@@ -151,7 +151,7 @@ Dec 2017 - Mar 2018
 
 Modelled a system to identify current **Inter-Transit time**(Time taken by a student to shift from one class to another) and redesigned the classroom allocation system to significantly reduce the time wasted by a student in transition from one classroom to another while still maintaining the [FFCS](https://vit.ac.in/academics/ffcs){: .target-blank} regulation.
 
-> [#Modelling](){: .target-blank} [#Analystics](){: .target-blank}
+> [#Modelling](javascript:void(0)){: .target-blank} [#Analystics](javascript:void(0)){: .target-blank}
 
 
 
@@ -169,7 +169,7 @@ Dec 2017 - Mar 2018
 
 Replicated one of the coolest feature that Mac provides; [Finder](https://support.apple.com/en-us/HT201732){: .target-blank} for Windows, making the tasking of searching simpler.
 
-> [#Application](){: .target-blank}
+> [#Application](javascript:void(0)){: .target-blank}
 
 
 
@@ -184,9 +184,9 @@ System Application
 Dec 2017 - Mar 2018
 ```
 
-Implemented a secure application for information transfer by integrating [Cryptography](){: .target-blank} and [Steganography](){: .target-blank}.
+Implemented a secure application for information transfer by integrating [Cryptography](https://en.wikipedia.org/wiki/Cryptography){: .target-blank} and [Steganography](https://en.wikipedia.org/wiki/Steganography){: .target-blank}.
 
-> [#Security](){: .target-blank}
+> [#Security](javascript:void(0)){: .target-blank}
 
 
 ## Automated Rooftop Gardening
@@ -202,7 +202,7 @@ Dec 2017 - Mar 2018
 
 Automated the process of rooftop gardening including but not limited to Temperature Control, Moisture Control and Soil Content.
 
-> [#Automation](){: .target-blank}
+> [#Automation](javascript:void(0)){: .target-blank}
 
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -241,7 +241,7 @@ Automated the process of rooftop gardening including but not limited to Temperat
       var window_top_position = $window.scrollTop();
       var window_bottom_position = (window_top_position + window_height);
       $('a > img').parent().addClass("image-link");
-      $('img.logo-link').parent().attr('target','blank');
+      $('img.logo-link').parent().attr('target','_');
       document.getElementsByClassName('direction')[0].parentNode.setAttribute('onclick','direction_movement()');
       document.getElementsByClassName('direction')[0].setAttribute('onclick','direction_movement()');
       $('.direction').on('click', function() {
@@ -254,11 +254,11 @@ Automated the process of rooftop gardening including but not limited to Temperat
             direction_movement()
           }
       }, true /*Capture event*/);
-      $('.target-blank').attr('target','blank');
+      $('.target-blank').attr('target','_');
       $('pre').addClass("mb-0");
       $('p > a.no-mb').parent().addClass("mb-0");
       $('a > img').parent().addClass("image-link");
-      $('img.logo-link').parent().attr('target','blank');
+      $('img.logo-link').parent().attr('target','_');
       $('.main-content-wrap').on('scroll', function() {
           console.log("triggered");
           if(document.getElementsByClassName('direction')[0].getAttribute("src").split('-')[1].split('.')[0] == "up")

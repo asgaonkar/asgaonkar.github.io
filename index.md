@@ -89,10 +89,15 @@ a img
   height: 8px !important;
   margin-bottom: 15px;
 }
-.progress-bar {
-background: -webkit-linear-gradient(left, #f2d082 25%, #f28282 75%) !important; /* Chrome10-25,Safari5.1-6 */
+.progress-bar-ad {
+background: -webkit-linear-gradient(left, #f2d082 25%, #f26464 75%) !important;
 }
-
+.progress-bar-in {
+background: -webkit-linear-gradient(left, #f2d082 25%, #f29696 75%) !important;
+}
+.progress-bar-be {
+background: -webkit-linear-gradient(left, #f2d082 25%, #f2c8c8 75%) !important;
+}
 </style>
 
 ![Direction](../../assets/images/arrow-down.png){: .img-responsive .blinking .direction .down}
@@ -121,7 +126,7 @@ background: -webkit-linear-gradient(left, #f2d082 25%, #f28282 75%) !important; 
                   <p class="card-text"><a href="education">Computer Science Graduate student</a> at Arizona State University with focus on <a href="certification">Cyber-Security</a>. I passionate about Binary Analysis, Web security and Data Visualization. I am currently <a href="research">researching</a> on "The need for dynamic security Implementations". I have <a href="work_experience">worked</a> on System Security, Reverse Engineering Binaries, Web Security.</p>
                   <p class="card-text">Along with interest in Cyber-Security, I also involve myself in <a href="research">Mathematics</a>, specifically Number Theory. I am investigating on ways to identify unique patterns and sequences in the process of exponentiation.</p>
                   <p class="card-text">I keep myself productive working on personal <a href="education">projects</a>. My hobbies include travelling, logo designing, photo manipulation and <a href="volunteering">volunteering</a></p>
-                  <a href="resume" class="btn btn-blue mb-2 mr-2 mt-0 resume" target="blank" style="color:white; background-color: gray" title="View Resume">Resume (Online)</a>
+                  <a href="resume" class="btn mb-2 mr-2 mt-0 resume" target="blank" style="color:white; background-color: gray !important; cursor: no-drop" title="View Resume">Resume (Online)</a>
                   <a href="Atit Gaonkar (Resume).pdf" class="btn btn-green mb-2 mr-2 mt-0 resume" target="blank" style="color:white; background-color: gray" title="Download Resume">Resume (PDF)</a>
               </div>
           </div>
@@ -146,16 +151,16 @@ background: -webkit-linear-gradient(left, #f2d082 25%, #f28282 75%) !important; 
                   <div class="label-items">
                     <span>Advance Skills</span>
                     <span>90%</span>
-                  </div>
+                  </div>                
                   <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                    <div class="progress-bar-ad" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
                     </div>
                   </div>
                   <div class='advanced-skills ml-4'>                  
                     <!-- Title -->
                     <h4 class="card-title mb-0">Languages</h4>
                     <!-- Text -->                
-                    <p class="card-text mb-4"><a style="color: #007bff">HTML</a>, CSS, JS, PHP, SQL, Python</p>
+                    <p class="card-text mb-4">HTML, CSS, JS, Python, SQL, PHP</p>
                     <!-- Title -->
                     <h4 class="card-title mb-0">Framework</h4>
                     <!-- Text -->
@@ -168,7 +173,7 @@ background: -webkit-linear-gradient(left, #f2d082 25%, #f28282 75%) !important; 
                     <span>70%</span>
                   </div>
                   <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                    <div class="progress-bar-in" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
                     </div>
                   </div>
                   <div class='intermediate-skills ml-4'>                                      
@@ -184,7 +189,7 @@ background: -webkit-linear-gradient(left, #f2d082 25%, #f28282 75%) !important; 
                     <span>30%</span>
                   </div>
                   <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">
+                    <div class="progress-bar-be" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">
                     </div>
                   </div>
                   <div class='beginner-skills ml-4'>                                      
@@ -215,7 +220,7 @@ background: -webkit-linear-gradient(left, #f2d082 25%, #f28282 75%) !important; 
                     <span>90%</span>
                   </div>
                   <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                    <div class="progress-bar-ad" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
                     </div>
                   </div>
                   <div class='advanced-skills ml-4'>                                      
@@ -235,7 +240,7 @@ background: -webkit-linear-gradient(left, #f2d082 25%, #f28282 75%) !important; 
                     <span>70%</span>
                   </div>
                   <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                    <div class="progress-bar-in" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
                     </div>
                   </div>
                   <div class='intermediate-skills ml-4'>                                      
@@ -255,7 +260,7 @@ background: -webkit-linear-gradient(left, #f2d082 25%, #f28282 75%) !important; 
                     <span>30%</span>
                   </div>
                   <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">
+                    <div class="progress-bar-be" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">
                     </div>
                   </div>
                   <div class='beginner-skills ml-4'>                                      
@@ -286,7 +291,7 @@ background: -webkit-linear-gradient(left, #f2d082 25%, #f28282 75%) !important; 
                     <span>90%</span>
                   </div>
                   <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                    <div class="progress-bar-ad" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
                     </div>
                   </div>
                   <div class='advanced-skills ml-4'>                                      
@@ -306,7 +311,7 @@ background: -webkit-linear-gradient(left, #f2d082 25%, #f28282 75%) !important; 
                     <span>70%</span>
                   </div>
                   <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                    <div class="progress-bar-in" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
                     </div>
                   </div>
                   <div class='intermediate-skills ml-4'>                                      
@@ -326,7 +331,7 @@ background: -webkit-linear-gradient(left, #f2d082 25%, #f28282 75%) !important; 
                     <span>30%</span>
                   </div>
                   <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">
+                    <div class="progress-bar-be" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">
                     </div>
                   </div>
                   <div class='beginner-skills ml-4'>                                      
@@ -357,7 +362,7 @@ background: -webkit-linear-gradient(left, #f2d082 25%, #f28282 75%) !important; 
                     <span>90%</span>
                   </div>
                   <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                    <div class="progress-bar-ad" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
                     </div>
                   </div>
                   <div class='advanced-skills ml-4'>                                      
@@ -373,7 +378,7 @@ background: -webkit-linear-gradient(left, #f2d082 25%, #f28282 75%) !important; 
                     <span>70%</span>
                   </div>
                   <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                    <div class="progress-bar-in" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
                     </div>
                   </div>
                   <div class='intermediate-skills ml-4'>                                      
@@ -389,7 +394,7 @@ background: -webkit-linear-gradient(left, #f2d082 25%, #f28282 75%) !important; 
                     <span>30%</span>
                   </div>
                   <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">
+                    <div class="progress-bar-be" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">
                     </div>
                   </div>
                   <div class='beginner-skills ml-4'>                                      
@@ -409,7 +414,18 @@ background: -webkit-linear-gradient(left, #f2d082 25%, #f28282 75%) !important; 
       </div>
       <!-- <div class="card-footer text-center">
       </div> -->
-  </div>          
+  </div>     
+  <div class="card mb-5" style="box-shadow:  0px 0px 15px 5px rgba(0, 0, 0, 0.075) !important; border-radius: 5px;">
+    <div class="card-body">
+      <div class='row text-center mb-2'>
+        <h4 class="no_toc text-center" id="projects" style='width:100%;'><span style="font-size: 20px"><strong>PROJECTS</strong></span></h4>
+      </div>
+      <div class='row' style="padding-left: 25px !important; padding-right: 25px !important;">
+        <p class="mb-2">My interest in Cyber-Security, Data Visualization and Web Developement has steered me into undertaking numerous projects.</p>
+        <a href="/projects/" class="btn btn-blue no-mb" style="color:white;">Projects</a>
+      </div>
+    </div>
+  </div>     
 </div>
 
 <script src="https://kit.fontawesome.com/a773360a89.js" crossorigin="anonymous"></script>
