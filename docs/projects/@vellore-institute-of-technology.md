@@ -2,8 +2,8 @@
 layout: default_card
 title: Projects @VIT
 nav_order: 2
-parent: Academic
-grand_parent: Projects
+parent: Projects
+# grand_parent: Projects
 permalink: /projects/academics/@vellore-institute-of-technology
 description: "Atit Gaonkar - Worked on wide range of computer science domains such as Image Processing, Machine Learning, Networking, Compiler Design and Data Modelling."
 extra: "Vellore Institute of Technology (VIT) Projects"

@@ -2,8 +2,8 @@
 layout: default_card
 title: Projects @ASU
 nav_order: 1
-parent: Academic
-grand_parent: Projects
+parent: Projects
+# grand_parent: Projects
 permalink: /projects/academics/@arizona-state-university
 description: "Atit Gaonkar - Undertook several projects in the field of Software Security, Computer and Network Forensics, Data Visualization and Number Theory"
 extra: "Arizona State University (ASU) Projects"
