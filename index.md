@@ -90,13 +90,13 @@ a img
   margin-bottom: 15px;
 }
 .progress-bar-ad {
-background: -webkit-linear-gradient(left, #f2d082 25%, #f26464 75%) !important;
+/* background: -webkit-linear-gradient(left, #f2d082 25%, #64f272 75%) !important; */
 }
 .progress-bar-in {
-background: -webkit-linear-gradient(left, #f2d082 25%, #f29696 75%) !important;
+/* background: -webkit-linear-gradient(left, #f2d082 25%, #f29696 75%) !important; */
 }
 .progress-bar-be {
-background: -webkit-linear-gradient(left, #f2d082 25%, #f2c8c8 75%) !important;
+/* background: -webkit-linear-gradient(left, #f2d082 25%, #f2c8c8 75%) !important; */
 }
 </style>
 
@@ -142,7 +142,7 @@ background: -webkit-linear-gradient(left, #f2d082 25%, #f2c8c8 75%) !important;
             <!-- Card -->            
               <div class="card-header">
                 <div class='row' style='width:100%; margin: 0px'>
-                  <p><h4 class='mb-0'><i class="fas fa-laptop-code fs-7 ml-2" style='vertical-align: middle; color: #10ac7d'></i><strong style='vertical-align: middle; vertical-align: middle;' class='ml-2'>Web Developement</strong></h4></p>
+                  <p><h4 class='mb-0'><i class="fas fa-laptop-code fs-7 ml-2" style='vertical-align: middle; color: #007bff !important;'></i><strong style='vertical-align: middle; vertical-align: middle;' class='ml-2'>Web Developement</strong></h4></p>
                 </div>
               </div>
               <!-- Card content -->
@@ -209,7 +209,7 @@ background: -webkit-linear-gradient(left, #f2d082 25%, #f2c8c8 75%) !important;
             <!-- Card -->            
               <div class="card-header">
                 <div class='row' style='width:100%; margin: 0px'>
-                  <p><h4 class='mb-0'><i class="fas fa-fingerprint fs-7 ml-2" style='vertical-align: middle; color: #10ac7d'></i><strong style='vertical-align: middle; vertical-align: middle;' class='ml-2'>Cyber Security</strong></h4></p>
+                  <p><h4 class='mb-0'><i class="fas fa-fingerprint fs-7 ml-2" style='vertical-align: middle; color: #007bff !important;'></i><strong style='vertical-align: middle; vertical-align: middle;' class='ml-2'>Cyber Security</strong></h4></p>
                 </div>
               </div>
               <!-- Card content -->
@@ -280,7 +280,7 @@ background: -webkit-linear-gradient(left, #f2d082 25%, #f2c8c8 75%) !important;
             <!-- Card -->            
               <div class="card-header">
                 <div class='row' style='width:100%; margin: 0px'>
-                  <p><h4 class='mb-0'><i class="fas fa-chart-line fs-7 ml-2" style='vertical-align: middle; color: #10ac7d'></i><strong style='vertical-align: middle; vertical-align: middle;' class='ml-2'>Data Visualization</strong></h4></p>
+                  <p><h4 class='mb-0'><i class="fas fa-chart-line fs-7 ml-2" style='vertical-align: middle; color: #007bff !important;'></i><strong style='vertical-align: middle; vertical-align: middle;' class='ml-2'>Data Visualization</strong></h4></p>
                 </div>
               </div>
               <!-- Card content -->
@@ -351,7 +351,7 @@ background: -webkit-linear-gradient(left, #f2d082 25%, #f2c8c8 75%) !important;
             <!-- Card -->            
               <div class="card-header">
                 <div class='row' style='width:100%; margin: 0px'>
-                  <p><h4 class='mb-0'><i class="fas fa-code fs-7 ml-2" style='vertical-align: middle; color: #10ac7d'></i><strong style='vertical-align: middle; vertical-align: middle;' class='ml-2'>Computer Programming</strong></h4></p>
+                  <p><h4 class='mb-0'><i class="fas fa-code fs-7 ml-2" style='vertical-align: middle; color: #007bff !important;'></i><strong style='vertical-align: middle; vertical-align: middle;' class='ml-2'>Computer Programming</strong></h4></p>
                 </div>
               </div>
               <!-- Card content -->
@@ -442,6 +442,10 @@ background: -webkit-linear-gradient(left, #f2d082 25%, #f2c8c8 75%) !important;
     $(window).on('load', function() {
         $(window).scrollTop(0);
         $('.main-content-wrap').scrollTop(0);
+        for (var i =0; i<$('.progress').length; i++)
+        {
+          $('.progress')[i].children[0].classList.add('bg-success');
+        }
         $('.main-content-wrap').on('scroll', function() {
           if(document.getElementsByClassName('direction')[0].getAttribute("src").split('-')[1].split('.')[0] == "up")
           {

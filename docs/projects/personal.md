@@ -1,6 +1,6 @@
 ---
 layout: default_card
-title: Personal
+title: Personal Projects
 nav_order: 4
 parent: Projects
 permalink: /projects/personal
