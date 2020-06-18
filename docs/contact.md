@@ -13,7 +13,7 @@ description: "Atit Gaonkar - Connect with me through eMail, LinkedIn, Github or 
         </div>
         <div class="card-body">
             <div class="row">                
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 my-auto">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 my-auto">                                    
                     <p class='fs-4 ml-2 mb-2'><a href="mailto:atit.sgaonkar@gmail.com" class="fas fa-envelope fs-7 mr-2" style='vertical-align: middle;' target="_blank"></a><a target="_blank" style='color:#007bff' href="mailto:atit.sgaonkar@gmail.com">atit.sgaonkar@gmail.com</a></p>                    
                     <p class='fs-4 ml-2 mb-2'><a href="https://www.linkedin.com/in/atit-gaonkar/" class="fab fa-linkedin fs-7 mr-2" style='vertical-align: middle;' target="_blank"></a><a target="_blank" style='color:#007bff' href="https://www.linkedin.com/in/atit-gaonkar/">linkedin.com/in/atit-gaonkar</a></p>
                     <p class='fs-4 ml-2 mb-2'><a href="https://github.com/asgaonkar" class="fab fa-github fs-7 mr-2" style='vertical-align: middle;' target="_blank"></a><a target="_blank" style='color:#007bff' href="https://github.com/asgaonkar">github.com/asgaonkar</a></p>

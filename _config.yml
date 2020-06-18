@@ -18,6 +18,7 @@ description: Atit S Gaonkar | Computer Science Graduate student at Arizona State
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://atit-gaonkar.me" # the base hostname & protocol for your site, e.g. http://example.com
 
+# logo: "/assets/images/logo.png"
 
 permalink: pretty
 exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"]
