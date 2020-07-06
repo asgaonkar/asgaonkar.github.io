@@ -1,10 +1,10 @@
 ---
 layout: default_card
-title: Personal
-nav_order: 3
+title: Personal Projects
+nav_order: 4
 parent: Projects
 permalink: /projects/personal
-description: "Atit Gaonkar | Personal Projects"
+description: "Atit Gaonkar - Worked on various projects related to Cyber-Security, Automation, Visualization and Scripting. Ex: Secure Audit Logs, Classifile and Multifi"
 ---
 
 <link rel="stylesheet" href="..\..\assets\css\bootstrap-iso.css" crossorigin="anonymous">
@@ -26,9 +26,12 @@ description: "Atit Gaonkar | Personal Projects"
   background-image: linear-gradient(#4593fb, #227efa);
   background-color: #227efa;
 }
+.direction{
+  opacity: 0.5;
+}
 .down:hover {
   animation: none;
-  opacity: 0.75;
+  /* opacity: 0.75; */
   box-shadow:
   0 2.8px 2.2px rgba(0, 0, 0, 0.034),
   0 6.7px 5.3px rgba(0, 0, 0, 0.048),
@@ -41,7 +44,7 @@ description: "Atit Gaonkar | Personal Projects"
   animation: blinkingText 1.0s infinite;
   cursor: pointer;
 }
-.non-blinking {
+.no-blinking {
   animation: none;
   cursor: pointer;
 }
@@ -102,7 +105,7 @@ May 2020 - Present
 
 Implementing and maintaining a ﬁle of **Secure** [Audit Log](https://en.wikipedia.org/wiki/Audit_trail){: .target-blank} system through computationally cheap methods. So in the event of log compromise, it should be impossible for the attacker to read and modify without being detectable.
 
-> [#Security](){: .target-blank} [#Forensics](){: .target-blank}
+> [#Security](javascript:void(0)){: .target-blank} [#Forensics](javascript:void(0)){: .target-blank}
 
 <!-- <a href="javascript:void(0)" class="btn mr-2" style="color:white; background-color: gray; cursor: no-drop !important" disabled>Github</a> -->
 
@@ -115,9 +118,13 @@ Implementing and maintaining a ﬁle of **Secure** [Audit Log](https://en.wikipe
 Automation
 {: .label .label-green }
 
-Automating the process of [File Segregation](){: .target-blank} in a file system based on user defined categories. Folders such as Downloads, Desktop and Documents easily become mixed-up and all over the place. Classifile provides ability to systematically organize such Folders.
+```yaml
+Dec 2019 - Jan 2020
+```
 
-> [#Automation](){: .target-blank} [#Python-WatchDog](){: .target-blank}
+Automating the process of [File Classification](javascript:void(0)){: .target-blank} in a file system based on user defined categories. Folders such as Downloads, Desktop and Documents easily become mixed-up and all over the place. Classifile provides ability to systematically organize such Folders.
+
+> [#Automation](javascript:void(0)){: .target-blank} [#Python-WatchDog](javascript:void(0)){: .target-blank}
 
 <a href="https://github.com/asgaonkar/Classifile" class="btn btn-purple mr-2" style="color:white">Github</a>
 <!-- [Github](https://github.com/asgaonkar/Classifile){: .btn .btn-purple .mr-2} -->
@@ -131,9 +138,13 @@ Automating the process of [File Segregation](){: .target-blank} in a file system
 Network Utility
 {: .label .label-green }
 
+```yaml
+June 2018 - July 2018
+```
+
 A network utility that enables a Windows wifi recipient to also act as a wifi hotspot for other devices. **Wifi and Hotspot** at the same time.
 
-> [#Networks](){: .target-blank} [#Scripting](){: .target-blank}
+> [#Networks](javascript:void(0)){: .target-blank} [#Scripting](javascript:void(0)){: .target-blank}
 
 <a href="#" class="btn btn-purple mr-2" style="color:white">Github</a>
 <!-- [Github](https://github.com/asgaonkar/Scrap-on-Campus){: .btn .btn-purple } -->
@@ -164,8 +175,6 @@ A network utility that enables a Windows wifi recipient to also act as a wifi ho
   try {
     AOS.init();
     $(window).on('load', function() {
-      $(".direction").show();
-      setTimeout(function() { $(".direction").hide(); }, 2500);
       document.getElementsByClassName('filter')[0].click();
       for(var i=0;i<document.getElementsByClassName('bootstrap-iso').length;i++)
       {
@@ -178,7 +187,7 @@ A network utility that enables a Windows wifi recipient to also act as a wifi ho
       var window_top_position = $window.scrollTop();
       var window_bottom_position = (window_top_position + window_height);
       $('a > img').parent().addClass("image-link");
-      $('img.logo-link').parent().attr('target','blank');
+      $('img.logo-link').parent().attr('target','_');
       document.getElementsByClassName('direction')[0].parentNode.setAttribute('onclick','direction_movement()');
       document.getElementsByClassName('direction')[0].setAttribute('onclick','direction_movement()');
       $('.direction').on('click', function() {
@@ -191,12 +200,12 @@ A network utility that enables a Windows wifi recipient to also act as a wifi ho
             direction_movement()
           }
       }, true /*Capture event*/);
-      $('.target-blank').attr('target','blank');
+      $('.target-blank').attr('target','_');
       $('pre').addClass("mb-0");
       $('p > a.no-mb').parent().addClass("mb-0");
       $('a > img').parent().addClass("image-link");
-      $('img.logo-link').parent().attr('target','blank');
-      $('.main-content-wrap').on('scroll', function() {
+      $('img.logo-link').parent().attr('target','_');
+      $('.main-content-wrap').on('scroll', function() {          
           console.log("triggered");
           if(document.getElementsByClassName('direction')[0].getAttribute("src").split('-')[1].split('.')[0] == "up")
           {
@@ -223,7 +232,7 @@ A network utility that enables a Windows wifi recipient to also act as a wifi ho
             });
           });
     });
-    $(window).on('scroll', function() {
+    $(window).on('scroll', function() {      
       if(document.getElementsByClassName('direction')[0].getAttribute("src").split('-')[1].split('.')[0] == "up")
       {
         document.getElementsByClassName('direction')[0].classList.remove("blinking");
@@ -252,8 +261,6 @@ A network utility that enables a Windows wifi recipient to also act as a wifi ho
               $element.removeClass('aos-animate');
           }
       });
-      $(".direction").show();
-      setTimeout(function() { $(".direction").hide(); }, 5000);
     });
     $('.toc-toggle').on('click', function () {
       var toc = document.getElementById('markdown-toc');
@@ -310,6 +317,6 @@ A network utility that enables a Windows wifi recipient to also act as a wifi ho
     });
 }
 catch(error) {
-  location.reload()
+  setTimeout(function(){ location.reload(); }, 2000);
 }
 </script>

@@ -1,14 +1,14 @@
 ---
 layout: default_card
-title: Projects @VIT
-nav_order: 2
-parent: Academic
-grand_parent: Projects
-permalink: /projects/academics/@VIT
-description: "Atit Gaonkar | Projects @VIT"
+title: Projects @ASU
+nav_order: 1
+parent: Projects
+# grand_parent: Projects
+permalink: /projects/academics/@arizona-state-university
+description: "Atit Gaonkar - Undertook several projects in the field of Software Security, Computer and Network Forensics, Data Visualization and Number Theory"
+extra: "Arizona State University (ASU) Projects"
 ---
 
-<link rel="stylesheet" href="..\..\assets\css\bootstrap-iso.css" crossorigin="anonymous">
 <style>
   .hidden{
     color: white;
@@ -28,9 +28,12 @@ description: "Atit Gaonkar | Projects @VIT"
   background-color: #227efa;
   opacity: 0.75;
 }
+.direction{
+  opacity: 0.5;
+}
 .down:hover {
   animation: none;
-  opacity: 0.75;
+  /* opacity: 0.75; */
   box-shadow:
   0 2.8px 2.2px rgba(0, 0, 0, 0.034),
   0 6.7px 5.3px rgba(0, 0, 0, 0.048),
@@ -43,7 +46,7 @@ description: "Atit Gaonkar | Projects @VIT"
   animation: blinkingText 1.0s infinite;
   cursor: pointer;
 }
-.non-blinking {
+.no-blinking {
   animation: none;
   cursor: pointer;
 }
@@ -64,21 +67,36 @@ description: "Atit Gaonkar | Projects @VIT"
     opacity: 0.35;
   }
 }
+a img
+{
+  border: 0 none;
+}
+.image-link
+{
+  text-decoration: none;
+}
+
 .horizontal-rule{
     border-top: 1px solid #DDD;
 }
+
+.last-item{
+  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.5)), to(rgba(0,0,0,0))) !important;
+}
+
 </style>
+
 
 ![Direction](../../assets/images/arrow-down.png){: .img-responsive .blinking .direction .down}
 
 
-# Projects @Vellore Institue of Technology
+# Projects @Arizona State University
 {: .no_toc }
 
 #### Display
 {: .no_toc }
 
-[Top Projects](#filter){: .btn .btn-blue .mr-4 .mb-2 .filter}
+[Top Projects](#filter){: .btn .btn-blue .mr-4 .mb-2 .filter} [Completed](#filter){: .btn .btn-blue .mr-4 .mb-2 .filter} [Current (In-Progress)](#filter){: .btn .btn-blue .mr-4 .mb-2 .filter}
 
 
 ## Table of contents
@@ -91,114 +109,214 @@ description: "Atit Gaonkar | Projects @VIT"
 
 ---
 
-## Carry-o-Bot
+
+
+## Food Explorer
 {: .top-project .d-inline-block .completed}
 
-Capstone Project
+Recommendation System
 {: .label .label-green .ml-3}
 
 <!-- In-Progress
 {: .label .label-yellow .ml-3} -->
 
 ```yaml
-Dec 2017 - Mar 2018
+Feb 2020 - April 2020
 ```
 
-Implementing a secure low-cost [Level-2 Autonomous vehicle](https://en.wikipedia.org/wiki/Self-driving_car){: .target-blank} able to deliver materialistics goods. Carry-o-Bot solved common delivery issues of navigation, human interaction and integrity issues using various inter-disciplinary techniques of Networking, Face Recognition, Image Processing and Machine Learning.
+Unlike conventional recommendation system, Food Explorer recommends restaurants to foodies based on the quality of food. Used techniques like [Named Entity Recognition (NER)](https://en.wikipedia.org/wiki/Named-entity_recognition){: .target-blank}, [Fuzzy Logic](https://en.wikipedia.org/wiki/Fuzzy_logic){: .target-blank} and [Sentiment Analysis](https://en.wikipedia.org/wiki/Sentiment_analysis){: .target-blank} to extract the quality of food from user reviews.
 
-Inspiration: [Starship](https://www.starship.xyz/){: .target-blank} 
+<!-- [![Food-Explorer][food-explorer-img]{: .img-responsive .noDecoration .logo .logo-link height="auto" width="150px"}][food-explorer-link]
 
-> [#Image-Processing](){: .target-blank} [#Machine-Learning](){: .target-blank} [#Networking](){: .target-blank}
+[food-explorer-img]:  ../../assets/images/food-explorer.png
+[food-explorer-link]:  https://asgaonkar.github.io/The-Hungry-Customer/ "Redirect to Food Explorer"  -->
+
+> [#Data-Visualization](javascript:void(0)){: .target-blank} [#Machine-Learning](javascript:void(0)){: .target-blank}
+
+<a href="https://github.com/asgaonkar/The-Hungry-Customer" class="btn btn-purple mr-2" target="blank" style="color:white">Github</a>
+<a href="https://asgaonkar.github.io/The-Hungry-Customer/" class="btn btn-green mr-2" target="blank" style="color:white;">Demo</a>
+
+
+
+
+## Blockchain-of-Custody 
+{: .top-project .d-inline-block .completed}
+
+Utility
+{: .label .label-green .ml-3}
+
+<!-- In-Progress
+{: .label .label-yellow .ml-3} -->
+
+```yaml
+March 2020 - April 2020
+```
+
+Maintains logs for actions performed on every evidence in custody. For these evidence to be admissible in court, integrity of the evidences should be intact and hence the need for [Blockchain](https://en.wikipedia.org/wiki/Blockchain){: .target-blank} to keep track of the same.
+
+> [#Security](javascript:void(0)){: .target-blank} [#Computer-Forensics](javascript:void(0)){: .target-blank}
+
+<a href="https://github.com/asgaonkar/Blockchain-of-Custody" class="btn btn-purple mr-2" style="color:white">Github</a>
+<!-- [Github](){: .btn .btn-purple .disabled} -->
+
+
+
+
+## Road to Glory
+{: .top-project .d-inline-block .completed}
+
+Analysis and Visualization
+{: .label .label-green .ml-3}
+
+<!-- In-Progress
+{: .label .label-yellow .ml-3} -->
+
+```yaml
+Feb 2020 - March 2020
+```
+
+Visual Analysis to understand why [Roger Federer](https://en.wikipedia.org/wiki/Roger_Federer){: .target-blank} is the most **Aggressive**(An aggressive player is one who is willing to put pressure on an opponent on every shot) tennis player using [Interactive Visualization](https://en.wikipedia.org/wiki/Interactive_visualization){: .target-blank}, and [Comparative Analysis](javascript:void(0)){: .target-blank}. A simple analysis of [2017 and 2018 Aus Open Finals](../../assets/images/Roger-Federer.jpg){: .target-blank} demonstrate the playing style of Roger Federer.
+
+> [#Data-Visualization](javascript:void(0)){: .target-blank}
+
+<a href="https://github.com/asgaonkar/Road-to-Glory" target='blank' class="btn btn-purple mr-2" style="color:white">Github</a>
+<a href="https://asgaonkar.github.io/Road-to-Glory/" target='blank' class="btn btn-green" style="color:white;">Demo</a>
+
+
+<!-- [Github](https://github.com/asgaonkar/Road-to-Glory){: .btn .btn-purple .mr-2} -->
+<!-- [Demo](https://asgaonkar.github.io/Road-to-Glory/){: .btn .btn-green} -->
+
+
+## MBR Analysis
+{: .top-project .d-inline-block .completed}
+
+Utility
+{: .label .label-green .ml-3}
+
+<!-- In-Progress
+{: .label .label-yellow .ml-3} -->
+
+```yaml
+Jan 2020 - Feb 2020
+```
+
+A python utility to analyze [Master Boot Record (MBR)](https://en.wikipedia.org/wiki/Master_boot_record){: .target-blank}. Provides important information such as Partition Type, Starting Address Value, Size of Partition.
+
+> [#Computer-Forensics](javascript:void(0)){: .target-blank}
+
+<a href="https://github.com/asgaonkar/Read-MBR" class="btn btn-purple mr-2" style="color:white">Github</a>
+<!-- [Github](https://github.com/asgaonkar/Read-MBR){: .btn .btn-purple } -->
+
+
+
+## Binary Exploitation 
+{: .top-project .d-inline-block .completed}
+
+Offensive Security
+{: .label .label-green .ml-3}
+
+<!-- In-Progress
+{: .label .label-yellow .ml-3} -->
+
+```yaml
+Nov 2019 - Dec 2019
+```
+
+We were tasked to **pawn** (take control of) as many [Binaries](https://en.wikipedia.org/wiki/Binary_file){: .target-blank} (Application) as possible. This project required to utilize skills such as [Buffer Overflow](https://owasp.org/www-community/vulnerabilities/Buffer_Overflow), [Format Strings](https://owasp.org/www-community/attacks/Format_string_attack){: .target-blank}, [Arbitrary Code Execution](https://owasp.org/www-community/attacks/Code_Injection){: .target-blank} etc
+
+> [#Cryptography](javascript:void(0)){: .target-blank} [#Security](javascript:void(0)){: .target-blank} [#Reverse-Engineering](javascript:void(0)){: .target-blank}
+
+
+<a href="javascript:void(0)" class="btn mr-2" style="color:white; background-color: gray; cursor: no-drop !important" disabled>Github</a>
+<!-- [Github](https://github.com/asgaonkar/MAC-Encryption){: .btn .btn-purple } -->
+
+
+## Connsplit 
+{: .top-project .d-inline-block .completed}
+
+Utility
+{: .label .label-green .ml-3}
+
+<!-- In-Progress
+{: .label .label-yellow .ml-3} -->
+
+```yaml
+Oct 2019 - Nov 2019
+```
+
+To ease the process of analyzing network traffic, Connsplit helps in segregation meaningful TCP/UDP converstaions into single files.
+
+> [#Security](javascript:void(0)){: .target-blank} [#Reverse-Engineering](javascript:void(0)){: .target-blank}
+
 
 <a href="javascript:void(0)" class="btn mr-2" style="color:white; background-color: gray; cursor: no-drop !important" disabled>Github</a>
 <!-- [Github](https://github.com/asgaonkar/MAC-Encryption){: .btn .btn-purple } -->
 
 
 
-## Katsuva
+## Crypto-Certificate Reader
 {: .top-project .d-inline-block .completed}
 
-Compiler
+Utility
 {: .label .label-green .ml-3}
 
+<!-- In-Progress
+{: .label .label-yellow .ml-3} -->
 
 ```yaml
-Dec 2017 - Mar 2018
+Oct 2019 - Nov 2019
 ```
 
-Developed a child-friendly [Compiler](){: .target-blank} with ability to understand basic english commands. Incorporated wide range of features not just limited to Arithmetic Operations, Input/Output Operations and File Handling.
+A python utilty to validate the integrity of a [Crypto-Certificate](https://en.wikipedia.org/wiki/Public_key_certificate){: .target-blank} for example a [SSL Certificate](https://en.wikipedia.org/wiki/Transport_Layer_Security){: .target-blank}.
 
-> [#Compiler-Design](){: .target-blank} [#Programming-Language](){: .target-blank} [#System-Design](){: .target-blank}
+> [#Security](javascript:void(0)){: .target-blank} [#Cryptography](javascript:void(0)){: .target-blank}
+
+<a href="https://github.com/asgaonkar/Crypto-Certificate-Reader" class="btn btn-purple mr-2" style="color:white">Github</a>
+<!-- [Github](https://github.com/asgaonkar/Crypto-Certificate-Reader){: .btn .btn-purple } -->
+
+
+
+## Web Exploitation
+{: .top-project .d-inline-block .completed}
+
+Offensive Security
+{: .label .label-green .ml-3}
+
+<!-- In-Progress
+{: .label .label-yellow .ml-3} -->
+
+```yaml
+Nov 2019 - Dec 2019
+```
+
+Tasked to exploit various websites and extract secret-key using offensive techniquies like [SQL Injection](https://owasp.org/www-community/attacks/SQL_Injection){: .target-blank}, [XSS (Cross-Site Scripting)](https://owasp.org/www-community/attacks/xss/){: .target-blank}
+
+> [#Security](javascript:void(0)){: .target-blank} [#Web-Security](javascript:void(0)){: .target-blank} [#Networking](javascript:void(0)){: .target-blank}
 
 <a href="javascript:void(0)" class="btn mr-2" style="color:white; background-color: gray; cursor: no-drop !important" disabled>Github</a>
 <!-- [Github](https://github.com/asgaonkar/MAC-Encryption){: .btn .btn-purple } -->
 
 
-## Modelling Inter Transit Time
+## MAC-Encryption
 {: .top-project .d-inline-block .completed}
 
-Analytics and Modelling
+Algorithm Engineering
 {: .label .label-green .ml-3}
 
+<!-- In-Progress
+{: .label .label-yellow .ml-3} -->
 
 ```yaml
-Dec 2017 - Mar 2018
+Sep 2019 - Oct 2019
 ```
 
-Modelled a system to identify current **Inter-Transit time**(Time taken by a student to shift from one class to another) and redesigned the classroom allocation system to significantly reduce the time wasted by a student in transition from one classroom to another while still maintaining the [FFCS](https://vit.ac.in/academics/ffcs){: .target-blank} regulation.
+In order to understand the core concepts of [Block Ciphers](https://en.wikipedia.org/wiki/Block_cipher){: .target-blank}, we developed our own Encryption and Decryption Algorithm. Performed [Cryptanalysis](https://en.wikipedia.org/wiki/Cryptanalysis){: .target-blank} on our system to find various drawback of our system. Based on these vulnerabilities, we further improved upon our Algorithm.
 
-> [#Modelling](){: .target-blank} [#Analystics](){: .target-blank}
+> [#Security](javascript:void(0)){: .target-blank} [#Cryptography](javascript:void(0)){: .target-blank}
 
+<a href="https://github.com/asgaonkar/MAC-Encryption" class="btn btn-purple mr-2" style="color:white">Github</a>
+<!-- [Github](https://github.com/asgaonkar/MAC-Encryption){: .btn .btn-purple } -->
 
-
-
-## Christopher: Windows Finder
-{: .top-project .d-inline-block .completed}
-
-System Application
-{: .label .label-green .ml-3}
-
-
-```yaml
-Dec 2017 - Mar 2018
-```
-
-Replicated one of the coolest feature that Mac provides; [Finder](https://support.apple.com/en-us/HT201732){: .target-blank} for Windows, making the tasking of searching simpler.
-
-> [#Application](){: .target-blank}
-
-
-
-## Crysteg
-{: .top-project .d-inline-block .completed}
-
-System Application
-{: .label .label-green .ml-3}
-
-
-```yaml
-Dec 2017 - Mar 2018
-```
-
-Implemented a secure application for information transfer by integrating [Cryptography](){: .target-blank} and [Steganography](){: .target-blank}.
-
-> [#Security](){: .target-blank}
-
-
-## Automated Rooftop Gardening
-{: .top-project .d-inline-block .completed}
-
-Microprocessing
-{: .label .label-green .ml-3}
-
-
-```yaml
-Dec 2017 - Mar 2018
-```
-
-Automated the process of rooftop gardening including but not limited to Temperature Control, Moisture Control and Soil Content.
-
-> [#Automation](){: .target-blank}
 
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -209,6 +327,7 @@ Automated the process of rooftop gardening including but not limited to Temperat
   function moveDown()
   {
     document.getElementsByClassName('main-content-wrap')[0].scrollTop = $("#display").position().top;
+    console.log($("#display").position().top);
     $(window).scrollTop($("#display").position().top);
   }
   function direction_movement()
@@ -237,7 +356,7 @@ Automated the process of rooftop gardening including but not limited to Temperat
       var window_top_position = $window.scrollTop();
       var window_bottom_position = (window_top_position + window_height);
       $('a > img').parent().addClass("image-link");
-      $('img.logo-link').parent().attr('target','blank');
+      $('img.logo-link').parent().attr('target','_');
       document.getElementsByClassName('direction')[0].parentNode.setAttribute('onclick','direction_movement()');
       document.getElementsByClassName('direction')[0].setAttribute('onclick','direction_movement()');
       $('.direction').on('click', function() {
@@ -250,11 +369,11 @@ Automated the process of rooftop gardening including but not limited to Temperat
             direction_movement()
           }
       }, true /*Capture event*/);
-      $('.target-blank').attr('target','blank');
+      $('.target-blank').attr('target','_');
       $('pre').addClass("mb-0");
       $('p > a.no-mb').parent().addClass("mb-0");
       $('a > img').parent().addClass("image-link");
-      $('img.logo-link').parent().attr('target','blank');
+      $('img.logo-link').parent().attr('target','_');
       $('.main-content-wrap').on('scroll', function() {
           console.log("triggered");
           if(document.getElementsByClassName('direction')[0].getAttribute("src").split('-')[1].split('.')[0] == "up")
@@ -367,6 +486,6 @@ Automated the process of rooftop gardening including but not limited to Temperat
     });
 }
 catch(error) {
-  location.reload()
+  setTimeout(function(){ location.reload(); }, 2000);
 }
 </script>

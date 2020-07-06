@@ -3,7 +3,7 @@ layout: default_card
 title: Volunteering
 nav_order: 8
 permalink: /volunteering/
-description: "Atit Gaonkar | Volunteering"
+description: "Atit Gaonkar - My desire to volunteer landed me as a FUll Stack Developer at Prem Ashram Charitable trust."
 ---
 
 <style>
@@ -42,7 +42,7 @@ Jul 2018 - Sep 2018
 
 <div class="horizontal-rule mb-4"></div>
 
-- Worked on developing a website following iterative SDLC approach to replace the old existing website. Front-end is supported by [HTML](https://en.wikipedia.org/wiki/HTML5){: .target-blank}, [CSS (Bootstrap)](https://getbootstrap.com/){: .target-blank} and [JS](https://en.wikipedia.org/wiki/JavaScript){: .target-blank}, whereas the Back-end was coded using [PHP](){: .target-blank}/[MySQL](){: .target-blank}.
+- Worked on developing a website following iterative SDLC approach to replace the old existing website. Front-end is supported by [HTML](https://en.wikipedia.org/wiki/HTML5){: .target-blank}, [CSS (Bootstrap)](https://getbootstrap.com/){: .target-blank} and [JS](https://en.wikipedia.org/wiki/JavaScript){: .target-blank}, whereas the Back-end was coded using [PHP](https://www.php.net/){: .target-blank}/[MySQL](https://en.wikipedia.org/wiki/SQL){: .target-blank}.
 
 - Interacting with people at various level indeed exposed me to situation where my abilities to prioritise and manage time effectively was tested It had a positive impact on me psychologically as well as physically. Taught me the importance of how a small good gesture can bring about a huge difference in others.
 
@@ -53,6 +53,8 @@ Jul 2018 - Sep 2018
 <script>
   AOS.init();
   $(window).on('load', function() {
+        $(window).scrollTop(0);
+        $('.main-content-wrap').scrollTop(0);
         for(var i=0;i<document.getElementsByClassName('bootstrap-iso').length;i++)
         {
             document.getElementsByClassName('tags')[i].setAttribute("id", document.getElementsByClassName('bootstrap-iso')[i].getElementsByTagName('h2')[0].getAttribute('id'))

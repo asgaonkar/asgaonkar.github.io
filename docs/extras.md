@@ -94,6 +94,8 @@ Logo designing brings about creativity and imagination to identify the values, c
 <script>
   AOS.init();
   $(window).on('load', function() {
+        $(window).scrollTop(0);
+        $('.main-content-wrap').scrollTop(0);
         AOS.refresh();
         var $animation_elements = $('.bootstrap-iso');
         var $window = $(window);

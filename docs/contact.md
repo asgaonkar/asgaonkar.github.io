@@ -3,17 +3,17 @@ layout: default
 title: Contact
 nav_order: 100
 permalink: /contact/
-description: "Atit Gaonkar | Contact"
+description: "Atit Gaonkar - Connect with me through eMail, LinkedIn, Github or Instagram"
 ---
 
 <div class="bootstrap-iso">
     <div class="card" style="box-shadow:  0px 0px 15px 5px rgba(0, 0, 0, 0.075) !important; border-radius: 5px;">
         <div class="card-header text-center">
-            <img src="../assets/images/logo.png" class="img-fluid z-depth-1 logo" alt="Atit Gaonkar" height='75px' width='75px'>
+            <img src="../assets/images/logo.svg" class="img-fluid z-depth-1 logo" alt="Logo - Atit Gaonkar" height='75px' width='75px'>
         </div>
         <div class="card-body">
             <div class="row">                
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 my-auto">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 my-auto">                                    
                     <p class='fs-4 ml-2 mb-2'><a href="mailto:atit.sgaonkar@gmail.com" class="fas fa-envelope fs-7 mr-2" style='vertical-align: middle;' target="_blank"></a><a target="_blank" style='color:#007bff' href="mailto:atit.sgaonkar@gmail.com">atit.sgaonkar@gmail.com</a></p>                    
                     <p class='fs-4 ml-2 mb-2'><a href="https://www.linkedin.com/in/atit-gaonkar/" class="fab fa-linkedin fs-7 mr-2" style='vertical-align: middle;' target="_blank"></a><a target="_blank" style='color:#007bff' href="https://www.linkedin.com/in/atit-gaonkar/">linkedin.com/in/atit-gaonkar</a></p>
                     <p class='fs-4 ml-2 mb-2'><a href="https://github.com/asgaonkar" class="fab fa-github fs-7 mr-2" style='vertical-align: middle;' target="_blank"></a><a target="_blank" style='color:#007bff' href="https://github.com/asgaonkar">github.com/asgaonkar</a></p>
@@ -53,5 +53,7 @@ description: "Atit Gaonkar | Contact"
         }
     }
     $(window).on('load', function() {
+        $(window).scrollTop(0);
+        $('.main-content-wrap').scrollTop(0);
     });
 </script>

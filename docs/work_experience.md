@@ -3,7 +3,7 @@ layout: default_card
 title: Work Experience
 nav_order: 5
 permalink: /work_experience/
-description: "Atit Gaonkar | Work Experience"
+description: "Atit Gaonkar - Working as Information Security (Intern) and Data Engineer (Intern) honed my Cyber-Security and Data Science skills."
 ---
 
 <style>
@@ -25,6 +25,22 @@ description: "Atit Gaonkar | Work Experience"
 
 ---
 
+## Security Complaince and Risk Analyst (Intern)
+{: .d-inline-block .mr-2}
+
+2020
+{: .label .label-green}
+
+[FireBird SRC](https://www.firebirdsrc.com/){: .target-blank}, Pheonix, USA 
+{: .mb-0}
+Jun 2020 - Present
+{: .mb-2}
+
+<div class="horizontal-rule mb-4"></div>
+
+Providing day to day assistance in various divisions under InfoSec like [Vulnerability Management(VM)](https://en.wikipedia.org/wiki/Vulnerability_management#:~:text=Vulnerability%20management%20is%20the%20%22cyclical,%2C%20and%20mitigating%22%20software%20vulnerabilities), SOC, [Identity and Access Management (IAM)](https://en.wikipedia.org/wiki/Identity_management) and Governance & Policy.
+
+Assisted with Information Security Governance Risk and Compliance ([PCI-DSS](https://www.pcisecuritystandards.org/), [HIPAA](https://www.hhs.gov/hipaa/index.html)) related activities. Conducted research of industry best practices to assist in the process of developing or updating information security policies. Analyzed and suggested security policies, processes, and standards to be in accordance with Security Compliance.
 
 
 ## Data Engineer (Intern)
@@ -45,7 +61,7 @@ Jan 2019 - Apr 2019
 [Tulip-Diagnostics-img]:  ../../assets/images/tulip.jpg
 [Tulip-Diagnostics-link]:  http://www.tulipgroup.com/ "Redirect to - Tulip Diagnostics"  -->
 
-Analyzed internal processes, business operation and sales structure to create [Info-graphic Dashboards](https://en.wikipedia.org/wiki/Dashboard_(business)){: .target-blank} using Microsoft’s business intelligence tools, [SSAS](https://docs.microsoft.com/en-us/analysis-services/analysis-services-overview?view=asallproducts-allversions){: .target-blank}, [SSIS](https://docs.microsoft.com/en-us/sql/integration-services/sql-server-integration-services?view=sql-server-ver15){: .target-blank} and [SSRS](https://docs.microsoft.com/en-us/sql/reporting-services/create-deploy-and-manage-mobile-and-paginated-reports?view=sql-server-ver15){: .tagret-blank}. Used Visualization Tools such as [Power BI](https://powerbi.microsoft.com/en-us/){: .target-blank} and [TIBCO Spotfire](https://www.tibco.com/products/tibco-spotfire){: .target-blank} to enhance the process of decision making.
+Analyzed internal processes, business operation and sales structure to create [Info-graphic Dashboards](https://en.wikipedia.org/wiki/Dashboard_(business)){: .target-blank} using Microsoft’s business intelligence tools, [SSAS](https://docs.microsoft.com/en-us/analysis-services/analysis-services-overview?view=asallproducts-allversions){: .target-blank}, [SSIS](https://docs.microsoft.com/en-us/sql/integration-services/sql-server-integration-services?view=sql-server-ver15){: .target-blank} and [SSRS](https://docs.microsoft.com/en-us/sql/reporting-services/create-deploy-and-manage-mobile-and-paginated-reports?view=sql-server-ver15){: .target-blank}. Used Visualization Tools such as [Power BI](https://powerbi.microsoft.com/en-us/){: .target-blank} and [TIBCO Spotfire](https://www.tibco.com/products/tibco-spotfire){: .target-blank} to enhance the process of decision making.
 
 Automated the process of interpreting dashboards and forecasting projected revenue using VBA and SQL. Redesigned reporting system resulting in increased efficiency of 81.25%, hence reducing the time spent on month-end analysis. 
 
@@ -67,9 +83,9 @@ Jan 2019 - Apr 2019
 [Tulip-Diagnostics-img]:  ../../assets/images/tulip.jpg
 [Tulip-Diagnostics-link]:  http://www.tulipgroup.com/ "Redirect to - Tulip Diagnostics"  -->
 
-Worked Closely with Database Administrators and Network Managers to establish new security guidelines and practices.
+Triaged security events to protect internal assets. Addressed real-time threats and provided automated regular internal [vulnerabilities assessments](https://en.wikipedia.org/wiki/Vulnerability_assessment) and network evaluation, increasing Security Operation efficiency by 9%. 
 
-Executed regular network evaluation and vulnerability scans. Significantly improved security processes. 
+Conducted [penetration testing](https://en.wikipedia.org/wiki/Penetration_test) on internal network, intranet sites and patched located vulnerabilities. Configured and maintained firewalls and data encryption programs to protect sensitive information. Assisted Database Administrators and Network Manager in establishing security guidelines and practices. 
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -78,6 +94,8 @@ Executed regular network evaluation and vulnerability scans. Significantly impro
 <script>
   AOS.init();
   $(window).on('load', function() {
+        $(window).scrollTop(0);
+        $('.main-content-wrap').scrollTop(0);
         AOS.refresh();
         var $animation_elements = $('.bootstrap-iso');
         var $window = $(window);

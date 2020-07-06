@@ -3,7 +3,7 @@ layout: default_card
 title: Education
 nav_order: 2
 permalink: /education/
-description: "Atit Gaonkar | Education"
+description: "Atit Gaonkar - Computer Science Graduate student at Arizona State University with focus on Cyber-security. Worked on Binary and Web Exploitation."
 ---
 
 # Education
@@ -94,7 +94,7 @@ Fall 2019
 I have worked around different domains of Computer Science. [Cyber-Security](https://en.wikipedia.org/wiki/Computer_security){: .target-blank}, [Data Science](https://en.wikipedia.org/wiki/Data_science){: .target-blank} and [Algorithm Engineering](https://en.wikipedia.org/wiki/Algorithm_engineering){: .target-blank} intrigue me the most. 
 
 <!-- [Projects](/projects/academics/@ASU){: .btn .btn-blue } -->
-<a href="/projects/academics/@ASU" class="btn btn-blue no-mb" target="blank" style="color:white; background-color: gray">Projects</a>
+<a href="/projects/academics/@arizona-state-university" class="btn btn-blue no-mb" style="color:white; background-color: gray">Projects @ASU</a>
 
 ### Co-curricular & Extra-curricular
 ```yaml
@@ -137,6 +137,8 @@ Carry-o-Bot solved common delivery issues of navigation, human interaction and i
 
 Inspiration: [Starship](https://www.starship.xyz/){: .target-blank} 
 
+Projects: <a href="/projects/academics/@vellore-institute-of-technology" class="btn btn-blue mb-2" style="color:white; background-color: gray">Projects @VIT</a>
+
 
 ```yaml
 Favourite Courses
@@ -152,7 +154,7 @@ Others: [Psychology and Sociology](https://en.wikipedia.org/wiki/Psychology){: .
 Organizations
 ```
 
-[Linux User's Group (LUG)](#), [National Cadet Corp (NCC)](https://en.wikipedia.org/wiki/National_Cadet_Corps_(India)), [National Service Scheme (NSS)](https://en.wikipedia.org/wiki/National_Service_Scheme)
+[Linux User's Group (LUG)](https://sites.google.com/view/glugvitcc/home){: .target-blank}, [National Cadet Corp (NCC)](https://en.wikipedia.org/wiki/National_Cadet_Corps_(India)){: .target-blank}, [National Service Scheme (NSS)](https://en.wikipedia.org/wiki/National_Service_Scheme){: .target-blank}
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" crossorigin="anonymous"></script>
@@ -161,6 +163,8 @@ Organizations
 <script>
   AOS.init();
   $(window).on('load', function() {
+        $(window).scrollTop(0);
+        $('.main-content-wrap').scrollTop(0);
         AOS.refresh();
         var $animation_elements = $('.bootstrap-iso');
         var $window = $(window);

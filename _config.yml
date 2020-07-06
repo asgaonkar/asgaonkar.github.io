@@ -14,9 +14,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Atit Gaonkar
-description: Website for Atit Gaonkar
+description: Atit S Gaonkar | Computer Science Graduate student at Arizona State University with focus on Cyber-Security.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://atit-gaonkar.me" # the base hostname & protocol for your site, e.g. http://example.com
+
+# logo: "/assets/images/logo.png"
 
 permalink: pretty
 exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"]
@@ -39,17 +41,18 @@ aux_links:
     - "/blog/"
 
 # Footer content appears at the bottom of every page's main content
-footer_content: "© 2020 Atit Gaonkar | <a href=\"/\">Home</a> | <a href=\"/contact/\">Contact</a> | Created using <a href=\"https://jekyllrb.com\">Jekyll</a>  |  <a href=\"https://github.com/asgaonkar/asgaonkar.github.io/blob/master/LICENSE.txt\">MIT license</a>" 
+footer_content: "Copyright © 2020 Atit Gaonkar | <a href=\"/\">Home</a> | <a href=\"/contact/\">Contact</a> | Powered by <a href=\"https://jekyllrb.com\" target='blank'>Jekyll</a>  |  <a href=\"https://github.com/asgaonkar/asgaonkar.github.io/blob/master/LICENSE.txt\" target='blank'>MIT license</a>" 
 
 # Color scheme currently only supports "dark" or nil (default)
 color_scheme: nil
 
 # Google Analytics Tracking (optional)
 # e.g, UA-1234567-89
-# ga_tracking: UA-2709176-10
+ga_tracking: UA-166900548-1
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 compress_html:
   clippings: all
@@ -58,3 +61,10 @@ compress_html:
   startings: []
   blanklines: false
   profile: false
+
+social:
+  name: Atit Gaonkar
+  links:
+    - https://github.com/asgaonkar
+    - https://www.instagram.com/atit.sgaonkar/
+    - https://www.linkedin.com/in/atit-gaonkar/
