@@ -10,7 +10,7 @@ description: "Atit Gaonkar - Computer Science Graduate student at Arizona State 
 {: .no_toc }
 
 
-"Willingness to learn is the best thing you could ever learn" ― Atit Gaonkar
+"Learning to learn is the best thing you could ever learn" ― Atit Gaonkar
 {: .fs-4 .fw-100}
 
 
@@ -26,9 +26,6 @@ description: "Atit Gaonkar - Computer Science Graduate student at Arizona State 
 ## Arizona State University
 {: .d-inline-block }
 
-Current
-{: .label .label-green }
-
 **2019 - 2021**
 {: .label .label-yellow }
 
@@ -37,12 +34,12 @@ Current
 [Arizona-State-University-img]:  ../../assets/images/vit.png
 [Arizona-State-University-link]:  https://www.asu.edu/ "Redirect to - Arizona State University"  -->
 
-Master of Science in Computer Science - GPA: 3.78/4.00
+Master of Science in Computer Science - GPA: 3.89/4.00
 
 
 ### Interest
 
-Cyber Security: [Binary Analysis](https://www.whitehatsec.com/glossary/content/binary-code-analysis){: .target-blank}, [Web security](https://en.wikipedia.org/wiki/Web_application_security){: .target-blank} and [Cryptography](https://en.wikipedia.org/wiki/Cryptography){: .target-blank}
+Cyber Security: [Blockchain](https://blockchain.asu.edu/research/){: .target-blank}, [Binary Analysis](https://www.whitehatsec.com/glossary/content/binary-code-analysis){: .target-blank}, [Web security](https://en.wikipedia.org/wiki/Web_application_security){: .target-blank} and [Cryptography](https://en.wikipedia.org/wiki/Cryptography){: .target-blank}
 <br>
 Data Science: [Data Visualization](https://en.wikipedia.org/wiki/Data_visualization){: .target-blank}
 <br>
@@ -54,6 +51,17 @@ Mathematics: [Number Theory](https://en.wikipedia.org/wiki/Number_theory){: .tar
 
 <div class="bootstrap-iso">
 <div class="row">
+<div class="col-sm-12 col-lg-6 col-md-6 mb-2">
+<div class="code-example" markdown="1">
+1. Human Computer Interaction
+&nbsp;
+&nbsp;
+</div>
+{% highlight markdown %}
+Spring 2021
+{% endhighlight %}
+
+</div>
 <div class="col-sm-12 col-lg-6 col-md-6 mb-2">
 <div class="code-example" markdown="1">
 1. Information Assurance and Security
@@ -84,7 +92,6 @@ Spring 2020
 Fall 2019
 {% endhighlight %}
 </div>
-<div class="col-sm-12 col-lg-6 col-md-6 mb-2"></div>
 </div>
 </div>
 
@@ -96,18 +103,18 @@ I have worked around different domains of Computer Science. [Cyber-Security](htt
 <!-- [Projects](/projects/academics/@ASU){: .btn .btn-blue } -->
 <a href="/projects/academics/@arizona-state-university" class="btn btn-blue no-mb" style="color:white; background-color: gray">Projects @ASU</a>
 
-### Co-curricular & Extra-curricular
+### Co-curricular
 ```yaml
 Co-Cirricular
 ```
 
 [CTF](https://en.wikipedia.org/wiki/Capture_the_flag){: .target-blank}: I play CTFs with [Pwndevils](https://pwndevils.com/){: .target-blank}.
 
-```yaml
+<!-- ```yaml
 Extra-Cirricular
 ```
 
-[Racquetball](https://en.wikipedia.org/wiki/Racquetball){: .target-blank}: Since my introduction to Racquetball at Arizona State University, I have never let go of an opportunity to play the game.
+[Racquetball](https://en.wikipedia.org/wiki/Racquetball){: .target-blank}: Since my introduction to Racquetball at Arizona State University, I have never let go of an opportunity to play the game. -->
 
 ---
 

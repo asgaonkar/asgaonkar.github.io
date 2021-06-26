@@ -11,7 +11,7 @@ type: website
     color: white;
     user-select: none;
   }
-  .down {
+  .down { 
   position: fixed;
   bottom: 20px;
   right: 30px;
@@ -38,6 +38,21 @@ type: website
   0 22.3px 17.9px rgba(0, 0, 0, 0.072),
   0 41.8px 33.4px rgba(0, 0, 0, 0.086),
   0 100px 80px rgba(0, 0, 0, 0.12);
+}
+.notification {
+  animation: blinkingText 0.5s infinite;
+  cursor: pointer;
+}
+@keyframes notification {
+  0% {
+    opacity: 0.50;
+  }  
+  50% {
+    opacity: 1;
+  }  
+  100% {
+    opacity: 0.50;
+  }
 }
 .blinking {
   animation: blinkingText 1.0s infinite;
@@ -100,333 +115,39 @@ a img
 }
 </style>
 
-![Direction](../../assets/images/arrow-down.png){: .img-responsive .blinking .direction .down}
+<!-- ![Direction](../../assets/images/arrow-down.png){: .img-responsive .blinking .direction .down} -->
 
 
-<div class="bootstrap-iso">
-  <div class="card mb-5" style="box-shadow:  0px 0px 15px 5px rgba(0, 0, 0, 0.075) !important; border-radius: 5px;">
-      <div class="text-center card-header">
+<div class="bootstrap-iso">  
+  <!-- <div class="card mb-5" style="box-shadow:  0px 0px 15px 5px rgba(0, 0, 0, 0.075) !important; border-radius: 5px;"> -->
+      <div class="card mb-3" style="box-shadow:  0px 0px 0px 0px rgba(0, 0, 0, 0.0) !important; border-radius: 0px; border: 0px; background-color:transparent !important;">
+      <!-- <div class="text-center card-header">
           <h4><span style="font-size: 20px"><strong>Atit Gaonkar</strong></span></h4>
-      </div>
+      </div> -->
       <div class="card-body">
-          <div class="row">
-              <div class="col-xl-5 col-md-5 mb-3 text-center my-auto">
+          <div class="row">            
+              <div class="col-xl-5 col-md-5 mb-0 text-center my-auto">
                   <!-- <img alt='Logo - Atit Gaonkar' src="/assets/images/logo.svg" width="100px"> -->
                   <img src="assets/images/atit-gaonkar.jpg" class="img-fluid z-depth-1 rounded-circle shadow atit-intro" alt="Atit Gaonkar" style="box-shadow: 0 5px 10px 0 rgba(0,0,0,0.16),0 8px 15px 0 rgba(0,0,0,0.12) !important;">
                   <div class='col-12 text-center mt-5'>
-                  <a href="mailto:atit.sgaonkar@gmail.com" class="fas fa-envelope fs-6 mb-4 mb-md-0 mr-4" target="_blank"></a>
-                  <a href="https://www.linkedin.com/in/atit-gaonkar/" class="fab fa-linkedin fs-6 mb-4 mb-md-0 mr-4 " target="_blank" style=""></a>
-                  <a href="https://github.com/asgaonkar" class="fab fa-github fs-6 mb-4 mb-md-0 mr-4" target="_blank"></a>
-                  <a href="https://www.instagram.com/atit.sgaonkar/" class="fab fa-instagram fs-6 mb-4 mb-md-0" target="_blank"></a>
+                  <a href="mailto:atit.sgaonkar@gmail.com" class="fas fa-envelope fs-6 mb-4 mb-md-0 mr-4" target="_blank" alt="Email"></a>
+                  <a href="https://www.linkedin.com/in/atit-gaonkar/" class="fab fa-linkedin fs-6 mb-4 mb-md-0 mr-4 " target="_blank" style="" alt="LinkedIn"></a>
+                  <a href="https://github.com/asgaonkar" class="fab fa-github fs-6 mb-4 mb-md-0 mr-4" target="_blank" alt="Github"></a>
+                  <a href="https://www.instagram.com/atit.sgaonkar/" class="fab fa-instagram fs-6 mb-4 mb-md-0" target="_blank" alt="Instagram"></a>                  
                   </div>
                   <!-- <img src="assets/images/logo.png" class="img-fluid z-depth-1" width="10%" alt="Atit-Gaonkar"> -->
               </div>
-              <div class="col-xl-7 col-md-7 mb-0">        
+              <div class="col-xl-7 col-md-7 mb-0">                  
                   <!-- <h5 class="card-title">Special title treatment</h5> -->
                   <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
-                  <p class="card-text"><a href="education">Computer Science Graduate student</a> at Arizona State University with focus on <a href="certification">Cyber-Security</a>. I am passionate about Binary Analysis, Web security and Data Visualization. I am currently <a href="research">researching</a> on "The need for dynamic security Implementations". I have <a href="work_experience">worked</a> on System Security, Reverse Engineering Binaries and Web Security.</p>
-                  <p class="card-text">Along with my interest in Cyber-Security, I also involve myself in <a href="research">Mathematics</a>, especially Number Theory. I am currently investigating on ways to identify unique patterns and sequences in the process of exponentiation.</p>
-                  <p class="card-text">I keep myself productive working on personal <a href="projects">projects</a>. My hobbies include travelling, logo designing, photo manipulation and <a href="volunteering">volunteering</a></p>
-                  <!-- <a href="resume" class="btn mb-2 mr-2 mt-0 resume" target="blank" style="color:white; background-color: gray !important; cursor: no-drop" title="View Resume">Resume (Online)</a> -->
-                  <a href="Atit Gaonkar (Resume).pdf" class="btn btn-green mb-0 mr-2 mt-0 resume" target="blank" style="color:white; background-color: gray" title="Download Resume">Resume (PDF)</a>
+                  <p class="card-text mt-2"><a href="work_experience">Software Engineer</a> at <a href="https://www.bloomreach.com/" target="_blank">Bloomreach</a> working towards enhancing Real time Intelligence platform to provide better user experience and customization. </p>
+                  <p class="card-text mt-2"><a href="education">Computer Science Graduate </a> from Arizona State University with focus on <a href="work_experience">Software Engineering</a> and <a href="certification">Cyber-Security</a>. Passionate about Blockchain, Binary Analysis, Web security, Algorithm Design and Data Visualization. I currently work as IoT-Blockchain Researcher at <a href="https://blockchain.asu.edu/" target='blank'>Blockchain Research Lab</a>, Arizona State University <a href="research">researching</a> on "Cybersecurity Considerations for Blockchain Systems". I have <a href="work_experience">work experience</a> in Blockchain, Data Engineering, System Security, Reverse Engineering Binaries and Web Security.</p>
+                  <p class="card-text">My interest in <a href="research">Mathematics</a> lies in the field of Number Theory. Currently investigating on ways to identify unique patterns and sequences in the process of exponentiation. I keep myself productive working on personal <a href="projects">projects</a>. My hobbies include travelling, logo designing, photo manipulation and <a href="volunteering">volunteering</a></p>
+                  <!-- <a href="resume" class="btn mb-2 mr-2 mt-0 resume" target="blank" style="color:white; background-color: gray !important; cursor: no-drop" title="View Resume">Resume (Online)</a> -->                  
               </div>
           </div>
       </div>
-  </div>
-  <div class="card mb-5" style="box-shadow:  0px 0px 15px 5px rgba(0, 0, 0, 0.075) !important; border-radius: 5px;">
-      <div class="card-body">
-        <div class='row text-center mb-4'>
-          <h4 class="no_toc mb-2 text-center" id="skillset" style='width:100%;'><span style="font-size: 20px"><strong>SKILL SET</strong></span></h4>
-        </div>        
-        <div class='row ml-1 mr-1'>
-          <div class='card col-lg-12 col-md-12 sol-sm-12 mb-3 ml-1' style='padding: 0px'>            
-            <!-- Card -->            
-              <div class="card-header">
-                <div class='row' style='width:100%; margin: 0px'>
-                  <p><h4 class='mb-0'><i class="fas fa-laptop-code fs-7 ml-2" style='vertical-align: middle; color: #007bff !important;'></i><strong style='vertical-align: middle; vertical-align: middle;' class='ml-2'>Web Developement</strong></h4></p>
-                </div>
-              </div>
-              <!-- Card content -->
-              <div class="card-body">      
-                <div class='advanced'>    
-                  <div class="label-items">
-                    <span>Advance Skills</span>
-                    <span>90%</span>
-                  </div>                
-                  <div class="progress">
-                    <div class="progress-bar-ad" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
-                    </div>
-                  </div>
-                  <div class='advanced-skills ml-4'>                  
-                    <!-- Title -->
-                    <h4 class="card-title mb-0">Languages</h4>
-                    <!-- Text -->                
-                    <p class="card-text mb-4">HTML, CSS, JS, Python, SQL, PHP</p>
-                    <!-- Title -->
-                    <h4 class="card-title mb-0">Framework</h4>
-                    <!-- Text -->
-                    <p class="card-text mb-4">Flask, Jekyll, Bootstrap</p>
-                  </div>                    
-                </div>
-                <div class='intermediate mt-2 last-item-handle last-item'>    
-                  <div class="label-items">
-                    <span>Intermediate Skills</span>
-                    <span>70%</span>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar-in" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
-                    </div>
-                  </div>
-                  <div class='intermediate-skills ml-4'>                                      
-                    <!-- Title -->
-                    <h4 class="card-title mb-0">CMS</h4>
-                    <!-- Text -->
-                    <p class="card-text mb-4">Drupal</p>
-                  </div>                    
-                </div>
-                <div class='beginner mt-2 hides' style='display: none'>    
-                  <div class="label-items">
-                    <span>Beginner Skills</span>
-                    <span>30%</span>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar-be" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">
-                    </div>
-                  </div>
-                  <div class='beginner-skills ml-4'>                                      
-                    <!-- Title -->
-                    <h4 class="card-title mb-0">Frameworks</h4>
-                    <!-- Text -->
-                    <p class="card-text mb-4">Django, Angular, React</p>
-                  </div>                    
-                </div>
-              </div>
-              <div class='pt-0 pl-0 pr-0 pb-3 mb-0 text-center' style='margin-top: -10px'>
-              <a href="javascript:void(0);" class="btn btn-blue mb-0 mt-0 load-more" style="color:white; background-color: gray" title="More">More<i class="fas fa-angle-down fs-7 ml-2" style='vertical-align: middle;'></i></a>
-            </div>            
-            <!-- Card -->            
-          </div>          
-          <div class='card col-lg-12 col-md-12 sol-sm-12 mb-3 ml-1' style='padding: 0px'>            
-            <!-- Card -->            
-              <div class="card-header">
-                <div class='row' style='width:100%; margin: 0px'>
-                  <p><h4 class='mb-0'><i class="fas fa-fingerprint fs-7 ml-2" style='vertical-align: middle; color: #007bff !important;'></i><strong style='vertical-align: middle; vertical-align: middle;' class='ml-2'>Cyber Security</strong></h4></p>
-                </div>
-              </div>
-              <!-- Card content -->
-              <div class="card-body">      
-                <div class='advanced'>
-                  <div class="label-items">
-                    <span>Advanced Skills</span>
-                    <span>90%</span>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar-ad" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
-                    </div>
-                  </div>
-                  <div class='advanced-skills ml-4'>                                      
-                    <!-- Title -->
-                    <h4 class="card-title mb-0">Binary Analysis</h4>
-                    <!-- Text -->
-                    <p class="card-text mb-4">Buffer Overflow, Shellcodes, Format Strings</p>
-                    <!-- Title -->
-                    <h4 class="card-title mb-0">Web Exploitation</h4>
-                    <!-- Text -->
-                    <p class="card-text mb-4">XSS and SQL Injection</p>
-                  </div>                    
-                </div>
-                <div class='intermediate mt-2 last-item-handle last-item'>    
-                  <div class="label-items">
-                    <span>Intermediate Skills</span>
-                    <span>70%</span>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar-in" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
-                    </div>
-                  </div>
-                  <div class='intermediate-skills ml-4'>                                      
-                    <!-- Title -->
-                    <h4 class="card-title mb-0">Binary Analysis</h4>
-                    <!-- Text -->
-                    <p class="card-text mb-4">Heap Exploitation, Reverse Engineering</p>
-                    <!-- Title -->
-                    <h4 class="card-title mb-0">Forensics</h4>
-                    <!-- Text -->
-                    <p class="card-text mb-4">Phishing Kit Analysis, Network Traffic Analysis</p>
-                  </div>                    
-                </div>
-                <div class='beginner mt-2 hides' style='display: none'>    
-                  <div class="label-items">
-                    <span>Beginner Skills</span>
-                    <span>30%</span>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar-be" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">
-                    </div>
-                  </div>
-                  <div class='beginner-skills ml-4'>                                      
-                    <!-- Title -->
-                    <h4 class="card-title mb-0">Web Exploitation</h4>
-                    <!-- Text -->
-                    <p class="card-text mb-4">CSRF</p>
-                  </div>                    
-                </div>
-              </div>
-              <div class='pt-0 pl-0 pr-0 pb-3 mb-0 text-center' style='margin-top: -10px'>
-              <a href="javascript:void(0);" class="btn btn-blue mb-0 mt-0 load-more" style="color:white; background-color: gray" title="More">More<i class="fas fa-angle-down fs-7 ml-2" style='vertical-align: middle;'></i></a>
-            </div>            
-            <!-- Card -->            
-          </div>
-          <div class='card col-lg-12 col-md-12 sol-sm-12 mb-3 ml-1' style='padding: 0px'>            
-            <!-- Card -->            
-              <div class="card-header">
-                <div class='row' style='width:100%; margin: 0px'>
-                  <p><h4 class='mb-0'><i class="fas fa-chart-line fs-7 ml-2" style='vertical-align: middle; color: #007bff !important;'></i><strong style='vertical-align: middle; vertical-align: middle;' class='ml-2'>Data Visualization</strong></h4></p>
-                </div>
-              </div>
-              <!-- Card content -->
-              <div class="card-body">      
-                <div class='advanced'>
-                  <div class="label-items">
-                    <span>Advanced Skills</span>
-                    <span>90%</span>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar-ad" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
-                    </div>
-                  </div>
-                  <div class='advanced-skills ml-4'>                                      
-                    <!-- Title -->
-                    <h4 class="card-title mb-0">Visualization Techniques</h4>
-                    <!-- Text -->
-                    <p class="card-text mb-4">Interactive Visualization</p>
-                    <!-- Title -->
-                    <h4 class="card-title mb-0">Designing</h4>
-                    <!-- Text -->
-                    <p class="card-text mb-4">Adobe Suite (Illustrator, Photoshop)</p>
-                  </div>                    
-                </div>
-                <div class='intermediate mt-2 last-item-handle last-item'>    
-                  <div class="label-items">
-                    <span>Intermediate Skills</span>
-                    <span>70%</span>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar-in" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
-                    </div>
-                  </div>
-                  <div class='intermediate-skills ml-4'>                                      
-                    <!-- Title -->
-                    <h4 class="card-title mb-0">Languages and Library</h4>
-                    <!-- Text -->
-                    <p class="card-text mb-4">D3.js, R</p>
-                    <!-- Title -->
-                    <h4 class="card-title mb-0">Softwares</h4>
-                    <!-- Text -->
-                    <p class="card-text mb-4">Tableau, PowerBI, TIBCO Spotfire</p>
-                  </div>                    
-                </div>
-                <div class='beginner mt-2 hides' style='display: none'>    
-                  <div class="label-items">
-                    <span>Beginner Skills</span>
-                    <span>30%</span>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar-be" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">
-                    </div>
-                  </div>
-                  <div class='beginner-skills ml-4'>                                      
-                    <!-- Title -->
-                    <h4 class="card-title mb-0">Techniques</h4>
-                    <!-- Text -->
-                    <p class="card-text mb-4">Network Visualization</p>
-                  </div>                    
-                </div>
-              </div>
-              <div class='pt-0 pl-0 pr-0 pb-3 mb-0 text-center' style='margin-top: -10px'>
-              <a href="javascript:void(0);" class="btn btn-blue mb-0 mt-0 load-more" style="color:white; background-color: gray" title="More">More<i class="fas fa-angle-down fs-7 ml-2" style='vertical-align: middle;'></i></a>
-            </div>            
-            <!-- Card -->            
-          </div>
-          <div class='card col-lg-12 col-md-12 sol-sm-12 mb-3 ml-1' style='padding: 0px'>            
-            <!-- Card -->            
-              <div class="card-header">
-                <div class='row' style='width:100%; margin: 0px'>
-                  <p><h4 class='mb-0'><i class="fas fa-code fs-7 ml-2" style='vertical-align: middle; color: #007bff !important;'></i><strong style='vertical-align: middle; vertical-align: middle;' class='ml-2'>Computer Programming</strong></h4></p>
-                </div>
-              </div>
-              <!-- Card content -->
-              <div class="card-body">      
-                <div class='advanced'>
-                  <div class="label-items">
-                    <span>Advanced Skills</span>
-                    <span>90%</span>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar-ad" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
-                    </div>
-                  </div>
-                  <div class='advanced-skills ml-4'>                                      
-                    <!-- Title -->
-                    <h4 class="card-title mb-0">Languages</h4>
-                    <!-- Text -->
-                    <p class="card-text mb-4">Python</p>                                 
-                  </div>                    
-                </div>
-                <div class='intermediate mt-2 last-item-handle last-item'>    
-                  <div class="label-items">
-                    <span>Intermediate Skills</span>
-                    <span>70%</span>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar-in" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
-                    </div>
-                  </div>
-                  <div class='intermediate-skills ml-4'>                                      
-                    <!-- Title -->
-                    <h4 class="card-title mb-0">Languages</h4>
-                    <!-- Text -->
-                    <p class="card-text mb-4">C++, JS, C</p>                    
-                  </div>                    
-                </div>
-                <div class='beginner mt-2 hides' style='display: none'>    
-                  <div class="label-items">
-                    <span>Beginner Skills</span>
-                    <span>30%</span>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar-be" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">
-                    </div>
-                  </div>
-                  <div class='beginner-skills ml-4'>                                      
-                    <!-- Title -->
-                    <h4 class="card-title mb-0">Languages</h4>
-                    <!-- Text -->
-                    <p class="card-text mb-4">Go, Prolog</p>
-                  </div>                    
-                </div>
-              </div>
-              <div class='pt-0 pl-0 pr-0 pb-3 mb-0 text-center' style='margin-top: -10px'>
-              <a href="javascript:void(0);" class="btn btn-blue mb-0 mt-0 load-more" style="color:white; background-color: gray" title="More">More<i class="fas fa-angle-down fs-7 ml-2" style='vertical-align: middle;'></i></a>
-            </div>            
-            <!-- Card -->            
-          </div>
-        </div>
-      </div>
-      <!-- <div class="card-footer text-center">
-      </div> -->
-  </div>     
-  <div class="card mb-5" style="box-shadow:  0px 0px 15px 5px rgba(0, 0, 0, 0.075) !important; border-radius: 5px;">
-    <div class="card-body">
-      <div class='row text-center mb-2'>
-        <h4 class="no_toc text-center" id="projects" style='width:100%;'><span style="font-size: 20px"><strong>PROJECTS</strong></span></h4>
-      </div>
-      <div class='row' style="padding-left: 25px !important; padding-right: 25px !important;">
-        <p class="mb-2">My interest in Cyber-Security, Data Visualization and Web Developement has steered me into undertaking numerous projects.</p>
-        <a href="/projects/" class="btn btn-blue no-mb" style="color:white;">Projects</a>
-      </div>
-    </div>
-  </div>     
+  </div>       
 </div>
 
 <script src="https://kit.fontawesome.com/a773360a89.js" crossorigin="anonymous"></script>
@@ -441,7 +162,7 @@ a img
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
     $(window).on('load', function() {
-        $(window).scrollTop(0);
+        $(window).scrollTop(0);              
         $('.main-content-wrap').scrollTop(0);
         for (var i =0; i<$('.progress').length; i++)
         {
@@ -488,6 +209,23 @@ a img
           $(this)[0].classList.remove('btn-green');
           $(this)[0].classList.add('btn-blue');
         }
-      })
+      })      
     });
+    function greenDotNotification()
+    {
+      document.getElementsByClassName('dotNotification')[0].style.color = 'green';
+      document.getElementsByClassName('blinkingNotification')[0].style.color = 'green';
+    }
+    function redDotNotification()
+    {
+      document.getElementsByClassName('dotNotification')[0].style.color = 'red';
+      document.getElementsByClassName('blinkingNotification')[0].style.color = 'red';
+    }
+    function redirectResume()
+    {
+      var link = document.createElement('a');
+      link.href = 'Atit Gaonkar (Resume).pdf';
+      link.setAttribute("target", "_blank");
+      link.click();
+    }
 </script>

@@ -25,22 +25,55 @@ description: "Atit Gaonkar - Working as Information Security (Intern) and Data E
 
 ---
 
-## Security Complaince and Risk Analyst (Intern)
+## Software Engineer - Backend
+{: .d-inline-block .mr-2}
+
+2021
+{: .label .label-yellow}
+
+[Bloomreach](https://www.bloomreach.com/){: .target-blank}, California, USA
+{: .mb-0}
+July 2021 - Present
+{: .mb-2}
+
+<div class="horizontal-rule mb-4"></div>
+
+Coming soon
+
+## IoT-Blockchain Researcher
 {: .d-inline-block .mr-2}
 
 2020
 {: .label .label-green}
 
-[FireBird SRC](https://www.firebirdsrc.com/){: .target-blank}, Pheonix, USA 
+[Blockchain Research Lab, Arizona State University](https://blockchain.asu.edu/){: .target-blank}, Tempe, USA
 {: .mb-0}
-Jun 2020 - Present
+Nov 2020 - May 2021
 {: .mb-2}
 
 <div class="horizontal-rule mb-4"></div>
 
-Providing day to day assistance in various divisions under InfoSec like [Vulnerability Management(VM)](https://en.wikipedia.org/wiki/Vulnerability_management#:~:text=Vulnerability%20management%20is%20the%20%22cyclical,%2C%20and%20mitigating%22%20software%20vulnerabilities), SOC, [Identity and Access Management (IAM)](https://en.wikipedia.org/wiki/Identity_management) and Governance & Policy.
+Worked with [Dr. Dragan Boscovic]() on "Cybersecurity Considerations for Blockchain Systems".
 
-Assisted with Information Security Governance Risk and Compliance ([PCI-DSS](https://www.pcisecuritystandards.org/), [HIPAA](https://www.hhs.gov/hipaa/index.html)) related activities. Conducted research of industry best practices to assist in the process of developing or updating information security policies. Analyzed and suggested security policies, processes, and standards to be in accordance with Security Compliance.
+Assess levels of cybersecurity risks of blockchain-based systems by developing a light-weight “Monitoring Client” on an IoT device to monitor and log device states, feature set, handshake protocol, etc through Hyperledger Fabric. Create a private dash blockchain infrastructure to record static information as well as dynamic changes to the IoT devices. Use Petri nets to model cybersecurity risks of the system.
+
+## Teaching Assistant
+{: .d-inline-block .mr-2}
+
+2020
+{: .label .label-green}
+
+[Arizona State University](https://wpcarey.asu.edu/){: .target-blank}, Remote 
+{: .mb-0}
+Aug 2020 - Dec 2020
+{: .mb-2}
+
+<div class="horizontal-rule mb-4"></div>
+
+Worked with [Prof. Shin Yi Wu]() on Problem Solving and Actionable Analytics. Supported and boosted student engagement in class activities, providing clear and responsive answers to individual queries pertaining to the course.
+
+Held weekly mentoring and advising sessions to help students adjust to university studies. Reinforced lessons by tutoring individual students or small groups. Along with assisting Professors with various tasks, like grading assignments, clearing student queries, my responsibilities include documenting progress, engaging students in productive approach and overseeing lesson preparations.
+
 
 
 ## Data Engineer (Intern)
