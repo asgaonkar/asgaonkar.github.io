@@ -31,14 +31,17 @@ description: "Atit Gaonkar - Working as Information Security (Intern) and Data E
 2021
 {: .label .label-yellow}
 
-[Bloomreach](https://www.bloomreach.com/){: .target-blank}, California, USA
+[Bloomreach](https://www.bloomreach.com/){: .target-blank}, USA (Remote)
 {: .mb-0}
 July 2021 - Present
 {: .mb-2}
 
 <div class="horizontal-rule mb-4"></div>
 
-Coming soon
+Responsible for improving the data replication process to enable faster end-to-end replication process. Improved replication speed by 90% (600 seconds to 60 seconds on average). Built new features and tools to 
+understand the current topology and scale the backend infrasturcture. 
+
+Accountable for building/automating backend systems and tools to support company-wide infrastructure to deliver high-level optimization solutions. Managed internal Solr infrastructure, debug production solr replication issues, high latency issue, etc. Created orchestration API to support custom use cases.
 
 ## IoT-Blockchain Researcher
 {: .d-inline-block .mr-2}
