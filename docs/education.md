@@ -104,11 +104,8 @@ I have worked around different domains of Computer Science. [Cyber-Security](htt
 <a href="/projects/academics/@arizona-state-university" class="btn btn-blue no-mb" style="color:white; background-color: gray">Projects @ASU</a>
 
 ### Co-curricular
-```yaml
-Co-Cirricular
-```
 
-[CTF](https://en.wikipedia.org/wiki/Capture_the_flag){: .target-blank}: I play CTFs with [Pwndevils](https://pwndevils.com/){: .target-blank}.
+[CTF](https://en.wikipedia.org/wiki/Capture_the_flag){: .target-blank}: I played CTFs with [Pwndevils](https://pwndevils.com/){: .target-blank}.
 
 <!-- ```yaml
 Extra-Cirricular
@@ -135,9 +132,6 @@ Bachelor of Technology in Computer Science and Engineering - CGPA: 8.98/10.0
 ### Summary
 {: .no_toc}
 
-```yaml
-Capstone Project
-```
 <strong>Carry-o-Bot</strong>: Our capstone project involved desgining and implementing a secure low-cost [Level-2 Autonomous vehicle](https://en.wikipedia.org/wiki/Self-driving_car){: .target-blank} able to deliver materialistics goods. 
 
 Carry-o-Bot solved common delivery issues of navigation, human interaction and integrity issues using various inter-disciplinary techniques of Networking, Face Recognition, Image Processing and Machine Learning.
