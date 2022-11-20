@@ -96,11 +96,11 @@ description: "Atit Gaonkar - Worked on various projects related to Cyber-Securit
 Logging System
 {: .label .label-green .ml-3}
 
-In-Progress
+Parked
 {: .label .label-yellow .ml-3}
 
 ```yaml
-May 2020 - Present
+May 2020 - Aug 2020
 ```
 
 Implementing and maintaining a ﬁle of **Secure** [Audit Log](https://en.wikipedia.org/wiki/Audit_trail){: .target-blank} system through computationally cheap methods. So in the event of log compromise, it should be impossible for the attacker to read and modify without being detectable.

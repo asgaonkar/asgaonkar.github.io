@@ -6,6 +6,14 @@ permalink: /research/
 description: "Atit Gaonkar - Currently researching on Data Availability vs Data Security. Also takes interest in Number Theory and it's Application"
 ---
 
+<style>
+
+.horizontal-rule{
+    border-top: 1px solid #DDD;
+}
+
+</style>
+
 # Research
 {: .no_toc }
 
@@ -20,29 +28,49 @@ description: "Atit Gaonkar - Currently researching on Data Availability vs Data 
 
 ---
 
-## Independent Research
+### Blockchain
+{: .d-inline-block .mr-2}
 
-### Computer Science (Security)
-{: .d-inline-block }
-
-In-Progress
-{: .label .label-yellow .ml-3}
-
-Tradeoff between Data availability and Data security: "Is there a need for Dynamic Security Implementation ?" ([Data Security](https://en.wikipedia.org/wiki/Data_security){: .target-blank})
-
-Current Status: <strong>Literature Survey</strong>
-
-
-
-### Mathematics
-{: .d-inline-block }
-
-Under Review
+Completed
 {: .label .label-green .ml-3}
+
+[Blockchain Research Lab, Arizona State University](https://blockchain.asu.edu/){: .target-blank}, Tempe, USA
+{: .mb-0}
+
+Nov 2020 - Present
+{: .mb-2}
+
+<div class="horizontal-rule mb-4"></div>
+
+<!-- {: .d-inline-block } -->
+
+
+Worked with [Dr. Dragan Boscovic](https://scholar.google.com/citations?user=axO13E4AAAAJ&hl=en) on "Cybersecurity Considerations for Blockchain Systems".
+
+Assess levels of cybersecurity risks of blockchain-based systems by developing a light-weight “Monitoring Client” on an IoT device to monitor and log device states, feature set, handshake protocol, etc through Hyperledger Fabric. Create a private hyperledge fabric blockchain infrastructure to record static information as well as dynamic changes to the IoT devices.
+
+Using Hyperledger Fabric, we created an application that gathers both static information (the hardware attributes of a device, such as manufacturer, version number, MAC address, and so on) and dynamic information (network communication information, such as encryption keys, IP addresses, and so on). This system along with infrastructure and application was used to simulate servers utilized in IT infrastructure. In addition to monitoring all network traffic into and out of the device, the CMC sent data to a cloud-based ledger.
+
+More specifically, the application used key-value pairs allocated to static and dynamic information to move cyberactivity records to a permissioned blockchain. This resulted in the creation of a "Digital Twin" block of cyberactivity data that was updated at regular intervals in accordance with a smart contract.
+
+([Network Cybersecurity](https://blockchain.asu.edu/research-initiatives/network-cybersecurity/){: .target-blank})
+
+
+### Mathematics (Individual Research)
+{: .d-inline-block }
+
+Confidential
+{: .label .label-green .ml-3}
+
+<div class="horizontal-rule mb-4"></div>
 
 Identification of unique patterns and sequences in the process of exponentiation. ([Number Theory](https://en.wikipedia.org/wiki/Number_theory){: .target-blank})
 
-Current Status: <strong>Under Peer Review</strong>
+```yaml
+Email for more information
+```
+
+
 
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
