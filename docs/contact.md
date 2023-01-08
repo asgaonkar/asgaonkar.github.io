@@ -12,7 +12,7 @@ description: "Atit Gaonkar - Connect with me through eMail, LinkedIn, Github or 
             <img src="../assets/images/logo.svg" class="img-fluid z-depth-1 logo" alt="Logo - Atit Gaonkar" height='75px' width='75px'>
         </div>
         <div class="card-body">
-            <div class="row">                
+            <div class="row">
                 <div class="col-xl-5 col-md-5 mb-3 text-center my-auto">
                   <!-- <img alt='Logo - Atit Gaonkar' src="/assets/images/logo.svg" width="100px"> -->
                   <img src="/assets/images/atit-gaonkar-profile.jpg" class="img-fluid z-depth-1 rounded-circle shadow atit-intro" alt="Atit Gaonkar" style="box-shadow: 0 5px 10px 0 rgba(0,0,0,0.16),0 8px 15px 0 rgba(0,0,0,0.12) !important;">
@@ -20,14 +20,14 @@ description: "Atit Gaonkar - Connect with me through eMail, LinkedIn, Github or 
                   <a href="mailto:atit.sgaonkar@gmail.com" class="fas fa-envelope fs-6 mb-4 mb-md-0 mr-4" target="_blank" alt="Email"></a>
                   <a href="https://www.linkedin.com/in/atit-gaonkar/" class="fab fa-linkedin fs-6 mb-4 mb-md-0 mr-4 " target="_blank" style="" alt="LinkedIn"></a>
                   <a href="https://github.com/asgaonkar" class="fab fa-github fs-6 mb-4 mb-md-0 mr-4" target="_blank" alt="Github"></a>
-                  <a href="https://www.instagram.com/atit.sgaonkar/" class="fab fa-instagram fs-6 mb-4 mb-md-0" target="_blank" alt="Instagram"></a>                  
+                  <a href="https://www.instagram.com/atit.sgaonkar/" class="fab fa-instagram fs-6 mb-4 mb-md-0" target="_blank" alt="Instagram"></a>
                   </div>
                   <!-- <img src="assets/images/logo.png" class="img-fluid z-depth-1" width="10%" alt="Atit-Gaonkar"> -->
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 mt-8 my-auto" style="padding-bottom: 20px">
                     <!-- <img src="../assets/images/atit-gaonkar.jpg" class="ml-5 img-fluid z-depth-1 rounded-circle shadow atit-intro" alt="Atit Gaonkar" style="box-shadow: 0 5px 10px 0 rgba(0,0,0,0.16),0 8px 15px 0 rgba(0,0,0,0.12) !important;" width='75%'> -->
-                    <div class='row map mb-0 ml-2 mr-2 mt-2 mb-2'>      
-                        <iframe style='display: block; box-shadow:  0px 0px 15px 10px rgba(0, 0, 0, 0.075) !important;' src="https://maps.google.com/maps?q=Tempe+85281&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" width='100%' height='300px' allowfullscreen></iframe>
+                    <div class='row map mb-0 ml-2 mr-2 mt-2 mb-2'>
+                        <iframe style='display: block; box-shadow:  0px 0px 15px 10px rgba(0, 0, 0, 0.075) !important;' src="https://maps.google.com/maps?q=Bellevue+98004&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" width='100%' height='300px' allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
