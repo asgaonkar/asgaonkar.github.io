@@ -29,3 +29,13 @@ end
 
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
+
+gem 'csv', require: 'csv'
+gem 'base64'
+gem 'logger'
+gem 'bigdecimal', '~> 3.1.9'
+gem 'rexml'
+
+
+
+gem "webrick", "~> 1.9"
