@@ -105,7 +105,7 @@ I have worked around different domains of Computer Science. [Cyber-Security](htt
 
 ### Co-curricular
 
-[CTF](https://en.wikipedia.org/wiki/Capture_the_flag){: .target-blank}: I played CTFs with [Pwndevils](https://pwndevils.com/){: .target-blank}.
+[CTF](https://en.wikipedia.org/wiki/Capture_the_flag){: .target-blank}: I played CTFs with Pwndevils.
 
 <!-- ```yaml
 Extra-Cirricular
