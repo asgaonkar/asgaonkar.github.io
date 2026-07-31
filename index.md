@@ -2,7 +2,7 @@
 layout: default
 title: Home
 nav_order: 1
-description: "Security Researcher and Computer Science Graduate student at Arizona State University. A passionate Coder, Web developer, Cybersecurity Enthusiast and gamer."
+description: "Senior Software Engineer at Bloomreach working on backend and distributed systems, with a background in cybersecurity research."
 type: website
 ---
 
@@ -138,12 +138,12 @@ a img
                   <!-- <img src="assets/images/logo.png" class="img-fluid z-depth-1" width="10%" alt="Atit-Gaonkar"> -->
               </div>
               <div class="col-xl-7 col-md-7 mb-0">                  
-                  <h2 class="card-title">👋 Hi, I'm Atit Gaonkar</h2>
-                  <p class="card-text mt-2">Software Engineer at <a href="https://www.bloomreach.com/en" target="_blank">Bloomreach (USA)</a>, working on Scalable Systems & Cloud Infrastructure with a focus on Backend and Distributed Systems.</p>
-                  <h4>🎓 MSCS @ <a href="https://www.asu.edu/" target="_blank" style="color: black">Arizona State University</a> | B.Tech @ <a href="https://chennai.vit.ac.in/" target="_blank" style="color: black">VIT</a> </h4>
-                  <p class="card-text mt-2">With a strong foundation in Software Engineering and Cybersecurity, I’ve explored areas like Blockchain Security, Reverse Engineering, and Algorithm Design. My research includes published work on Cybersecurity Considerations for Blockchain Systems.</p>
-                  <h4>🌄 Beyond the terminal:</h4>
-                  <p class="card-text">You’ll find me smashing shuttlecocks on the badminton court 🏸, exploring new hiking trails, planning spontaneous road trips 🚗, or chasing sunsets on weekend getaways. I’m all about movie nights 🍿, and I also enjoy volunteering in my community when I get the chance</p>
+                  <h2 class="card-title">Hi, I'm Atit Gaonkar</h2>
+                  <p class="card-text mt-2">Senior Software Engineer at <a href="https://www.bloomreach.com/en" target="_blank">Bloomreach (USA)</a>, working on Scalable Systems & Cloud Infrastructure with a focus on Backend and Distributed Systems.</p>
+                  <h4>MSCS @ <a href="https://www.asu.edu/" target="_blank" style="color: black">Arizona State University</a> | B.Tech @ <a href="https://chennai.vit.ac.in/" target="_blank" style="color: black">VIT</a> </h4>
+                  <p class="card-text mt-2">My background spans Blockchain Security, Reverse Engineering, and Algorithm Design, including published research on Cybersecurity Considerations for Blockchain Systems.</p>
+                  <h4>Outside of work:</h4>
+                  <p class="card-text">Badminton, hiking, and the occasional road trip. I also volunteer in my community when I get the chance.</p>
                   <!-- <a href="resume" class="btn mb-2 mr-2 mt-0 resume" target="blank" style="color:white; background-color: gray !important; cursor: no-drop" title="View Resume">Resume (Online)</a> -->                  
               </div>
           </div>

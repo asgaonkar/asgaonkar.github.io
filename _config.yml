@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Atit Gaonkar
-description: Atit S Gaonkar | Computer Science Graduate student at Arizona State University with focus on Cyber-Security.
+description: Atit S Gaonkar | Senior Software Engineer working on backend and distributed systems, with a background in cybersecurity research.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://atit-gaonkar.me" # the base hostname & protocol for your site, e.g. http://example.com
 

@@ -17,9 +17,6 @@ description: "Atit Gaonkar - Currently researching on Data Availability vs Data 
 # Research
 {: .no_toc }
 
-"I grew up thinking that a research scientist was a natural thing to be." - Stephen Hawking
-{: .fs-4 .fw-100}
-
 ## Table of contents
 {: .no_toc .text-delta }
 

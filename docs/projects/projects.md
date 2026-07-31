@@ -10,10 +10,5 @@ search_exclude: true
 
 # Projects
 
-
-“It always seems impossible until it’s done.” ― Nelson Mandela
-{: .fs-4 .fw-100}
-
-
-Along with assigned projects (Academia/Professional), I keep myself productive with personal projects in-order to re-fuel my passion, hone my skills and to stay constantly motivated.
+Alongside coursework and professional work, I build personal projects to explore ideas I don't get to touch day-to-day — mostly security tooling, automation, and scripting.
 {: .fs-6 .fw-300 }

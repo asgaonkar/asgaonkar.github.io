@@ -25,7 +25,7 @@ description: "Atit Gaonkar - Working as Information Security (Intern) and Data E
 
 ---
 
-## Software Engineer - Backend
+## Senior Software Engineer - Backend
 {: .d-inline-block .mr-2}
 
 2021
@@ -99,7 +99,7 @@ Jan 2019 - Apr 2019
 
 Analyzed internal processes, business operation and sales structure to create [Info-graphic Dashboards](https://en.wikipedia.org/wiki/Dashboard_(business)){: .target-blank} using Microsoft’s business intelligence tools, [SSAS](https://docs.microsoft.com/en-us/analysis-services/analysis-services-overview?view=asallproducts-allversions){: .target-blank}, [SSIS](https://docs.microsoft.com/en-us/sql/integration-services/sql-server-integration-services?view=sql-server-ver15){: .target-blank} and [SSRS](https://docs.microsoft.com/en-us/sql/reporting-services/create-deploy-and-manage-mobile-and-paginated-reports?view=sql-server-ver15){: .target-blank}. Used Visualization Tools such as [Power BI](https://powerbi.microsoft.com/en-us/){: .target-blank} and [TIBCO Spotfire](https://www.tibco.com/products/tibco-spotfire){: .target-blank} to enhance the process of decision making.
 
-Automated the process of interpreting dashboards and forecasting projected revenue using VBA and SQL. Redesigned reporting system resulting in increased efficiency of 81.25%, hence reducing the time spent on month-end analysis. 
+Automated the process of interpreting dashboards and forecasting projected revenue using VBA and SQL. Redesigned reporting system, cutting time spent on month-end analysis by roughly 80%. 
 
 ## Information Security (Intern)
 {: .d-inline-block .mr-2 }
@@ -119,7 +119,7 @@ Jan 2019 - Apr 2019
 [Tulip-Diagnostics-img]:  ../../assets/images/tulip.jpg
 [Tulip-Diagnostics-link]:  http://www.tulipgroup.com/ "Redirect to - Tulip Diagnostics"  -->
 
-Triaged security events to protect internal assets. Addressed real-time threats and provided automated regular internal [vulnerabilities assessments](https://en.wikipedia.org/wiki/Vulnerability_assessment) and network evaluation, increasing Security Operation efficiency by 9%. 
+Triaged security events to protect internal assets. Addressed real-time threats and provided automated regular internal [vulnerabilities assessments](https://en.wikipedia.org/wiki/Vulnerability_assessment) and network evaluation, improving Security Operation efficiency by roughly 10%. 
 
 Conducted [penetration testing](https://en.wikipedia.org/wiki/Penetration_test) on internal network, intranet sites and patched located vulnerabilities. Configured and maintained firewalls and data encryption programs to protect sensitive information. Assisted Database Administrators and Network Manager in establishing security guidelines and practices. 
 

@@ -9,11 +9,6 @@ description: "Atit Gaonkar - Computer Science Graduate student at Arizona State 
 # Education
 {: .no_toc }
 
-
-"Learning to learn is the best thing you could ever learn" ― Atit Gaonkar
-{: .fs-4 .fw-100}
-
-
 ## Table of contents
 {: .no_toc .text-delta }
 
